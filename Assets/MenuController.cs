@@ -2,12 +2,18 @@ using UnityEngine;
 
 public class MenuController : MonoBehaviour
 {
-    private GameObject activeScreen;
+    [SerializeField]
+    private ScreenController activeScreen;
 
-    public void OpenScreen(GameObject screen)
+    void Start()
     {
-        activeScreen.SetActive(false);
+        activeScreen.gameObject.SetActive(true);
+    }
+
+    public void OpenScreen(ScreenController screen)
+    {
+        activeScreen.gameObject.SetActive(false);
         activeScreen = screen;
-        activeScreen.SetActive(true);
+        activeScreen.gameObject.SetActive(true);
     }
 }
