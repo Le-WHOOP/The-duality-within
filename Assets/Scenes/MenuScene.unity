@@ -2922,8 +2922,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0d5f80a203ddb54fbf6d102e5809cd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1DifficultyText: {fileID: 74396665}
-  player2DifficultyText: {fileID: 746991634}
+  p1DifficultyText: {fileID: 74396665}
+  p1NameText: {fileID: 379323256}
+  p1Image: {fileID: 1383243925}
+  p2DifficultyText: {fileID: 746991634}
+  p2NameText: {fileID: 1663891823}
+  p2Image: {fileID: 1907651350}
 --- !u!1 &1383243923
 GameObject:
   m_ObjectHideFlags: 0
@@ -2974,7 +2978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
