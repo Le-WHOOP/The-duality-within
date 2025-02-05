@@ -1,15 +1,8 @@
 using System;
+using UnityEngine.SceneManagement;
 
 public class LobbyScreenController : ScreenController
 {
-    // TODO assign this
-    private IGameController gameController;
-
-    private bool swapRoles;
-
-    private Difficulty player1Difficulty;
-    private Difficulty player2Difficulty;
-
     private Difficulty BoundDifficulty(Difficulty difficulty, Difficulty min, Difficulty max)
     {
         return difficulty < min ? min : difficulty > max ? max : difficulty;
@@ -41,21 +34,21 @@ public class LobbyScreenController : ScreenController
         switch (player)
         {
             case 1:
-                player1Difficulty = Truc(player1Difficulty, increment);
+                GameSettings.Player1Difficulty = Truc(GameSettings.Player1Difficulty, increment);
                 break;
             case 2:
-                player2Difficulty = Truc(player2Difficulty, increment);
+                GameSettings.Player2Difficulty = Truc(GameSettings.Player2Difficulty, increment);
                 break;
         }
     }
 
     public void SwapRoles()
     {
-        swapRoles = !swapRoles;
+        GameSettings.SwapRoles = !GameSettings.SwapRoles;
     }
 
     public void StartGame()
     {
-        gameController.StartGame(swapRoles, player1Difficulty, player2Difficulty);
+        SceneManager.LoadScene("GameScene");
     }
 }
