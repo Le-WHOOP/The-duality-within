@@ -1,11 +1,19 @@
 using System;
 using UnityEngine.SceneManagement;
+using UnityEngine;
+using TMPro;
 
 public class LobbyScreenController : ScreenController
 {
+    [SerializeField]
+    private TextMeshProUGUI player1DifficultyText;
+
+    [SerializeField]
+    private TextMeshProUGUI player2DifficultyText;
+
     private Difficulty BoundDifficulty(Difficulty difficulty, Difficulty min, Difficulty max)
     {
-        return difficulty < min ? min : difficulty > max ? max : difficulty;
+        return difficulty < min ? min : (difficulty > max ? max : difficulty);
     }
 
     private Difficulty Truc(Difficulty currentDifficulty, int increment)
@@ -35,9 +43,11 @@ public class LobbyScreenController : ScreenController
         {
             case 1:
                 GameSettings.Player1Difficulty = Truc(GameSettings.Player1Difficulty, increment);
+                player1DifficultyText.text = GameSettings.Player1Difficulty.ToString();
                 break;
             case 2:
                 GameSettings.Player2Difficulty = Truc(GameSettings.Player2Difficulty, increment);
+                player2DifficultyText.text = GameSettings.Player2Difficulty.ToString();
                 break;
         }
     }
