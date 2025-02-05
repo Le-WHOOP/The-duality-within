@@ -1,0 +1,880 @@
+fileFormatVersion: 2
+guid: df50a745920288562a9037522cfff49b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4655006526483711716
+    second: VictorianMansion_0
+  - first:
+      213: -2421004179126986134
+    second: VictorianMansion_1
+  - first:
+      213: -1716682984246828726
+    second: VictorianMansion_2
+  - first:
+      213: -7768000575103343038
+    second: VictorianMansion_3
+  - first:
+      213: 9182222199289840942
+    second: VictorianMansion_4
+  - first:
+      213: 8701175984978651462
+    second: VictorianMansion_5
+  - first:
+      213: 6198793997878577333
+    second: VictorianMansion_6
+  - first:
+      213: -2118178233814028357
+    second: VictorianMansion_7
+  - first:
+      213: -458196924131591013
+    second: VictorianMansion_8
+  - first:
+      213: -8396680223711710453
+    second: VictorianMansion_9
+  - first:
+      213: 6572815122483311326
+    second: VictorianMansion_10
+  - first:
+      213: -1953217092595980346
+    second: VictorianMansion_11
+  - first:
+      213: 3738039707307715853
+    second: VictorianMansion_12
+  - first:
+      213: -4046491546693948381
+    second: VictorianMansion_13
+  - first:
+      213: -121096448922195309
+    second: VictorianMansion_14
+  - first:
+      213: 328213849438710353
+    second: VictorianMansion_15
+  - first:
+      213: -1490948894687339270
+    second: VictorianMansion_16
+  - first:
+      213: 8720586605399793971
+    second: VictorianMansion_17
+  - first:
+      213: -5721021567311234140
+    second: VictorianMansion_18
+  - first:
+      213: 6240687750031026487
+    second: VictorianMansion_19
+  - first:
+      213: 3213243186547866613
+    second: VictorianMansion_20
+  - first:
+      213: -8234382665804805805
+    second: VictorianMansion_21
+  - first:
+      213: 5436342711457297558
+    second: VictorianMansion_22
+  - first:
+      213: -6018804021659415307
+    second: VictorianMansion_23
+  - first:
+      213: 6926287091199920851
+    second: VictorianMansion_24
+  - first:
+      213: 1995139618729694909
+    second: VictorianMansion_25
+  - first:
+      213: 7973967553684756550
+    second: VictorianMansion_26
+  - first:
+      213: 7901617709260479676
+    second: VictorianMansion_27
+  - first:
+      213: -5807675356673428794
+    second: VictorianMansion_28
+  - first:
+      213: -6648362757987032068
+    second: VictorianMansion_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VictorianMansion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 595
+        height: 1505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1930d93a38166fb0800000000000000
+      internalID: -4655006526483711716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_1
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1920
+        width: 449
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a566fa68dd66ed0800000000000000
+      internalID: -2421004179126986134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_2
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1664
+        width: 449
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41a204dbed1d28e0800000000000000
+      internalID: -1716682984246828726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_3
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1408
+        width: 449
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2466fe132a4823490800000000000000
+      internalID: -7768000575103343038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_4
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1152
+        width: 449
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e258065d07ecd6f70800000000000000
+      internalID: 9182222199289840942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 287
+        width: 226
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649efc02579c0c870800000000000000
+      internalID: 8701175984978651462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_6
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 560
+        width: 481
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b840676c4a860650800000000000000
+      internalID: 6198793997878577333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_7
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 543
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfec827e18ba92e0800000000000000
+      internalID: -2118178233814028357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 321
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9cb5fb335824a9f0800000000000000
+      internalID: -458196924131591013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_9
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 351
+        width: 226
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03bd15f2dff87b80800000000000000
+      internalID: -8396680223711710453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_10
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 458
+        width: 130
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2fee59784573b50800000000000000
+      internalID: 6572815122483311326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_11
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 304
+        width: 130
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c768922767c4e4e0800000000000000
+      internalID: -1953217092595980346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_12
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 287
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0da16e0f4f20e330800000000000000
+      internalID: 3738039707307715853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_13
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 304
+        width: 130
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cafa4a069f7d7c0800000000000000
+      internalID: -4046491546693948381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_14
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 266
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a6e6adb67c15ef0800000000000000
+      internalID: -121096448922195309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_15
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 266
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a6822d1cc0e8400800000000000000
+      internalID: 328213849438710353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 321
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc56e131e51f4be0800000000000000
+      internalID: -1490948894687339270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_17
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 31
+        width: 226
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33162ef505fb50970800000000000000
+      internalID: 8720586605399793971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_18
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 223
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abb0102239da90b0800000000000000
+      internalID: -5721021567311234140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_19
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 223
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7392bbea1706b9650800000000000000
+      internalID: 6240687750031026487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_20
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 48
+        width: 226
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb312757abb79c20800000000000000
+      internalID: 3213243186547866613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_21
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 48
+        width: 130
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3590214d79899bd80800000000000000
+      internalID: -8234382665804805805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_22
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 135
+        width: 117
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69432b1a4e4c17b40800000000000000
+      internalID: 5436342711457297558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_23
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 103
+        width: 98
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc4c4c91a9e87ca0800000000000000
+      internalID: -6018804021659415307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_24
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 10
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da4853996d1f1060800000000000000
+      internalID: 6926287091199920851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 10
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db611bb99e820bb10800000000000000
+      internalID: 1995139618729694909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_26
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 31
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648dedffd3939ae60800000000000000
+      internalID: 7973967553684756550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_27
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 23
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc1867217f28ad60800000000000000
+      internalID: 7901617709260479676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_28
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 27
+        width: 82
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2b0b2980ef66fa0800000000000000
+      internalID: -5807675356673428794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictorianMansion_29
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 0
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf32f30db454cb3a0800000000000000
+      internalID: -6648362757987032068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
