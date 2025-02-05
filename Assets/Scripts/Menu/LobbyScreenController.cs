@@ -2,14 +2,29 @@ using System;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class LobbyScreenController : ScreenController
 {
+    [Header("Player 1")]
     [SerializeField]
-    private TextMeshProUGUI player1DifficultyText;
+    private TextMeshProUGUI p1DifficultyText;
 
     [SerializeField]
-    private TextMeshProUGUI player2DifficultyText;
+    private TextMeshProUGUI p1NameText;
+
+    [SerializeField]
+    private Image p1Image;
+
+    [Header("Player 2")]
+    [SerializeField]
+    private TextMeshProUGUI p2DifficultyText;
+
+    [SerializeField]
+    private TextMeshProUGUI p2NameText;
+
+    [SerializeField]
+    private Image p2Image;
 
     private Difficulty BoundDifficulty(Difficulty difficulty, Difficulty min, Difficulty max)
     {
@@ -43,11 +58,11 @@ public class LobbyScreenController : ScreenController
         {
             case 1:
                 GameSettings.Player1Difficulty = Truc(GameSettings.Player1Difficulty, increment);
-                player1DifficultyText.text = GameSettings.Player1Difficulty.ToString();
+                p1DifficultyText.text = GameSettings.Player1Difficulty.ToString();
                 break;
             case 2:
                 GameSettings.Player2Difficulty = Truc(GameSettings.Player2Difficulty, increment);
-                player2DifficultyText.text = GameSettings.Player2Difficulty.ToString();
+                p2DifficultyText.text = GameSettings.Player2Difficulty.ToString();
                 break;
         }
     }
@@ -55,6 +70,20 @@ public class LobbyScreenController : ScreenController
     public void SwapRoles()
     {
         GameSettings.SwapRoles = !GameSettings.SwapRoles;
+
+        // Swaping Jekyll & Hyde and the image
+        string tmpText = p1NameText.text;
+        Color tmpImage = p1Image.color;
+        // TODO: When the sprites are on the projet, uncomment the lines of codes and delete en .color ones
+        //Sprite tmpSprite = p1Image.sprite;
+
+        p1NameText.text = p2NameText.text;
+        p2NameText.text = tmpText;
+
+        //p1Image.sprite = p2Image.sprite;
+        //p2Image.sprite = tmpSprite;
+        p1Image.color = p2Image.color;
+        p2Image.color = tmpImage;
     }
 
     public void StartGame()
