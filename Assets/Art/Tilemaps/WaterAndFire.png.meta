@@ -136,6 +136,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -372,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WaterAndFire_0: 4761631072207769858
+      WaterAndFire_1: 7426821198398057886
+      WaterAndFire_2: -8485114586036841055
+      WaterAndFire_3: 1257773677195200108
+      WaterAndFire_4: -1364912813873454954
+      WaterAndFire_5: -3245988712888079035
+      WaterAndFire_6: -2680808074881532521
+      WaterAndFire_7: -2906534934238060074
+      WaterAndFire_8: 7316749479444207325
+      WaterAndFire_9: -4182300867204190358
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
