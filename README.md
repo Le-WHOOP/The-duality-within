@@ -44,6 +44,7 @@
 - **Easy**
 - **Medium**
 - **Hard**
+
 Each player will select a difficulty setting, so that player with a different skill level can play together
 
 ## Development Notes
