@@ -298,7 +298,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -312,7 +312,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -334,9 +334,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -2322,7 +2322,95 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DarkWood_0: -6205960612373259987
+      DarkWood_1: -1492650339445823361
+      DarkWood_10: -2240953428674569794
+      DarkWood_11: 2302100392362371206
+      DarkWood_12: 3441654642807281572
+      DarkWood_13: -7989445892278877360
+      DarkWood_14: -1110039996812862483
+      DarkWood_15: -2525037776428780342
+      DarkWood_16: -7480337411434065582
+      DarkWood_17: -7443895970587589061
+      DarkWood_18: 1970003310841144417
+      DarkWood_19: 1618477899580536656
+      DarkWood_2: -9207613645886688813
+      DarkWood_20: -4716487017293308066
+      DarkWood_21: 2650882937149667560
+      DarkWood_22: 5449856921138825270
+      DarkWood_23: -8666877163161477422
+      DarkWood_24: -8260637635480727635
+      DarkWood_25: -366671032609558314
+      DarkWood_26: 5008665049037268854
+      DarkWood_27: -7291994305375798215
+      DarkWood_28: -4412696914323798438
+      DarkWood_29: 1606464278185881493
+      DarkWood_3: 2572031787863479024
+      DarkWood_30: 338678296580816710
+      DarkWood_31: -2092355675568186987
+      DarkWood_32: -7021550044244865731
+      DarkWood_33: 9191431053418916756
+      DarkWood_34: -7276435043716268805
+      DarkWood_35: -64795930598255206
+      DarkWood_36: -4201941209578388381
+      DarkWood_37: 2785176152933963881
+      DarkWood_38: 9029588390108460305
+      DarkWood_39: -7033758779011793273
+      DarkWood_4: 6282461992051306974
+      DarkWood_40: -7307022303680245106
+      DarkWood_41: -2159708005742487215
+      DarkWood_42: -7712429823034974871
+      DarkWood_43: 245362826408630949
+      DarkWood_44: -5239125819148891932
+      DarkWood_45: -8396839657495385119
+      DarkWood_46: 1183360385115479802
+      DarkWood_47: -7171214555964136837
+      DarkWood_48: 1113279179687015704
+      DarkWood_49: -3938367347730960223
+      DarkWood_5: -2186437946590186341
+      DarkWood_50: -8046086119547101266
+      DarkWood_51: -3191389202212562285
+      DarkWood_52: 2479927925116139537
+      DarkWood_53: -1865460566384701809
+      DarkWood_54: -5680161606290048869
+      DarkWood_55: -9197202559966262334
+      DarkWood_56: 954273875245897210
+      DarkWood_57: 7494366345226649560
+      DarkWood_58: 4252315836597411686
+      DarkWood_59: -5255118541475656383
+      DarkWood_6: 5710311165648245160
+      DarkWood_60: -9075956384796515921
+      DarkWood_61: -4590880443454274563
+      DarkWood_62: -4375334504127551074
+      DarkWood_63: 5831655881906873917
+      DarkWood_64: 1291520983606553111
+      DarkWood_65: 8601721552125200353
+      DarkWood_66: -7889467813412556857
+      DarkWood_67: -5615962076294201763
+      DarkWood_68: -3642237752800706787
+      DarkWood_69: -8147468078699549467
+      DarkWood_7: -2923501105887787402
+      DarkWood_70: -7702803722170949863
+      DarkWood_71: 8320281748220121081
+      DarkWood_72: -5262095622854879902
+      DarkWood_73: -7831674844712232765
+      DarkWood_74: -7324425782342089281
+      DarkWood_75: -794111624952629878
+      DarkWood_76: 247334881727145868
+      DarkWood_77: -8967027650469193393
+      DarkWood_78: 4113999923903054984
+      DarkWood_79: 1677558007223629663
+      DarkWood_8: 1488675820896038129
+      DarkWood_80: -384072366865832765
+      DarkWood_81: 4303491389724871733
+      DarkWood_82: 4117916174830943182
+      DarkWood_83: 8097311811630336363
+      DarkWood_84: -8811055638686333796
+      DarkWood_85: -2261019348908349719
+      DarkWood_86: -5007566032514689498
+      DarkWood_87: -7571932402431578276
+      DarkWood_9: -2018245442008863923
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

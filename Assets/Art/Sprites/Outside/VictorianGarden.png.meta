@@ -514,7 +514,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -528,7 +528,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -550,9 +550,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -4122,7 +4122,167 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VictorianGarden_0: -2119053148085083021
+      VictorianGarden_1: 2153026806654998735
+      VictorianGarden_10: 2925801760201049345
+      VictorianGarden_100: 4272404013900174810
+      VictorianGarden_101: 4733089643879650820
+      VictorianGarden_102: -409828760598469565
+      VictorianGarden_103: 3418644454592849478
+      VictorianGarden_104: -1375556646548217728
+      VictorianGarden_105: -6423209364734950897
+      VictorianGarden_106: -9043778627515877522
+      VictorianGarden_107: 5844242317441082057
+      VictorianGarden_108: 3606382408314783274
+      VictorianGarden_109: 712764337976975967
+      VictorianGarden_11: 5935716872073571130
+      VictorianGarden_110: 566380119959990765
+      VictorianGarden_111: 6095438900575374219
+      VictorianGarden_112: 7688949549042437770
+      VictorianGarden_113: 6423299071636232316
+      VictorianGarden_114: -4425868438428699056
+      VictorianGarden_115: 2019068026526456958
+      VictorianGarden_116: 7522190562213891489
+      VictorianGarden_117: 8476081881529401041
+      VictorianGarden_118: -1219336975766397020
+      VictorianGarden_119: 9142872693745260974
+      VictorianGarden_12: 5524223120200870352
+      VictorianGarden_120: 1484851756998385778
+      VictorianGarden_121: -1209326595871731561
+      VictorianGarden_122: 3675602951652742044
+      VictorianGarden_123: 3331455603969873019
+      VictorianGarden_124: -4809089129913529911
+      VictorianGarden_125: -3765033296805043295
+      VictorianGarden_126: 5215586217724308561
+      VictorianGarden_127: 4513865943723891647
+      VictorianGarden_128: 2764176727651969130
+      VictorianGarden_129: 2185723163755297567
+      VictorianGarden_13: -6428402795659446376
+      VictorianGarden_130: 6853424478981972929
+      VictorianGarden_131: -2261351792019394871
+      VictorianGarden_132: -2605012752210665106
+      VictorianGarden_133: -1185105733362670932
+      VictorianGarden_134: -1934751125046453630
+      VictorianGarden_135: -4401458643713429095
+      VictorianGarden_136: 7586757056445762957
+      VictorianGarden_137: -6217573444110506209
+      VictorianGarden_138: -4107146084299603261
+      VictorianGarden_139: -1728037584390797205
+      VictorianGarden_14: -7420177844532690356
+      VictorianGarden_140: -5668834881603394428
+      VictorianGarden_141: 5825570482732621670
+      VictorianGarden_142: -680479588310583168
+      VictorianGarden_143: -4706300734535332586
+      VictorianGarden_144: 4324832849068816095
+      VictorianGarden_145: 6499861162802189645
+      VictorianGarden_146: 3853278727178635078
+      VictorianGarden_147: 3308649213212373555
+      VictorianGarden_148: 6469998117171300519
+      VictorianGarden_149: 3041702728804699212
+      VictorianGarden_15: -7935739549438841322
+      VictorianGarden_150: -1126073527319942812
+      VictorianGarden_151: 5647292582581056986
+      VictorianGarden_152: -6547644898814492493
+      VictorianGarden_153: 9086175816448490858
+      VictorianGarden_154: 260779247565034035
+      VictorianGarden_155: 2281211342359640441
+      VictorianGarden_156: 1220566575840640352
+      VictorianGarden_157: -4643729044565984295
+      VictorianGarden_158: -547049507031778439
+      VictorianGarden_159: 88471499487175216
+      VictorianGarden_16: -9055861570972905149
+      VictorianGarden_17: -1106147171147230848
+      VictorianGarden_18: 2494111883292982705
+      VictorianGarden_19: -2071570585042333006
+      VictorianGarden_2: -498325126757867492
+      VictorianGarden_20: -9020726730698786331
+      VictorianGarden_21: 6310891257120403737
+      VictorianGarden_22: -5087783749393396307
+      VictorianGarden_23: -2385024864662970545
+      VictorianGarden_24: -2619299824740303519
+      VictorianGarden_25: 1429182717586346630
+      VictorianGarden_26: 4532325268765393902
+      VictorianGarden_27: 6464022044964503251
+      VictorianGarden_28: -4684794319591440649
+      VictorianGarden_29: 7611555725249258393
+      VictorianGarden_3: 976294777071961749
+      VictorianGarden_30: 4275013064911383515
+      VictorianGarden_31: -5154557331743730468
+      VictorianGarden_32: -149296814146706090
+      VictorianGarden_33: 3324142570161818934
+      VictorianGarden_34: -7766907390489847311
+      VictorianGarden_35: 163985575061868401
+      VictorianGarden_36: 4602268895697690347
+      VictorianGarden_37: -6239285011761170296
+      VictorianGarden_38: -4414221807056795839
+      VictorianGarden_39: 1168315238575841171
+      VictorianGarden_4: -2534503304906480933
+      VictorianGarden_40: -2243274185747360705
+      VictorianGarden_41: -2217845167193247869
+      VictorianGarden_42: -6353815098057519643
+      VictorianGarden_43: -2697973781130276253
+      VictorianGarden_44: -2543037595286357420
+      VictorianGarden_45: -6223508913901142112
+      VictorianGarden_46: -8821121569025576633
+      VictorianGarden_47: 7651113272754687304
+      VictorianGarden_48: 7460160574723356808
+      VictorianGarden_49: -4808740288887017238
+      VictorianGarden_5: -1996700088741849234
+      VictorianGarden_50: -9154101219592340715
+      VictorianGarden_51: 4301003365262313851
+      VictorianGarden_52: 8380407215166543023
+      VictorianGarden_53: 8093074259450276569
+      VictorianGarden_54: 1811647805143657305
+      VictorianGarden_55: 6396677256033467628
+      VictorianGarden_56: 8654348570437071130
+      VictorianGarden_57: -404483567855389237
+      VictorianGarden_58: 5829724016255735181
+      VictorianGarden_59: -1307257933586601311
+      VictorianGarden_6: 6471286301146894976
+      VictorianGarden_60: -5382641042136778460
+      VictorianGarden_61: 6957233472142316415
+      VictorianGarden_62: 6761508964057104728
+      VictorianGarden_63: -69125232691948388
+      VictorianGarden_64: 1447583084617197534
+      VictorianGarden_65: 879485216896703404
+      VictorianGarden_66: 3261660966452403277
+      VictorianGarden_67: 1036356408621830695
+      VictorianGarden_68: -137064893530707111
+      VictorianGarden_69: -478128685432540621
+      VictorianGarden_7: 8291338249831318403
+      VictorianGarden_70: -7288845020889368410
+      VictorianGarden_71: 8068765729123200751
+      VictorianGarden_72: 2711516081851287133
+      VictorianGarden_73: -5327922085787369910
+      VictorianGarden_74: 3060078656854174227
+      VictorianGarden_75: 8087396747482703106
+      VictorianGarden_76: 2537663925000988931
+      VictorianGarden_77: 6661325294449287901
+      VictorianGarden_78: -7660955568733467090
+      VictorianGarden_79: -1231413053764493768
+      VictorianGarden_8: 4655744703152244031
+      VictorianGarden_80: -8156800721148872460
+      VictorianGarden_81: -7227943952956995787
+      VictorianGarden_82: -5947095418605706005
+      VictorianGarden_83: 5851371136178378362
+      VictorianGarden_84: -3167281030806023720
+      VictorianGarden_85: 4614858651773501006
+      VictorianGarden_86: 5009521351471483093
+      VictorianGarden_87: -3879509587806918301
+      VictorianGarden_88: -9062656932324459604
+      VictorianGarden_89: 8424640369440042521
+      VictorianGarden_9: -474898162233081563
+      VictorianGarden_90: 8697657391415628384
+      VictorianGarden_91: -3016544999902457437
+      VictorianGarden_92: 7169506349029519152
+      VictorianGarden_93: 4937125199730395627
+      VictorianGarden_94: -6601737980839567309
+      VictorianGarden_95: 5126153509091443728
+      VictorianGarden_96: 7274058736457749275
+      VictorianGarden_97: -9216959482083635958
+      VictorianGarden_98: -1469809858677728560
+      VictorianGarden_99: -8988178239900560838
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

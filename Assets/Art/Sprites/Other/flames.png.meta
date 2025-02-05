@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,9 +106,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -422,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flames_0: 6952255750235482898
+      flames_1: -8580444318367042149
+      flames_10: 7994900527690212366
+      flames_11: -6832602532032306642
+      flames_2: -661229833699065222
+      flames_3: 2772505579824889003
+      flames_4: 600887082413955451
+      flames_5: -4230088027204851832
+      flames_6: -6738484449771190276
+      flames_7: -1458028252658277242
+      flames_8: -877488970987550498
+      flames_9: -1430040862508568551
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

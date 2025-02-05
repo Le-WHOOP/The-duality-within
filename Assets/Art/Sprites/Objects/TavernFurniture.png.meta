@@ -223,7 +223,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -237,7 +237,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -259,9 +259,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1697,7 +1697,70 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TavernFurniture_0: -3742112384141602584
+      TavernFurniture_1: -2730531632603773444
+      TavernFurniture_10: -4512375246987480621
+      TavernFurniture_11: 6230647580801977721
+      TavernFurniture_12: -8883282171737585172
+      TavernFurniture_13: -1346677818026154046
+      TavernFurniture_14: -6359235586091361728
+      TavernFurniture_15: 5713497427780918688
+      TavernFurniture_16: -420987649602387692
+      TavernFurniture_17: 7387753935376835072
+      TavernFurniture_18: 4750090126536399045
+      TavernFurniture_19: 998561671632864337
+      TavernFurniture_2: 2329288077313481053
+      TavernFurniture_20: 2565432827051323794
+      TavernFurniture_21: 6730488433197976847
+      TavernFurniture_22: -1241752678196274604
+      TavernFurniture_23: -2846357935238761915
+      TavernFurniture_24: 9216866918423178120
+      TavernFurniture_25: -7985069452479146157
+      TavernFurniture_26: -2015307273666445568
+      TavernFurniture_27: -7856703034773969024
+      TavernFurniture_28: 282942770245030064
+      TavernFurniture_29: -340199592558021603
+      TavernFurniture_3: 4075649774231294386
+      TavernFurniture_30: 8430775804241711706
+      TavernFurniture_31: 15962799032411165
+      TavernFurniture_32: -7315140414517452969
+      TavernFurniture_33: 5913442158073291426
+      TavernFurniture_34: -693452301428750556
+      TavernFurniture_35: 2037701808445374708
+      TavernFurniture_36: 409800226977287053
+      TavernFurniture_37: 4666021733494723657
+      TavernFurniture_38: -5151533315742373797
+      TavernFurniture_39: 7685306788777968092
+      TavernFurniture_4: -4461667580088306743
+      TavernFurniture_40: -907109529448923814
+      TavernFurniture_41: 1094407655880186627
+      TavernFurniture_42: 5802796956721431437
+      TavernFurniture_43: -7797268507043411695
+      TavernFurniture_44: 8298014888754161303
+      TavernFurniture_45: 667262492999913183
+      TavernFurniture_46: 5803640154986135308
+      TavernFurniture_47: -9106112520410531562
+      TavernFurniture_48: 1773405883504664175
+      TavernFurniture_49: -8722259625733512740
+      TavernFurniture_5: 7825680968809072148
+      TavernFurniture_50: 3538491060982087236
+      TavernFurniture_51: -7987680051092633699
+      TavernFurniture_52: -172087158640254658
+      TavernFurniture_53: 6681494867007436482
+      TavernFurniture_54: -5277482767164222267
+      TavernFurniture_55: -4296162643932555015
+      TavernFurniture_56: 561645919790948776
+      TavernFurniture_57: -2152614353368837100
+      TavernFurniture_58: -3148432697792894595
+      TavernFurniture_59: -4299771354200403795
+      TavernFurniture_6: -5955745274357647626
+      TavernFurniture_60: -394731603878089901
+      TavernFurniture_61: 8943883157452504190
+      TavernFurniture_62: 2100181821971654510
+      TavernFurniture_7: -6954509103925107310
+      TavernFurniture_8: -3255326811082603256
+      TavernFurniture_9: -8057639602993736511
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

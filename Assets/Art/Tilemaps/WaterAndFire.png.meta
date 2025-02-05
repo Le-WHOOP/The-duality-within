@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,9 +100,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WaterAndFire_0: 4761631072207769858
+      WaterAndFire_1: 7426821198398057886
+      WaterAndFire_2: -8485114586036841055
+      WaterAndFire_3: 1257773677195200108
+      WaterAndFire_4: -1364912813873454954
+      WaterAndFire_5: -3245988712888079035
+      WaterAndFire_6: -2680808074881532521
+      WaterAndFire_7: -2906534934238060074
+      WaterAndFire_8: 7316749479444207325
+      WaterAndFire_9: -4182300867204190358
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

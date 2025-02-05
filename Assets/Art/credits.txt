@@ -5,24 +5,23 @@ Copyright/Attribution notice:
 Tilemaps:
 
 - Floors: https://opengameart.org/content/lpc-floors
-"[LPC] Floors" by bluecarrot16, Lanea Zimmerman (Sharm), William Thompson (William.Thompsonj), Hyptosis, SpiderDave, Cougarmint, Stephen Challener (Redshrike), Bonsaiheldin, Tyler Olsen (Roots), Jetrel, jestan, The Open Surge team (http://opensnc.sourceforge.net), Gaurav Munjal, Reemax, Silveira Neto, bleutailfly, Casper Nilsson, NaRNeRZz, Buch, keith karnage, Arthur Carvalho, Guilherme Vieira (n2liquid), Chris Hamons (maintainer). CC-BY-SA 4.0.
+"[LPC] Floors" by bluecarrot16, Lanea Zimmerman (Sharm), William Thompson (William.Thompsonj), Hyptosis, SpiderDave, Cougarmint, Stephen Challener (Redshrike), Bonsaiheldin, Tyler Olsen (Roots), Jetrel, jestan, The Open Surge team (http://opensnc.sourceforge.net), Gaurav Munjal, Reemax, Silveira Neto, bleutailfly, Casper Nilsson, NaRNeRZz, Buch, keith karnage, Arthur Carvalho, Guilherme Vieira (n2liquid), Chris Hamons (maintainer).
 
 - Terrain: https://opengameart.org/content/lpc-terrain-repack
-Created by Casper Nilsson, Daniel Eddeland, Johann CHARLOT, Skyler, Robert Colladay
+"[LPC] Terrain Repack" by Casper Nilsson, Daniel Eddeland, Johann CHARLOT, Skyler, Robert Colladay.
 
 - Walls: https://opengameart.org/content/lpc-walls
-"[LPC] Walls" by bluecarrot16, Lanea Zimmerman (Sharm), Daniel Armstrong (HughSpectrum), William Thompson (William.Thompsonj), Hyptosis, Zabin, Daniel Cook, Guido Bos, SpiderDave, Cougarmint, Stephen Challener (Redshrike), Matthew Nash, Wolthera van Hövell tot Westerflier (TheraHedwig), Reemax, bleutailfly, NaRNeRZz, Sir Spummington, Casper Nilsson, KnoblePersona. CC-BY-SA 3.0.
+"[LPC] Walls" by bluecarrot16, Lanea Zimmerman (Sharm), Daniel Armstrong (HughSpectrum), William Thompson (William.Thompsonj), Hyptosis, Zabin, Daniel Cook, Guido Bos, SpiderDave, Cougarmint, Stephen Challener (Redshrike), Matthew Nash, Wolthera van Hövell tot Westerflier (TheraHedwig), Reemax, bleutailfly, NaRNeRZz, Sir Spummington, Casper Nilsson, KnoblePersona.
 
-- WaterAndFire:
+- WaterAndFire: https://opengameart.org/content/lpc-animated-water-and-fire
+"[LPC] Animated water and fire" by Lanea Zimmerman (AKA Sharm), Crawl-CC0, Curt.
 
 
 
 ---
 
 Sprites/Characters:
-- Hyde:
-
-- Jekyll:
+Each character credits can be found in [name]-credits.txt.
 
 
 
@@ -33,20 +32,20 @@ Sprites/Objects:
 - Alchemy: https://opengameart.org/content/lpc-alchemy
 "[LPC] Alchemy" by bluecarrot16, Lanea Zimmerman (Sharm), PriorBlue, Jerom, and Wolthera van Hövell tot Westerflier (TheraHedwig). Commissioned by MedicineStorm.
 
-- AnimatedClock:
+- AnimatedClock: https://opengameart.org/content/lpc-clock-animation
+"[LPC] Clock Animation" by Lanea Zimmerman (AKA Sharm).
 
-- DarkWood:
+- DarkWood: https://opengameart.org/content/lpc-wooden-furniture
+"LPC Wooden Furniture" by bluecarrot16, Baŝto, Lanea Zimmerman (Sharm), William Thompson, Tuomo Untinen (Reemax), Janna/Lilius/Jannax.
 
-- GraveMarkers: https://opengameart.org/content/lpc-grave-markers-remix
-Created by Barbara Rivera, Casper Nilsson, Carlo Enrico Victoria, Tuomo Untinen, ak-blanc, Johann C, & Jordan Irwin (AntumDeluge)
+- GraveMarkers, LargeHeadstone: https://opengameart.org/content/lpc-grave-markers-remix
+"LPC Grave Markers (remix)" by Barbara Rivera, Casper Nilsson, Carlo Enrico Victoria, Tuomo Untinen, ak-blanc, Johann C, Jordan Irwin (AntumDeluge).
 
-- LargeHeadstone:
+- TavernDeco, TavernFurniture: https://opengameart.org/content/lpc-tavern
+"[LPC] Tavern" by bluecarrot16, Lanea Zimmerman (Sharm), William.Thompsonj, Jetrel, DCSS Contributors, Reemax, Hyptosis, Daniel Eddeland (Daneeklu), BenCreating, Evert, tapatilorenzo.
 
-- TavernDeco:
-
-- TavernFurniture:
-
-- Upholstery:
+- Upholstery: https://opengameart.org/content/lpc-upholstery, https://opengameart.org/content/lpc-interior-castle-tiles
+"[LPC] Upholstery" by bluecarrot16, Lanea Zimmerman (Sharm).
 
 
 
@@ -54,7 +53,8 @@ Created by Barbara Rivera, Casper Nilsson, Carlo Enrico Victoria, Tuomo Untinen,
 
 Sprites/Other:
 
-- Flames:
+- Flames: https://opengameart.org/content/lpc-flames
+"[LPC] Flames" by Lanea Zimmerman (Sharm), William.Thompsonj.
 
 
 
@@ -62,18 +62,14 @@ Sprites/Other:
 
 Sprites/Outside:
 
-- HangingSigns:
+- HangingSigns: https://opengameart.org/content/lpc-hanging-signs
+"[LPC] Hanging signs" by Reemax, Guido Bos.
 
-- VictorianAccessories:
-- VictorianMansion:
-- VictorianTenement:
-- VictorianWindowsDoors: https://opengameart.org/content/lpc-victorian-buildings
+- VictorianAccessories, VictorianMansion, VictorianTenement, VictorianWindowsDoors: https://opengameart.org/content/lpc-victorian-buildings
 "LPC Victorian Buildings," by bluecarrot16, Lanea Zimmerman (Sharm), Casper Nilsson, Lyndsay Takacs (cyanowl), and Redshrike. 
 
-- VictorianGarden:
-- VictorianMarket:
-- VictorianStreets: https://opengameart.org/content/lpc-victorian-town-decorations
-[LPC] Victorian Town Decorations by bluecarrot16, Casper Nilsson, Lanea Zimmerman (Sharm), William Thompson, mold, AntumDeluge, Curt, Daniel Eddeland (daneeklu), caeles, George Bailey, Jetrel, Yar, Guido Bos, Ivan Voirol (Silver IV), Stephen Challener (Redshrike), the Open Surge team, Arthur Carvalho, Guilherme Vieira (n2liquid), NaRNeRZz, Diarandor, Armando Montero (ArMM1998), Tuomo Untinen (Reemax), Buch.
+- VictorianGarden, VictorianMarket, VictorianStreets: https://opengameart.org/content/lpc-victorian-town-decorations
+"[LPC] Victorian Town Decorations" by bluecarrot16, Casper Nilsson, Lanea Zimmerman (Sharm), William Thompson, mold, AntumDeluge, Curt, Daniel Eddeland (daneeklu), caeles, George Bailey, Jetrel, Yar, Guido Bos, Ivan Voirol (Silver IV), Stephen Challener (Redshrike), the Open Surge team, Arthur Carvalho, Guilherme Vieira (n2liquid), NaRNeRZz, Diarandor, Armando Montero (ArMM1998), Tuomo Untinen (Reemax), Buch.
 
 
 
@@ -81,14 +77,37 @@ Sprites/Outside:
 
 Sprites/Plants:
 
-- Crops:
+- Crops: https://opengameart.org/content/lpc-crops
+"[LPC] Crops" by bluecarrot16, Daniel Eddeland (daneeklu), Joshua Taylor, Richard Kettering (Jetrel). Commissioned by castelonia.
 
-- FruitsVeggies:
+- FruitsVeggies: https://opengameart.org/content/lpc-food
+"[LPC] Foods" by bluecarrot16, Daniel Eddeland (daneeklu), Joshua Taylor, Richard Kettering (Jetrel), thekingphoenix, RedVoxel, and Molly "Cougarmint" Willits.
 
 - Plants: https://opengameart.org/content/lpc-plant-repack
+"[LPC] Plant Repack" by Barbara Rivera, Casper Nilsson, Johann CHARLOT, Chris Phillips, Lanea Zimmerman (AKA Sharm).
 
 
+
+---
 
 Sprites/UI:
 
-- Lifebar:
+- Lifebar: https://opengameart.org/content/lpc-lifebars
+"[LPC] LifeBars!" by Nushio.
+
+
+
+---
+
+CC-BY-SA 3.0:
+- http://creativecommons.org/licenses/by-sa/3.0/
+GNU GPL 3.0:
+- http://www.gnu.org/licenses/gpl-3.0.html
+
+If you need to figure out exactly who made what please see the Liberated Pixel Cup entries.
+
+Liberated Pixel Cup Assets:
+http://opengameart.org/lpc-art-entries
+
+LPC Base assets found here:
+http://lpc.opengameart.org/static/lpc-style-guide/assets.html
