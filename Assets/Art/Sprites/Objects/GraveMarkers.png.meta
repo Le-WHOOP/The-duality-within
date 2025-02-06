@@ -76,7 +76,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +90,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,9 +112,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -472,7 +472,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GraveMarkers_0: 606046907489664067
+      GraveMarkers_1: -7096036808984973099
+      GraveMarkers_10: -6986270225439777605
+      GraveMarkers_11: 2590533420347749880
+      GraveMarkers_12: 7844064563248671036
+      GraveMarkers_13: -2892794002733731444
+      GraveMarkers_2: -5646933229287987962
+      GraveMarkers_3: 6274669219665181694
+      GraveMarkers_4: 6761881110138047726
+      GraveMarkers_5: 1932800327306415343
+      GraveMarkers_6: -5814437405999043914
+      GraveMarkers_7: -1662589902025886923
+      GraveMarkers_8: -3613388885122698709
+      GraveMarkers_9: 6618718267730322616
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

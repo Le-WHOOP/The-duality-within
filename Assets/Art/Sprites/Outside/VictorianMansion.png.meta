@@ -124,7 +124,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -138,7 +138,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -160,9 +160,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -872,7 +872,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VictorianMansion_0: -4655006526483711716
+      VictorianMansion_1: -2421004179126986134
+      VictorianMansion_10: 6572815122483311326
+      VictorianMansion_11: -1953217092595980346
+      VictorianMansion_12: 3738039707307715853
+      VictorianMansion_13: -4046491546693948381
+      VictorianMansion_14: -121096448922195309
+      VictorianMansion_15: 328213849438710353
+      VictorianMansion_16: -1490948894687339270
+      VictorianMansion_17: 8720586605399793971
+      VictorianMansion_18: -5721021567311234140
+      VictorianMansion_19: 6240687750031026487
+      VictorianMansion_2: -1716682984246828726
+      VictorianMansion_20: 3213243186547866613
+      VictorianMansion_21: -8234382665804805805
+      VictorianMansion_22: 5436342711457297558
+      VictorianMansion_23: -6018804021659415307
+      VictorianMansion_24: 6926287091199920851
+      VictorianMansion_25: 1995139618729694909
+      VictorianMansion_26: 7973967553684756550
+      VictorianMansion_27: 7901617709260479676
+      VictorianMansion_28: -5807675356673428794
+      VictorianMansion_29: -6648362757987032068
+      VictorianMansion_3: -7768000575103343038
+      VictorianMansion_4: 9182222199289840942
+      VictorianMansion_5: 8701175984978651462
+      VictorianMansion_6: 6198793997878577333
+      VictorianMansion_7: -2118178233814028357
+      VictorianMansion_8: -458196924131591013
+      VictorianMansion_9: -8396680223711710453
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
