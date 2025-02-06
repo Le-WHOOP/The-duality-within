@@ -12,9 +12,9 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthSystem : MonoBehaviour
+public class ChaosSystem : MonoBehaviour
 {
-	public static HealthSystem Instance;
+	public static ChaosSystem Instance;
 
 	public Image currentChaosBar;
 	public float chaosPoint = 0f;
