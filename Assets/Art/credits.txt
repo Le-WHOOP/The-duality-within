@@ -80,6 +80,9 @@ Sprites/Plants:
 - Crops: https://opengameart.org/content/lpc-crops
 "[LPC] Crops" by bluecarrot16, Daniel Eddeland (daneeklu), Joshua Taylor, Richard Kettering (Jetrel). Commissioned by castelonia.
 
+- Flowers: https://opengameart.org/content/lpc-flower-recolor
+"[LPC] Flower Recolor" by Lanea Zimmerman (AKA Sharm) and William.Thompsonj.
+
 - FruitsVeggies: https://opengameart.org/content/lpc-food
 "[LPC] Foods" by bluecarrot16, Daniel Eddeland (daneeklu), Joshua Taylor, Richard Kettering (Jetrel), thekingphoenix, RedVoxel, and Molly "Cougarmint" Willits.
 
