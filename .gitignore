@@ -61,3 +61,7 @@ crashlytics-build.properties
 
 .editorconfig
 .vsconfig
+
+# Visual Studio Code cache directory
+.vscode/
+
