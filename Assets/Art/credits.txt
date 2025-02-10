@@ -65,6 +65,9 @@ Sprites/Outside:
 - HangingSigns: https://opengameart.org/content/lpc-hanging-signs
 "[LPC] Hanging signs" by Reemax, Guido Bos.
 
+- Roofs: https://opengameart.org/content/lpc-roofs
+"[LPC] Roofs" by bluecarrot16, Lanea Zimmerman (Sharm), Michele Bucelli (Buch), Casper Nilsson, Xenodora, keith karnage, NaRNeRZz, and Talon (Talosaurus). 
+
 - VictorianAccessories, VictorianMansion, VictorianTenement, VictorianWindowsDoors: https://opengameart.org/content/lpc-victorian-buildings
 "LPC Victorian Buildings," by bluecarrot16, Lanea Zimmerman (Sharm), Casper Nilsson, Lyndsay Takacs (cyanowl), and Redshrike. 
 
@@ -86,8 +89,8 @@ Sprites/Plants:
 - FruitsVeggies: https://opengameart.org/content/lpc-food
 "[LPC] Foods" by bluecarrot16, Daniel Eddeland (daneeklu), Joshua Taylor, Richard Kettering (Jetrel), thekingphoenix, RedVoxel, and Molly "Cougarmint" Willits.
 
-- Plants: https://opengameart.org/content/lpc-plant-repack
-"[LPC] Plant Repack" by Barbara Rivera, Casper Nilsson, Johann CHARLOT, Chris Phillips, Lanea Zimmerman (AKA Sharm).
+- Plants: https://opengameart.org/node/80124
+"[LPC] Flowers / Plants / Fungi / Wood," by bluecarrot16, Guido Bos, Ivan Voirol (Silver IV), SpiderDave, William.Thompsonj, Yar, Stephen Challener and the Open Surge team (http://opensnc.sourceforge.net), Gaurav Munjal, Johann Charlot, Casper Nilsson, Jetrel, Zabin, Hyptosis, Surt, Lanea Zimmerman, George Bailey, ansimuz, Buch, and the Open Pixel Project contributors (OpenPixelProject.com). 
 
 
 
