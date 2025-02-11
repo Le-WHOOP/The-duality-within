@@ -169,6 +169,8 @@ MonoBehaviour:
   player2InputHandler: {fileID: 1092954172}
   cityPlayerController: {fileID: 2026805815}
   mazePlayerController: {fileID: 1500099495}
+  cityCamera: {fileID: 519420031}
+  mazeCamera: {fileID: 966962430}
 --- !u!1 &389155530
 GameObject:
   m_ObjectHideFlags: 0
@@ -35357,6 +35359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e45b075f2f190408760b2e876832d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameController: {fileID: 75500022}
   _speed: 1
 --- !u!50 &1500099496
 Rigidbody2D:
@@ -35651,6 +35654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e45b075f2f190408760b2e876832d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameController: {fileID: 75500022}
   _speed: 1
 --- !u!50 &2026805816
 Rigidbody2D:
