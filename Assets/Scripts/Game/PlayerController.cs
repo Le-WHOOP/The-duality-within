@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
 
     public void Move(float x, float y)
     {
-        _body.position += new Vector2(x, y).normalized * _speed * Time.deltaTime;
+        _body.linearVelocity = new Vector2(x, y).normalized * _speed;
     }
 
     public void Interact()
