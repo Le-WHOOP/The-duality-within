@@ -1,16 +1,14 @@
 fileFormatVersion: 2
-guid: c94bbb2c422d998dcb2cdb3f37fa442b
+guid: 84873522082196348b931e3f46de09e9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218050
+  packageName: 2D Simple UI Pack
+  packageVersion: 1.0
+  assetPath: Assets/OArielG/2DSimpleUIPack/Sprites/ui-panels.png
+  uploadId: 493490
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 8673906225712243233
-    second: AnimatedClock_0
-  - first:
-      213: -3102177534853223798
-    second: AnimatedClock_1
-  - first:
-      213: -244210465275237199
-    second: AnimatedClock_2
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +41,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +55,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,23 +72,10 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 1
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -103,7 +88,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -132,67 +117,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AnimatedClock_0
+      name: white-button
       rect:
         serializedVersion: 2
-        x: 6
-        y: 12
-        width: 20
-        height: 73
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 122a0a681c7ef5870800000000000000
-      internalID: 8673906225712243233
+      spriteID: 82bb9287569c6644ab52c2b7e0829f3d
+      internalID: -1969605223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnimatedClock_1
+      name: black-button
       rect:
         serializedVersion: 2
-        x: 38
-        y: 12
-        width: 20
-        height: 73
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a8a60e4d7f9d2f4d0800000000000000
-      internalID: -3102177534853223798
+      spriteID: 266ea1f0927b1e64096f94dc7e0f7137
+      internalID: -349942500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnimatedClock_2
+      name: red-button
       rect:
         serializedVersion: 2
-        x: 70
-        y: 12
-        width: 20
-        height: 73
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1bc26de20e36c9cf0800000000000000
-      internalID: -244210465275237199
+      spriteID: 4d722395192be2c45aa716bb739798c8
+      internalID: 1615551699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-button
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9d85a9ca70655409f487b1f47ae0a0
+      internalID: -2039880781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-button
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559145f1ddad6f54c9d354c2dff5cd4c
+      internalID: 1916179197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orange-button
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fb1b4693028e14ca024c10e78829a2
+      internalID: -2068337304
       vertices: []
       indices: 
       edges: []
@@ -201,7 +252,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -211,9 +262,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AnimatedClock_0: 8673906225712243233
-      AnimatedClock_1: -3102177534853223798
-      AnimatedClock_2: -244210465275237199
+      black-button: -349942500
+      blue-button: -2039880781
+      green-button: 1916179197
+      orange-button: -2068337304
+      red-button: 1615551699
+      white-button: -1969605223
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
