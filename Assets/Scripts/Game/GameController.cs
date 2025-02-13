@@ -16,8 +16,8 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        player1InputHandler.PlayerController = cityPlayerController;
-        player2InputHandler.PlayerController = mazePlayerController;
+        player1InputHandler.Player = cityPlayerController;
+        player2InputHandler.Player = mazePlayerController;
 
         if (GameSettings.SwapRoles)
             SwapRoles();
@@ -25,6 +25,6 @@ public class GameController : MonoBehaviour
 
     private void SwapRoles()
     {
-        (player2InputHandler.PlayerController, player1InputHandler.PlayerController) = (player1InputHandler.PlayerController, player2InputHandler.PlayerController);
+        (player2InputHandler.Player, player1InputHandler.Player) = (player1InputHandler.Player, player2InputHandler.Player);
     }
 }

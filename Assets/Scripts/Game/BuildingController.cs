@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class BuildingController : MonoBehaviour
@@ -11,27 +10,29 @@ public class BuildingController : MonoBehaviour
 
     [SerializeField]
     private Collider2D _entranceCollider;
+    [SerializeField]
+    private InteractableController buildingInteraction;
 
     void Start()
     {
         _sprite = GetComponent<SpriteRenderer>();
     }
 
-    public void OnPlayerColliderEnter(Collider2D collision)
+    public void OnPlayerColliderEnter(CityPlayerController player, Collider2D collision)
     {
         if (collision == _collider)
             _sprite.enabled = false;
 
         if (collision == _entranceCollider)
-            throw new NotImplementedException();
+            player.Interactions.Add(buildingInteraction);
     }
 
-    public void OnPlayerColliderExit(Collider2D collider)
+    public void OnPlayerColliderExit(CityPlayerController player, Collider2D collider)
     {
         if (collider == _collider)
             _sprite.enabled = true;
 
         if (collider == _entranceCollider)
-            throw new NotImplementedException();
+            player.Interactions.Remove(buildingInteraction);
     }
 }

@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -14,18 +13,6 @@ public class PlayerController : MonoBehaviour
         _body = GetComponent<Rigidbody2D>();
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.GetComponent<BuildingController>() is BuildingController buildingController)
-            buildingController.OnPlayerColliderEnter(collision);
-    }
-
-    void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.GetComponent<BuildingController>() is BuildingController buildingController)
-            buildingController.OnPlayerColliderExit(collision);
-    }
-
     /// <summary>
     /// Moves the player by setting the linear velocity.
     /// </summary>
@@ -38,13 +25,5 @@ public class PlayerController : MonoBehaviour
     public void Move(float x, float y)
     {
         _body.linearVelocity = new Vector2(x, y).normalized * _speed;
-    }
-
-    /// <summary>
-    /// Attempts to interact with a nearby interactable object, if one is within range.
-    /// </summary>
-    public void Interact()
-    {
-        throw new NotImplementedException();
     }
 }
