@@ -1,4 +1,7 @@
-﻿public class InteractableBuilding : InteractableController
+﻿using UnityEngine;
+
+[RequireComponent(typeof(Collider2D))]
+public class InteractableBuilding : InteractableController
 {
     public InteractableBuilding() : base(Personnality.Both) { }
 
