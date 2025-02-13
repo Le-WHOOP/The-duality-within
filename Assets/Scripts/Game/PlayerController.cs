@@ -15,15 +15,11 @@ public class PlayerController : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.GetComponent<BuildingController>() is BuildingController buildingController)
-            buildingController.OnPlayerColliderEnter(collision);
+    {   
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.GetComponent<BuildingController>() is BuildingController buildingController)
-            buildingController.OnPlayerColliderExit(collision);
     }
 
     /// <summary>
