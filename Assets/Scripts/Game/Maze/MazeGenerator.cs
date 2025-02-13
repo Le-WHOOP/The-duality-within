@@ -7,7 +7,7 @@ public static class MazeGenerator
 {
     private static readonly System.Random random_ = new();
 
-    private static readonly Func<Point, int, Point>[] directionFunctions_ = // move in that direction by n cells
+    private static readonly Func<Point, int, Point>[] directionFunctions_ = // move in that direction by "step" cells
         {
                 (Point coordinates, int steps) => { coordinates.X -= steps; return coordinates; }, // up
                 (Point coordinates, int steps) => { coordinates.Y -= steps; return coordinates; }, // left
@@ -17,7 +17,7 @@ public static class MazeGenerator
 
 
     /// <summary>
-    /// Randomly generates a maze of given dimensions.
+    /// Randomly generates a maze of given dimensions that has exactly one start and one end.
     /// The start is always on the bottom line (max y) and the end on the upper line (y = 0)
     /// 
     /// A minimal maze is a simple corridor
