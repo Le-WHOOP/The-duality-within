@@ -1,4 +1,4 @@
-﻿internal interface IMazeGenerator
+﻿public interface IMazeGenerator
 {
     public enum CellType
     {
