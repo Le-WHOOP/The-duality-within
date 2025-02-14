@@ -1,10 +1,18 @@
-﻿public class InteractableIngredient : InteractableController
+﻿using UnityEngine;
+
+public class InteractableIngredient : InteractableController
 {
+    public enum IngredientType
+    {
+        ALCOHOL,
+        OTHER // plants, salt
+    }
     public InteractableIngredient(Personnality availableTo) : base(Personnality.Jekyll) { }
+
+    public IngredientType Type { get; }
 
     public override void Interact()
     {
-        // TODO Pick up the ingredient
-        throw new System.NotImplementedException();
+        Checklist.Instance.Collect(this);
     }
 }

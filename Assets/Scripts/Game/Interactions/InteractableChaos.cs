@@ -1,10 +1,14 @@
-﻿public class InteractableChaos : InteractableController
+﻿using UnityEngine;
+
+public class InteractableChaos : InteractableController
 {
+    [SerializeField]
+    private float _chaosValue;
+
     public InteractableChaos(Personnality availableTo) : base(Personnality.Hyde) { }
 
     public override void Interact()
     {
-        // TODO Add chaos to the chaos bar
-        throw new System.NotImplementedException();
+        ChaosSystem.Instance.RaiseChaos(_chaosValue);
     }
 }
