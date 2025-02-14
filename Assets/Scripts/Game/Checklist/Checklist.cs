@@ -72,6 +72,11 @@ public class Checklist : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Changes the status of the ingredient
+    /// </summary>
+    /// <param name="ingredient"></param>
+    /// <exception cref="Exception"></exception>
     public void Collect(InteractableIngredient ingredient)
     {
         if (ingredient == null || !_checklist.ContainsKey(ingredient))
@@ -81,9 +86,19 @@ public class Checklist : MonoBehaviour
         _checklist[ingredient] = true;
     }
 
+    /// <summary>
+    /// Checks if all ingredients have been collected
+    /// </summary>
+    /// <returns></returns>
+    public bool IsChecklistComplete()
+    {
+        return _checklist.Values.Where(collected => !collected).Count() == 0;
+    }
+
     // Update is called once per frame
     void Update()
     {
         // TODO handle display
     }
+
 }
