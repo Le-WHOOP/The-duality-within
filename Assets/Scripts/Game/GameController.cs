@@ -14,9 +14,9 @@ public class GameController : MonoBehaviour
 
     [Header("Player controllers")]
     [SerializeField]
-    private PlayerController cityPlayerController;
+    private CityPlayerController cityPlayerController;
     [SerializeField]
-    private PlayerController mazePlayerController;
+    private MazePlayerController mazePlayerController;
 
     [Header("Cameras")]
     [SerializeField]

@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private GameController gameController;
 
-    [SerializeField]
-    private float _speed = 1;
+    //[SerializeField]
+    public float _speed;
 
     private Rigidbody2D _body;
 
