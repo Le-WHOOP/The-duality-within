@@ -195,7 +195,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 447217715}
+  m_GameObject: {fileID: 389155530}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -210,7 +210,7 @@ TilemapRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 447217715}
+  m_GameObject: {fileID: 389155530}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -262,7 +262,7 @@ Tilemap:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 447217715}
+  m_GameObject: {fileID: 389155530}
   m_Enabled: 1
   m_Tiles: {}
   m_AnimatedTiles: {}
@@ -12491,7 +12491,7 @@ MonoBehaviour:
   leftKey: 276
   downKey: 274
   rightKey: 275
-  interactKey: 256
+  interactKey: 13
 --- !u!1 &1443499197
 GameObject:
   m_ObjectHideFlags: 0
@@ -35750,7 +35750,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 573516876}
@@ -35769,7 +35769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameController: {fileID: 75500022}
-  _speed: 1
+  _speed: 5
 --- !u!50 &1500099496
 Rigidbody2D:
   serializedVersion: 5
