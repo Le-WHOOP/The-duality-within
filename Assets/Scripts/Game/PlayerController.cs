@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+using System;
+using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
@@ -15,6 +16,14 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         _body = GetComponent<Rigidbody2D>();
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {   
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
     }
 
     /// <summary>
