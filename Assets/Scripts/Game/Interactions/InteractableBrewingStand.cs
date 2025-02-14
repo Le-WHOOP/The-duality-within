@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-public class InteractableBrewingStant : InteractableController
+﻿public class InteractableBrewingStant : InteractableController
 {
     public InteractableBrewingStant(Personnality availableTo) : base(Personnality.Jekyll) { }
 
@@ -15,3 +9,4 @@ public class InteractableBrewingStant : InteractableController
             // TODO Finish game
         }
     }
+}
