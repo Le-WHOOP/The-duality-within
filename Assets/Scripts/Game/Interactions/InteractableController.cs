@@ -11,17 +11,17 @@ public abstract class InteractableController : MonoBehaviour
     }
 
     /// <summary>
-    /// TODO
+    /// Check if the given personnality can use this interaction
     /// </summary>
-    /// <param name="personnality"></param>
-    /// <returns></returns>
+    /// <param name="personnality">The personnality</param>
+    /// <returns><see langword="true"/> if this personnality can use this interaction. <see langword="false"/> otherwise</returns>
     public bool IsAvailableTo(Personnality personnality)
     {
         return availableTo.HasFlag(personnality);
     }
 
     /// <summary>
-    /// TODO
+    /// Use the interaction
     /// </summary>
     public abstract void Interact();
 }
