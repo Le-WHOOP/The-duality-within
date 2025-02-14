@@ -2,10 +2,12 @@
 {
     public enum CellType
     {
-        WALL,
-        PATH,
-        // It means the cell has not yet been visited
-        NONE,
+        // None means that the cell has not yet been visited
+        None,
+        Start,
+        Exit,
+        Wall,
+        Path,
     }
 
     CellType[,] GenerateMaze(int height, int width);

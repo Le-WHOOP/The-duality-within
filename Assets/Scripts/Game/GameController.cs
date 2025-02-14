@@ -23,7 +23,7 @@ public class GameController : MonoBehaviour
             SwapRoles();
     }
 
-    private void SwapRoles()
+    public void SwapRoles()
     {
         (player2InputHandler.PlayerController, player1InputHandler.PlayerController) = (player1InputHandler.PlayerController, player2InputHandler.PlayerController);
     }

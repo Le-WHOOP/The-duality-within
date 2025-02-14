@@ -36,11 +36,11 @@ public class MazeGenerator : IMazeGenerator
                 if (row % 2 == 0 || col % 2 == 0) // if one index is even, it's a wall
                 {
                     // NOTE: external walls have an even index since the height and width are odd
-                    maze[row, col] = CellType.WALL;
+                    maze[row, col] = CellType.Wall;
                 }
                 else
                 {
-                    maze[row, col] = CellType.NONE;
+                    maze[row, col] = CellType.None;
                 }
             }
         }
@@ -60,7 +60,7 @@ public class MazeGenerator : IMazeGenerator
     {
         int row = neighbor.X;
         int col = neighbor.Y;
-        return !(row < 0 || col < 0 || row >= height || col >= width || maze[row, col] != CellType.NONE);
+        return !(row < 0 || col < 0 || row >= height || col >= width || maze[row, col] != CellType.None);
     }
 
     private readonly Random _random = new();
@@ -75,7 +75,7 @@ public class MazeGenerator : IMazeGenerator
     /// <param name="width"></param>
     private void Generate(CellType[,] maze, int currentRow, int currentCol, int height, int width)
     {
-        maze[currentRow, currentCol] = CellType.PATH;
+        maze[currentRow, currentCol] = CellType.Path;
 
         // The number corresponds the the index of the movement in directionFunctions_
         List<int> directions = new List<int>(new int[] { 0, 1, 2, 3 }); // up, left, down, right
@@ -93,7 +93,7 @@ public class MazeGenerator : IMazeGenerator
                 // We have to take down the wall between the current cell and the neighbor
                 Point nearbyWall = new Point(currentRow, currentCol);
                 nearbyWall = _directionFunctions[directions[chosenDirection]].Invoke(nearbyWall, 1);
-                maze[nearbyWall.X, nearbyWall.Y] = CellType.PATH;
+                maze[nearbyWall.X, nearbyWall.Y] = CellType.Path;
 
                 // Continue moving
                 Generate(maze, neighbor.X, neighbor.Y, height, width);
@@ -134,16 +134,16 @@ public class MazeGenerator : IMazeGenerator
         Generate(maze, height - 2, startCol, height, width);
 
         int endCol = _random.Next(1, width - 1);
-        if (maze[1, endCol] == CellType.WALL)
+        if (maze[1, endCol] == CellType.Wall)
         {
             // The next one is part of the path
             endCol++;
         }
 
         // Connect the start to the exterior
-        maze[height - 1, startCol] = CellType.PATH;
+        maze[height - 1, startCol] = CellType.Start;
         // Connect the end to the exterior
-        maze[0, endCol] = CellType.PATH;
+        maze[0, endCol] = CellType.Exit;
 
         return maze;
     }

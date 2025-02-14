@@ -725,6 +725,7 @@ GameObject:
   - component: {fileID: 546206688}
   - component: {fileID: 546206692}
   - component: {fileID: 546206691}
+  - component: {fileID: 546206693}
   m_Layer: 0
   m_Name: ExitTilemap
   m_TagString: Untagged
@@ -947,6 +948,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &546206693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546206686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9385db15a6f0514ba4b9ac88674f739, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &573516875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,14 +1107,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3ed22e69ef75e24f90857d69494911b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameController: {fileID: 75500022}
   _groundTilemap: {fileID: 447217718}
   _wallsTilemap: {fileID: 450770822}
   _exitTilemap: {fileID: 546206690}
   _groundTile: {fileID: 11400000, guid: e9c159c9e497dd1f193e99ebcbceedcd, type: 2}
   _wallsTile: {fileID: 11400000, guid: 95159c0c6e21a471c9c14a18d7352195, type: 2}
+  _startTile: {fileID: 11400000, guid: f4b9a8100731469f5a567ac2c7803c17, type: 2}
   _exitTile: {fileID: 11400000, guid: f4b9a8100731469f5a567ac2c7803c17, type: 2}
   _player: {fileID: 1500099495}
-  _camera: {fileID: 0}
+  _camera: {fileID: 966962430}
 --- !u!1 &601438739
 GameObject:
   m_ObjectHideFlags: 0

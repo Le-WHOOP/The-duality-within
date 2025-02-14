@@ -7,6 +7,10 @@ public class MazeController : MonoBehaviour
 {
     private readonly IMazeGenerator _mazeGenerator = new MazeGenerator();
 
+    [Header("Game Controller")]
+    [SerializeField]
+    private GameController _gameController;
+
     [Header("Tilemaps")]
     [SerializeField]
     private Tilemap _groundTilemap;
@@ -21,6 +25,8 @@ public class MazeController : MonoBehaviour
     [SerializeField]
     private TileBase _wallsTile;
     [SerializeField]
+    private TileBase _startTile;
+    [SerializeField]
     private TileBase _exitTile;
 
     [Header("Player")]
@@ -34,6 +40,13 @@ public class MazeController : MonoBehaviour
 
     void Start()
     {
+        _exitTilemap.GetComponent<TriggerController>().OnTriggerEntered += (_, collider) =>
+        {
+            // TODO Is it necessaery to check if the collision is with the player or not ?
+            _gameController.SwapRoles();
+            GenerateMaze();
+        };
+
         GenerateMaze();
     }
 
@@ -55,27 +68,32 @@ public class MazeController : MonoBehaviour
                 // I hate 2d arrays
                 switch (maze[y, x])
                 {
-                    case CellType.NONE:
+                    case CellType.None:
                         throw new ArgumentException("Who touched the maze generation ?");
-                    case CellType.PATH:
+                    case CellType.Path:
                         _groundTilemap.SetTile(toTilemapPosition(x, y), _groundTile);
                         break;
-                    case CellType.WALL:
+                    case CellType.Wall:
                         _wallsTilemap.SetTile(toTilemapPosition(x, y), _wallsTile);
+                        break;
+                    case CellType.Start:
+                        _groundTilemap.SetTile(toTilemapPosition(x, y), _startTile);
+                        break;
+                    case CellType.Exit:
+                        _exitTilemap.SetTile(toTilemapPosition(x, y), _exitTile);
                         break;
                 }
             }
         }
-
-        _exitTilemap.SetTile(toTilemapPosition(0, 0), _exitTile);
     }
 
     public void GenerateMaze()
     {
         // TODO CHange hard coded size
-        FillTilemaps(_mazeGenerator.GenerateMaze(11, 11));
+        CellType[,] maze = _mazeGenerator.GenerateMaze(11, 11);
+        FillTilemaps(maze);
         // TODO Move the player to the start
-        _player.transform.localPosition = Vector3.zero;
+        //_player.transform.localPosition = ;
         // TODO Set camera position
         //_camera.transform.localPosition = ;
     }
