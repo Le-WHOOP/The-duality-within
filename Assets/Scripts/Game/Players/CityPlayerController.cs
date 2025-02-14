@@ -11,7 +11,7 @@ public class CityPlayerController : PlayerController
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.TryGetComponent(out InteractableController interaction)
-            // This interaction can only be used if TODO comment
+            // This interaction can only be used if available to the current personnality controlling the player
             && interaction.IsAvailableTo(_personnality))
             Interactions.Add(interaction);
     }

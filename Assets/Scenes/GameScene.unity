@@ -35398,6 +35398,7 @@ GameObject:
   - component: {fileID: 1500099498}
   - component: {fileID: 1500099496}
   - component: {fileID: 1500099497}
+  - component: {fileID: 1500099495}
   m_Layer: 0
   m_Name: MazePlayer
   m_TagString: Untagged
@@ -35421,8 +35422,6 @@ Transform:
   - {fileID: 573516876}
   m_Father: {fileID: 942254436}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!114 &1500099495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35437,7 +35436,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameController: {fileID: 75500022}
   _speed: 1
->>>>>>> dev
 --- !u!50 &1500099496
 Rigidbody2D:
   serializedVersion: 5
@@ -35523,6 +35521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7984a89a54d20b4792158488a29c0b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameController: {fileID: 75500022}
   _speed: 1
 --- !u!1 &1689834137
 GameObject:
@@ -35709,6 +35708,7 @@ GameObject:
   - component: {fileID: 2026805818}
   - component: {fileID: 2026805816}
   - component: {fileID: 2026805817}
+  - component: {fileID: 2026805815}
   m_Layer: 0
   m_Name: CityPlayer
   m_TagString: Untagged
@@ -35733,8 +35733,6 @@ Transform:
   - {fileID: 813622117}
   m_Father: {fileID: 1689834138}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!114 &2026805815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35749,7 +35747,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameController: {fileID: 75500022}
   _speed: 1
->>>>>>> dev
 --- !u!50 &2026805816
 Rigidbody2D:
   serializedVersion: 5
@@ -35835,7 +35832,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5010b03c158eb0c4daf44543bd56e3ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 1
+  gameController: {fileID: 75500022}
+  _speed: 100
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
