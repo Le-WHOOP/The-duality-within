@@ -448,7 +448,7 @@ MonoBehaviour:
   p1Description: {fileID: 325846542}
   p2NameText: {fileID: 864758379}
   p2Description: {fileID: 1344672440}
-  fadeScene: {fileID: 1832662672}
+  fadeScene: {fileID: 1164504663}
 --- !u!1 &172398325
 GameObject:
   m_ObjectHideFlags: 0
@@ -5142,6 +5142,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144946452}
   m_CullTransparentMesh: 1
+--- !u!114 &1164504663 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5632709153727607684, guid: fa87ca2c1037a92478e6e01128fa4822, type: 3}
+  m_PrefabInstance: {fileID: 6131951348377410998}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4b8ed90f9e14b4b92995ac8a07c4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1166250022
 GameObject:
   m_ObjectHideFlags: 0
@@ -5298,7 +5309,7 @@ MonoBehaviour:
   p2DifficultyText: {fileID: 746991634}
   p2NameText: {fileID: 1663891823}
   p2Image: {fileID: 1907651350}
-  fadeScene: {fileID: 1832662672}
+  fadeScene: {fileID: 0}
 --- !u!1 &1322793697
 GameObject:
   m_ObjectHideFlags: 0
@@ -8037,24 +8048,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817271615}
   m_CullTransparentMesh: 1
---- !u!1 &1832662670 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1480182524728375105, guid: fa87ca2c1037a92478e6e01128fa4822, type: 3}
-  m_PrefabInstance: {fileID: 6131951348377410998}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1832662672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832662670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a4b8ed90f9e14b4b92995ac8a07c4fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transition: {fileID: 1325652708}
 --- !u!1 &1850550934
 GameObject:
   m_ObjectHideFlags: 0
@@ -9128,10 +9121,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1480182524728375105, guid: fa87ca2c1037a92478e6e01128fa4822, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1832662672}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa87ca2c1037a92478e6e01128fa4822, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
