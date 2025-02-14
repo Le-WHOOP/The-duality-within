@@ -182,7 +182,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ingredients_0
+      name: Menthol
       rect:
         serializedVersion: 2
         x: 24
@@ -190,7 +190,7 @@ TextureImporter:
         width: 17
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,7 +204,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_1
+      name: Absinth
       rect:
         serializedVersion: 2
         x: 58
@@ -212,7 +212,7 @@ TextureImporter:
         width: 11
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,7 +226,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_2
+      name: EauDeVie
       rect:
         serializedVersion: 2
         x: 90
@@ -234,7 +234,7 @@ TextureImporter:
         width: 9
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,7 +248,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_3
+      name: Salt
       rect:
         serializedVersion: 2
         x: 117
@@ -256,7 +256,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,7 +270,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_4
+      name: MannaAs
       rect:
         serializedVersion: 2
         x: 304
@@ -278,7 +278,7 @@ TextureImporter:
         width: 96
         height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,7 +292,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_5
+      name: MannaAsh_Picked
       rect:
         serializedVersion: 2
         x: 399
@@ -300,7 +300,7 @@ TextureImporter:
         width: 96
         height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,7 +314,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_6
+      name: Blackcurrent
       rect:
         serializedVersion: 2
         x: 21
@@ -322,7 +322,7 @@ TextureImporter:
         width: 23
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,7 +336,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_7
+      name: Bearberry
       rect:
         serializedVersion: 2
         x: 49
@@ -344,7 +344,7 @@ TextureImporter:
         width: 30
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,7 +358,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_8
+      name: Rhubarb
       rect:
         serializedVersion: 2
         x: 82
@@ -366,7 +366,7 @@ TextureImporter:
         width: 28
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,7 +380,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_9
+      name: Mint
       rect:
         serializedVersion: 2
         x: 111
@@ -388,7 +388,7 @@ TextureImporter:
         width: 34
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,7 +402,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_10
+      name: Nettle
       rect:
         serializedVersion: 2
         x: 146
@@ -410,7 +410,7 @@ TextureImporter:
         width: 29
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,7 +424,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_11
+      name: Lavender
       rect:
         serializedVersion: 2
         x: 186
@@ -432,7 +432,7 @@ TextureImporter:
         width: 15
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,7 +446,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_12
+      name: Licorice
       rect:
         serializedVersion: 2
         x: 215
@@ -454,7 +454,7 @@ TextureImporter:
         width: 19
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,7 +468,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_13
+      name: Loosestrife
       rect:
         serializedVersion: 2
         x: 250
@@ -476,7 +476,7 @@ TextureImporter:
         width: 15
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -490,7 +490,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_14
+      name: Valerian
       rect:
         serializedVersion: 2
         x: 278
@@ -498,7 +498,7 @@ TextureImporter:
         width: 19
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -512,7 +512,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_15
+      name: Blackcurrent_Picked
       rect:
         serializedVersion: 2
         x: 21
@@ -520,7 +520,7 @@ TextureImporter:
         width: 23
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -534,7 +534,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_16
+      name: Bearberry_Picked
       rect:
         serializedVersion: 2
         x: 49
@@ -542,7 +542,7 @@ TextureImporter:
         width: 30
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -556,7 +556,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_17
+      name: Rhubarb_Picked
       rect:
         serializedVersion: 2
         x: 82
@@ -564,7 +564,7 @@ TextureImporter:
         width: 28
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -581,12 +581,12 @@ TextureImporter:
       name: Ingredients_18
       rect:
         serializedVersion: 2
-        x: 113
-        y: 31
-        width: 10
-        height: 15
+        x: 112
+        y: 16
+        width: 34
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -600,59 +600,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_19
+      name: Nettle_Picked
       rect:
         serializedVersion: 2
-        x: 120
-        y: 18
-        width: 10
-        height: 15
+        x: 148
+        y: 19
+        width: 29
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d983a3387607319d0800000000000000
-      internalID: -2804774553036113763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ingredients_20
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 28
-        width: 11
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1aacff723540b0600800000000000000
-      internalID: 435446544171256481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ingredients_21
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 23
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -670,11 +626,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 185
-        y: 15
-        width: 79
-        height: 34
+        y: 24
+        width: 15
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -688,15 +644,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients_23
+      name: Valerian_Picked
       rect:
         serializedVersion: 2
-        x: 281
+        x: 279
         y: 26
-        width: 15
-        height: 13
+        width: 19
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -709,11 +665,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Licorice_Picked
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 15
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef996817a7cacd6594b91ca3a668151
+      internalID: -1924337222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loosestrife_Picked
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 22
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c253ad14f45361a748d9ccb10edc73dc
+      internalID: 1605216215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f35b755e258572c99b8ac7aaf83c6a8f
     internalID: 0
     vertices: []
     indices: 
@@ -723,30 +723,32 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ingredients_0: -7576874432042752839
-      Ingredients_1: -2432301806248295829
-      Ingredients_10: -9028938477123893177
-      Ingredients_11: -3147275107796605358
-      Ingredients_12: -7238345598928273307
-      Ingredients_13: -1487846639901739016
-      Ingredients_14: -8329661860612166517
-      Ingredients_15: -1519781391214004731
-      Ingredients_16: -6690090318788270601
-      Ingredients_17: -7541670493543904985
+      Absinth: -2432301806248295829
+      Bearberry: -4596230732992929682
+      Bearberry_Picked: -6690090318788270601
+      Blackcurrent: -4074711270985794095
+      Blackcurrent_Picked: -1519781391214004731
+      EauDeVie: 7641124845627605941
       Ingredients_18: 5148616327105364085
       Ingredients_19: -2804774553036113763
-      Ingredients_2: 7641124845627605941
       Ingredients_20: 435446544171256481
-      Ingredients_21: 1717260352098108246
       Ingredients_22: 7146553180955159659
-      Ingredients_23: 121948232160078227
-      Ingredients_3: 7781682652552636025
-      Ingredients_4: 7355374725913390886
-      Ingredients_5: 8474640244576014681
-      Ingredients_6: -4074711270985794095
-      Ingredients_7: -4596230732992929682
-      Ingredients_8: 3043345516689560434
-      Ingredients_9: -3566493870488458173
+      Lavender: -3147275107796605358
+      Licorice: -7238345598928273307
+      Licorice_Picked: -1924337222
+      Loosestrife: -1487846639901739016
+      Loosestrife_Picked: 1605216215
+      MannaAs: 7355374725913390886
+      MannaAsh_Picked: 8474640244576014681
+      Menthol: -7576874432042752839
+      Mint: -3566493870488458173
+      Nettle: -9028938477123893177
+      Nettle_Picked: 1717260352098108246
+      Rhubarb: 3043345516689560434
+      Rhubarb_Picked: -7541670493543904985
+      Salt: 7781682652552636025
+      Valerian: -8329661860612166517
+      Valerian_Picked: 121948232160078227
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
