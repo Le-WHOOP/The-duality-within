@@ -1,9 +1,12 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+    // TODO Only for test
+    [SerializeField]
+    private GameController gameController;
+
     [SerializeField]
     private float _speed = 1;
 
@@ -33,6 +36,7 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     public void Interact()
     {
-        throw new NotImplementedException();
+        gameController.SwapRoles();
+        //throw new NotImplementedException();
     }
 }
