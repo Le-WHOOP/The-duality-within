@@ -51,22 +51,22 @@ public class MazeController : MonoBehaviour
     }
 
     /// <summary>
-    /// 
+    /// Mapp the array index to the corrseponding tilemap index
     /// </summary>
-    /// <param name="maze"></param>
-    /// <param name="x"></param>
-    /// <param name="y"></param>
-    /// <returns></returns>
+    /// <param name="maze">The maze layout</param>
+    /// <param name="x">The index of the column in the array</param>
+    /// <param name="y">The index of the row in the array</param>
+    /// <returns>A <see cref="Vector3Int"/></returns>
     private Vector3Int ToTilemapPosition(CellType[,] maze, int x, int y)
     {
         return new Vector3Int(x, maze.GetLength(0) - 1 - y);
     }
 
     /// <summary>
-    /// 
+    /// Build all tilemaps according to the given maze layout
     /// </summary>
-    /// <param name="maze"></param>
-    /// <exception cref="ArgumentException"></exception>
+    /// <param name="maze">The maze layout</param>
+    /// <exception cref="ArgumentException">Thrown when the maze contains invalid cells</exception>
     private void FillTilemaps(CellType[,] maze)
     {
         int rowCount = maze.GetLength(0);
@@ -105,9 +105,9 @@ public class MazeController : MonoBehaviour
     }
 
     /// <summary>
-    /// 
+    /// Moves the player at the start of the maze
     /// </summary>
-    /// <param name="maze"></param>
+    /// <param name="maze">the maze layout</param>
     private void ResetPlayerPosition(CellType[,] maze)
     {
         // First, get the start index
@@ -120,10 +120,10 @@ public class MazeController : MonoBehaviour
     }
 
     /// <summary>
-    /// 
+    /// Moves the camera so that the entire maze is visible
     /// </summary>
-    /// <param name="rowCount"></param>
-    /// <param name="columnCount"></param>
+    /// <param name="rowCount">The number of rows in the maze</param>
+    /// <param name="columnCount">The number of columns in the maze</param>
     private void ResetCameraPosition(int rowCount, int columnCount)
     {
         // TODO Still need some work, but it'll do for now
@@ -139,7 +139,7 @@ public class MazeController : MonoBehaviour
     }
 
     /// <summary>
-    /// 
+    /// Generate a new maze and move all related objects to their correct position
     /// </summary>
     public void GenerateMaze()
     {
