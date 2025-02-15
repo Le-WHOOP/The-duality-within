@@ -37326,8 +37326,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d208f50cd2fe3f468c5b4d2b9b1f2d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upKey: 122
-  leftKey: 113
+  upKey: 119
+  leftKey: 97
   downKey: 115
   rightKey: 100
   interactKey: 102
