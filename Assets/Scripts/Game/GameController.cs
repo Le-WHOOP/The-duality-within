@@ -14,9 +14,9 @@ public class GameController : MonoBehaviour
 
     [Header("Player controllers")]
     [SerializeField]
-    private PlayerController cityPlayerController;
+    private CityPlayerController cityPlayerController;
     [SerializeField]
-    private PlayerController mazePlayerController;
+    private MazePlayerController mazePlayerController;
 
     [Header("Cameras")]
     [SerializeField]
@@ -26,8 +26,8 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        player1InputHandler.PlayerController = cityPlayerController;
-        player2InputHandler.PlayerController = mazePlayerController;
+        player1InputHandler.Player = cityPlayerController;
+        player2InputHandler.Player = mazePlayerController;
 
         if (GameSettings.SwapRoles)
             SwapRoles();
@@ -35,7 +35,7 @@ public class GameController : MonoBehaviour
 
     public void SwapRoles()
     {
-        (player2InputHandler.PlayerController, player1InputHandler.PlayerController) = (player1InputHandler.PlayerController, player2InputHandler.PlayerController);
+        (player2InputHandler.Player, player1InputHandler.Player) = (player1InputHandler.Player, player2InputHandler.Player);
 
         cityCamera.rect = new Rect(cityCamera.rect)
         {

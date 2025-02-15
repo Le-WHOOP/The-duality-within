@@ -167,8 +167,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1InputHandler: {fileID: 1767963012}
   player2InputHandler: {fileID: 1092954172}
-  cityPlayerController: {fileID: 2026805815}
-  mazePlayerController: {fileID: 1500099495}
+  cityPlayerController: {fileID: 2026805818}
+  mazePlayerController: {fileID: 1500099498}
   cityCamera: {fileID: 519420031}
   mazeCamera: {fileID: 966962430}
 --- !u!1 &389155530
@@ -12044,11 +12044,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4191550541449183588, guid: d8cbaf923fd48a565b80da7a621f56ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.5080209
+      value: -10.5
       objectReference: {fileID: 0}
     - target: {fileID: 4191550541449183588, guid: d8cbaf923fd48a565b80da7a621f56ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.0237044
+      value: -19.43
       objectReference: {fileID: 0}
     - target: {fileID: 4191550541449183588, guid: d8cbaf923fd48a565b80da7a621f56ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -35395,7 +35395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1500099494}
-  - component: {fileID: 1500099495}
+  - component: {fileID: 1500099498}
   - component: {fileID: 1500099496}
   - component: {fileID: 1500099497}
   m_Layer: 0
@@ -35421,20 +35421,6 @@ Transform:
   - {fileID: 573516876}
   m_Father: {fileID: 942254436}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1500099495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1500099493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16e45b075f2f190408760b2e876832d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameController: {fileID: 75500022}
-  _speed: 1
 --- !u!50 &1500099496
 Rigidbody2D:
   serializedVersion: 5
@@ -35508,6 +35494,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1500099498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500099493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7984a89a54d20b4792158488a29c0b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 75500022}
+  _speed: 5
 --- !u!1 &1689834137
 GameObject:
   m_ObjectHideFlags: 0
@@ -35690,7 +35690,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2026805814}
-  - component: {fileID: 2026805815}
+  - component: {fileID: 2026805818}
   - component: {fileID: 2026805816}
   - component: {fileID: 2026805817}
   m_Layer: 0
@@ -35717,20 +35717,6 @@ Transform:
   - {fileID: 813622117}
   m_Father: {fileID: 1689834138}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2026805815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2026805813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16e45b075f2f190408760b2e876832d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameController: {fileID: 75500022}
-  _speed: 1
 --- !u!50 &2026805816
 Rigidbody2D:
   serializedVersion: 5
@@ -35804,6 +35790,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2026805818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026805813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5010b03c158eb0c4daf44543bd56e3ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 75500022}
+  _speed: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
