@@ -31,8 +31,7 @@ public class MazeController : MonoBehaviour
 
     [Header("Player")]
     [SerializeField]
-    // TODO Change type to maze player when merge is done
-    private PlayerController _player;
+    private MazePlayerController _player;
 
     [Header("Camera")]
     [SerializeField]
@@ -144,7 +143,8 @@ public class MazeController : MonoBehaviour
     public void GenerateMaze()
     {
         // TODO Change hard coded size
-        CellType[,] maze = _mazeGenerator.GenerateMaze(33, 21);
+        var size = 33;
+        CellType[,] maze = _mazeGenerator.GenerateMaze(size, MathUtils.OddFloor(size * 0.75));
         FillTilemaps(maze);
 
         // Move the player to the start

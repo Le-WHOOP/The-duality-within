@@ -1117,7 +1117,7 @@ MonoBehaviour:
   _wallsTile: {fileID: 11400000, guid: 95159c0c6e21a471c9c14a18d7352195, type: 2}
   _startTile: {fileID: 11400000, guid: ab9128e833d721a0a9d53c63b262a5fb, type: 2}
   _exitTile: {fileID: 11400000, guid: f4b9a8100731469f5a567ac2c7803c17, type: 2}
-  _player: {fileID: 1500099495}
+  _player: {fileID: 1500099498}
   _camera: {fileID: 966962430}
 --- !u!1 &601438739
 GameObject:
