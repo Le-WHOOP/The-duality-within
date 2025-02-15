@@ -88,8 +88,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1070105643
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a22c541a140c8053188cd2825a88f36b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -148,10 +148,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 4.03125, y: -8.53125}
-      - {x: 4.0625, y: 8.5625}
-      - {x: -4.0625, y: 8.5625}
-      - {x: -4.0625, y: -8.53125}
+    - - {x: 3.8125, y: -8.34375}
+      - {x: 3.875, y: 8.375}
+      - {x: -3.875, y: 8.375}
+      - {x: -3.8125, y: -8.34375}
   m_UseDelaunayMesh: 0
 --- !u!1 &9132060265363461795
 GameObject:
@@ -163,6 +163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1706039355123295327}
   - component: {fileID: 8143698340924542034}
+  - component: {fileID: 5444945536374567031}
   m_Layer: 0
   m_Name: Entrance
   m_TagString: Untagged
@@ -221,3 +222,16 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &5444945536374567031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9132060265363461795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030207cb37a0ff644a933fc7ed24c41d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interior: {fileID: 0}
