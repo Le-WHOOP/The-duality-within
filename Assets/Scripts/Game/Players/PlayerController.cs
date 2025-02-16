@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -8,8 +7,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private GameController gameController;
 
-    [SerializeField]
-    private float _speed = 1;
+    //[SerializeField]
+    public float _speed;
 
     private Rigidbody2D _body;
     private Animator _animator;
@@ -18,14 +17,6 @@ public class PlayerController : MonoBehaviour
     {
         _body = GetComponent<Rigidbody2D>();
         _animator = GetComponentInChildren<Animator>();
-    }
-
-    void OnTriggerEnter2D(Collider2D collision)
-    {   
-    }
-
-    void OnTriggerExit2D(Collider2D collision)
-    {
     }
 
     /// <summary>
@@ -53,14 +44,5 @@ public class PlayerController : MonoBehaviour
         else {
             _animator.SetBool("isWalking", false);
         }
-    }
-
-    /// <summary>
-    /// Attempts to interact with a nearby interactable object, if one is within range.
-    /// </summary>
-    public void Interact()
-    {
-        gameController.SwapRoles();
-        //throw new NotImplementedException();
     }
 }
