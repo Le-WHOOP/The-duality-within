@@ -3,8 +3,12 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+    // TODO Only for test
     [SerializeField]
-    private float _speed = 1;
+    private GameController gameController;
+
+    //[SerializeField]
+    public float _speed;
 
     private Rigidbody2D _body;
 

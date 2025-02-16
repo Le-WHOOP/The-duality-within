@@ -17,28 +17,28 @@ public class Checklist : MonoBehaviour
     void Awake()
     {
         Instance = this;
-        // initialize the inventory according to the difficulty
+        // Initialize the inventory according to the difficulty
         InitializeChecklist();
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Update()
     {
+        // TODO handle display
     }
 
     /// <summary>
-    /// fill the checklist randomly according to the difficulty
+    /// Fill the checklist randomly according to the difficulty
     /// </summary>
     private void InitializeChecklist()
     {
-        // get the total number of non-alcohol ingredients according to the difficulty
+        // Get the total number of non-alcohol ingredients according to the difficulty
         int totalIngredients = GetTotalIngredients();
         
-        // separate all ingredients into 2 lists: alcohol and the rest
-        List<InteractableIngredient> alcohols = _allIngredients.Where((ingredient) => ingredient.Type == InteractableIngredient.IngredientType.ALCOHOL).ToList();
-        List<InteractableIngredient> otherIngredients = _allIngredients.Where((ingredient) => ingredient.Type != InteractableIngredient.IngredientType.ALCOHOL).ToList();
+        // Separate all ingredients into 2 lists: alcohol and the rest
+        List<InteractableIngredient> alcohols = _allIngredients.Where((ingredient) => ingredient.Type == InteractableIngredient.IngredientType.Alcohol).ToList();
+        List<InteractableIngredient> otherIngredients = _allIngredients.Where((ingredient) => ingredient.Type != InteractableIngredient.IngredientType.Alcohol).ToList();
         
-        // choose 1 alcohol randomly
+        // Choose 1 alcohol randomly
         System.Random random = new();
         InteractableIngredient alcohol = alcohols[random.Next(alcohols.Count)];
         _checklist.Add(alcohol, false);
@@ -94,11 +94,4 @@ public class Checklist : MonoBehaviour
     {
         return _checklist.Values.Where(collected => !collected).Count() == 0;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        // TODO handle display
-    }
-
 }
