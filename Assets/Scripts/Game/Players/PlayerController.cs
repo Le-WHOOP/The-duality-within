@@ -39,8 +39,6 @@ public class PlayerController : MonoBehaviour
             _animator.SetFloat("y", movement.y);
             _animator.SetBool("isWalking", true);
         }
-        // FIXME: why does this throw a NullReferenceException()?
-        // > maybe it _is_ _animator causing the issue bcs now I'm getting some "Parameter isWalking does not exist"
         else {
             _animator.SetBool("isWalking", false);
         }
