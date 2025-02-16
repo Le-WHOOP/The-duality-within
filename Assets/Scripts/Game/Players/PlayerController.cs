@@ -3,36 +3,28 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
-    // TODO Only for test
-    [SerializeField]
-    private GameController gameController;
-
-    //[SerializeField]
-    public float _speed;
-
     private Rigidbody2D _body;
-    protected Personnality _personnality;
+    protected Animator _activeAnimator;
 
-    private GameObject _jekyll;
+    [SerializeField]
+    private float _speed = 1;
+
+    [Header("Animators")]
+    [SerializeField]
     private Animator _animatorJekyll;
-    private GameObject _hyde;
+    [SerializeField]
     private Animator _animatorHyde;
 
-    protected Animator _animator;
+    protected Personnality _personnality;
 
+    protected PlayerController(Personnality defaultPersonnality)
+    {
+        _personnality = defaultPersonnality;
+    }
 
-    // TODO: define base _personnality, right now both players are Jekyll
     void Start()
     {
         _body = GetComponent<Rigidbody2D>();
-
-        // Gets Jekyll child to display/hide it later on
-        _jekyll = transform.Find("Jekyll").gameObject;
-        _animatorJekyll = _jekyll.GetComponent<Animator>();
-
-        // Gets Hyde child to display/hide it later on
-        _hyde = transform.Find("Hyde").gameObject;
-        _animatorHyde = _hyde.GetComponent<Animator>();
 
         DisplayActivePlayer();
     }
@@ -43,20 +35,11 @@ public class PlayerController : MonoBehaviour
     /// <remarks>
     /// Also updates _animator to display the proper animation in CityPlayerController.
     /// </remarks>
-    public void DisplayActivePlayer()
+    private void DisplayActivePlayer()
     {
-        if (_personnality == Personnality.Hyde)
-        {
-            _hyde.SetActive(true);
-            _jekyll.SetActive(false);
-            _animator = _animatorHyde;
-        }
-        else
-        {
-            _jekyll.SetActive(true);
-            _hyde.SetActive(false);
-            _animator = _animatorJekyll;
-        }
+        _animatorJekyll.gameObject.SetActive(_personnality == Personnality.Jekyll);
+        _animatorHyde.gameObject.SetActive(_personnality == Personnality.Hyde);
+        _activeAnimator = _animatorJekyll.gameObject.activeSelf ? _animatorJekyll : _animatorHyde;
     }
 
     /// <summary>

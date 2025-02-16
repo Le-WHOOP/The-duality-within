@@ -261,6 +261,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fd4ad33cf37d4714acb5728fff7446b, type: 3}
+--- !u!95 &93394574 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3901103314672445239, guid: 7fd4ad33cf37d4714acb5728fff7446b, type: 3}
+  m_PrefabInstance: {fileID: 93394573}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &203905951
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,6 +424,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85ebc85411d18e9e29641b150018403c, type: 3}
+--- !u!95 &298525637 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3901103314672445239, guid: 85ebc85411d18e9e29641b150018403c, type: 3}
+  m_PrefabInstance: {fileID: 298525636}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &370096444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1384,6 +1394,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9186209bf4b38fb9437d3f85a0cfa4, type: 3}
+--- !u!95 &726922184 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6513415200752036477, guid: ef9186209bf4b38fb9437d3f85a0cfa4, type: 3}
+  m_PrefabInstance: {fileID: 726922183}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &762987809
 GameObject:
   m_ObjectHideFlags: 0
@@ -13155,6 +13170,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec9e0cf590da01aff811c52bf3e1904c, type: 3}
+--- !u!95 &1170627784 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6513415200752036477, guid: ec9e0cf590da01aff811c52bf3e1904c, type: 3}
+  m_PrefabInstance: {fileID: 1170627783}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1443499197
 GameObject:
   m_ObjectHideFlags: 0
@@ -37049,8 +37069,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7984a89a54d20b4792158488a29c0b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameController: {fileID: 75500022}
   _speed: 5
+  _animatorJekyll: {fileID: 726922184}
+  _animatorHyde: {fileID: 1170627784}
+  gameController: {fileID: 75500022}
 --- !u!1001 &1561956498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37534,8 +37556,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5010b03c158eb0c4daf44543bd56e3ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameController: {fileID: 75500022}
   _speed: 5
+  _animatorJekyll: {fileID: 93394574}
+  _animatorHyde: {fileID: 298525637}
+  gameController: {fileID: 75500022}
 --- !u!4 &2094545871 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2813252262566803137, guid: ef9186209bf4b38fb9437d3f85a0cfa4, type: 3}
