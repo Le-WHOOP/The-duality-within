@@ -26,15 +26,23 @@ public class PlayerController : MonoBehaviour
     {
         _body = GetComponent<Rigidbody2D>();
 
+        // Gets Jekyll child to display/hide it later on
         _jekyll = transform.Find("Jekyll").gameObject;
         _animatorJekyll = _jekyll.GetComponent<Animator>();
 
+        // Gets Hyde child to display/hide it later on
         _hyde = transform.Find("Hyde").gameObject;
         _animatorHyde = _hyde.GetComponent<Animator>();
 
         DisplayActivePlayer();
     }
 
+    /// <summary>
+    /// Displays the player matching _personnality and hides the other.
+    /// </summary>
+    /// <remarks>
+    /// Also updates _animator to display the proper animation in CityPlayerController.
+    /// </remarks>
     public void DisplayActivePlayer()
     {
         if (_personnality == Personnality.Hyde)
