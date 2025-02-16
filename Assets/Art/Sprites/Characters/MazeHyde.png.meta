@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: b2a807ce5d035ce1e996924057d3c764
+guid: d0c2cc8e08cae37178d5ec1cb460f698
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2458003523625684603
-    second: JekyllHydeFace_0
+      213: -2507882433888316436
+    second: MazeHyde_0
   - first:
-      213: -6790531478437217573
-    second: JekyllHydeFace_1
+      213: -4622494505266282196
+    second: MazeHyde_1
   - first:
-      213: -7294383115243690058
-    second: JekyllHydeFace_2
+      213: -5684763086284679939
+    second: MazeHyde_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JekyllHydeFace_0
+      name: MazeHyde_0
       rect:
         serializedVersion: 2
         x: 4
@@ -121,14 +121,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 581f1ad71da63edd0800000000000000
-      internalID: -2458003523625684603
+      spriteID: ce315a5b636323dd0800000000000000
+      internalID: -2507882433888316436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JekyllHydeFace_1
+      name: MazeHyde_1
       rect:
         serializedVersion: 2
         x: 36
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bda34af199f23c1a0800000000000000
-      internalID: -6790531478437217573
+      spriteID: c21886d0db999dfb0800000000000000
+      internalID: -4622494505266282196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JekyllHydeFace_2
+      name: MazeHyde_2
       rect:
         serializedVersion: 2
         x: 68
@@ -165,8 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b7ea48343525ca90800000000000000
-      internalID: -7294383115243690058
+      spriteID: df49fb9971aab11b0800000000000000
+      internalID: -5684763086284679939
       vertices: []
       indices: 
       edges: []
@@ -185,9 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      JekyllHydeFace_0: -2458003523625684603
-      JekyllHydeFace_1: -6790531478437217573
-      JekyllHydeFace_2: -7294383115243690058
+      MazeHyde_0: -2507882433888316436
+      MazeHyde_1: -4622494505266282196
+      MazeHyde_2: -5684763086284679939
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

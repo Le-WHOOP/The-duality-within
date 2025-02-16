@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -7237320175660562305}
   - component: {fileID: 6513415200752036477}
   m_Layer: 0
-  m_Name: MazeJekyllHyde
+  m_Name: MazeHyde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2458003523625684603, guid: b2a807ce5d035ce1e996924057d3c764, type: 3}
+  m_Sprite: {fileID: -2507882433888316436, guid: d0c2cc8e08cae37178d5ec1cb460f698, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 7681406276315026710}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4ab4f4a1c1c9afeb4a4059eef1936769, type: 2}
+  m_Controller: {fileID: 9100000, guid: 02b42845b994fc8d3a865b7fb0462e61, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

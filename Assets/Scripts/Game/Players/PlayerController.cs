@@ -11,12 +11,10 @@ public class PlayerController : MonoBehaviour
     public float _speed;
 
     private Rigidbody2D _body;
-    private Animator _animator;
 
-    void Start()
+    protected virtual void Start()
     {
         _body = GetComponent<Rigidbody2D>();
-        _animator = GetComponentInChildren<Animator>();
     }
 
     /// <summary>
@@ -28,19 +26,8 @@ public class PlayerController : MonoBehaviour
     /// </remarks>
     /// <param name="x">The horizontal movement input.</param>
     /// <param name="y">The vertical movement input.</param>
-    public void Move(float x, float y)
+    public virtual void Move(float x, float y)
     {
-        Vector2 movement = new Vector2(x, y).normalized;
-        _body.linearVelocity = movement * _speed;
-
-        // Only set the animation direction is the player is trying to move
-        if (movement != Vector2.zero) {
-            _animator.SetFloat("x", movement.x);
-            _animator.SetFloat("y", movement.y);
-            _animator.SetBool("isWalking", true);
-        }
-        else {
-            _animator.SetBool("isWalking", false);
-        }
+        _body.linearVelocity = new Vector2(x, y).normalized * _speed;
     }
 }

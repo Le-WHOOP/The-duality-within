@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6344861342546358955}
   - component: {fileID: 3901103314672445239}
   m_Layer: 0
-  m_Name: CityJekyll
+  m_Name: CityHyde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,12 +77,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3099752767739756481, guid: 0cf58abeae0fb208ea5ac1a4178234bd, type: 3}
+  m_Sprite: {fileID: -1601033587, guid: 72a8e49d5027878a9b07879069afa164, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1.5625}
+  m_Size: {x: 0.9375, y: 1.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 6676826138485326862}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cbe40188a31e6987584d9f3d9d140c22, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0e96eac689225dafa9000fba572ecf99, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
