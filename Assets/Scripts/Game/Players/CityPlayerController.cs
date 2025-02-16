@@ -4,45 +4,9 @@ using UnityEngine;
 
 public class CityPlayerController : PlayerController
 {
-    private Personnality _personnality;
-
-    private GameObject _cityJekyll;
-    private Animator _animatorJekyll;
-    private GameObject _cityHyde;
-    private Animator _animatorHyde;
-
-    private Animator _animator;
+    //private Personnality _personnality;
 
     public List<InteractableController> Interactions { get; } = new List<InteractableController>();
-
-    protected override void Start()
-    {
-        base.Start();
-
-        _cityJekyll = transform.Find("CityJekyll").gameObject;
-        _animatorJekyll = _cityJekyll.GetComponent<Animator>();
-
-        _cityHyde = transform.Find("CityHyde").gameObject;
-        _animatorHyde = _cityHyde.GetComponent<Animator>();
-
-        DisplayActivePlayer();
-    }
-
-    void DisplayActivePlayer()
-    {
-        if (_personnality == Personnality.Hyde)
-        {
-            _cityHyde.SetActive(true);
-            _cityJekyll.SetActive(false);
-            _animator = _animatorHyde;
-        }
-        else
-        {
-            _cityJekyll.SetActive(true);
-            _cityHyde.SetActive(false);
-            _animator = _animatorJekyll;
-        }
-    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -82,20 +46,15 @@ public class CityPlayerController : PlayerController
     /// </summary>
     public void Interact()
     {
-        // DEBUG
-        SwapPersonnality();
-        return;
-
         // Since Unity overrides the null operator, we can't use the null propagation (? operator)
         InteractableController interaction = Interactions.FirstOrDefault();
         if (interaction != null)
             interaction.Interact(this);
     }
 
-    public void SwapPersonnality()
+    public override void SwapPersonnality()
     {
-        _personnality = _personnality == Personnality.Hyde ? Personnality.Jekyll : Personnality.Hyde;
-        DisplayActivePlayer();
+        base.SwapPersonnality();
 
         // Remove all interactions that are no longer accessible because of the personnality change
         // TODO If the player is already inside the trigger of an interaction that was for the other player when the

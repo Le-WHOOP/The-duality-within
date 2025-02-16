@@ -254,7 +254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6676826138485326862, guid: 7fd4ad33cf37d4714acb5728fff7446b, type: 3}
       propertyPath: m_Name
-      value: CityJekyll
+      value: Jekyll
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -412,7 +412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6676826138485326862, guid: 85ebc85411d18e9e29641b150018403c, type: 3}
       propertyPath: m_Name
-      value: CityHyde
+      value: Hyde
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1377,7 +1377,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7681406276315026710, guid: ef9186209bf4b38fb9437d3f85a0cfa4, type: 3}
       propertyPath: m_Name
-      value: MazeJekyll
+      value: Jekyll
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13148,7 +13148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7681406276315026710, guid: ec9e0cf590da01aff811c52bf3e1904c, type: 3}
       propertyPath: m_Name
-      value: MazeHyde
+      value: Hyde
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36960,8 +36960,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1823887528}
   - {fileID: 2094545871}
+  - {fileID: 1823887528}
   m_Father: {fileID: 942254436}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1500099496
