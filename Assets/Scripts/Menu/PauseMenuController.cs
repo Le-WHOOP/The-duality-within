@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -55,7 +56,6 @@ public class PauseMenuController : MonoBehaviour
     {
         if (!active)
         {
-            Debug.Log("here");
             StartCoroutine(MenuAnimation(transitionConfirmation));
         }
 
@@ -70,7 +70,7 @@ public class PauseMenuController : MonoBehaviour
 
     public IEnumerator MenuAnimation(Animator transition)
     {
-        // Start fading animation
+        // Start animation
         transition.SetTrigger("Start");
         // Wait a bit
         yield return new WaitForSeconds(1);
