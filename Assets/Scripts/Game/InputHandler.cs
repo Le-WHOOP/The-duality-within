@@ -16,7 +16,7 @@ public class InputHandler : MonoBehaviour
     /// <summary>
     /// The player character currently controlled by these inputs
     /// </summary>
-    public PlayerController PlayerController { get; set; }
+    public PlayerController Player { get; set; }
 
     /// <summary>
     /// Returns the vertical input value based on key presses.
@@ -44,9 +44,9 @@ public class InputHandler : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(interactKey))
-            PlayerController.Interact();
+        if (Input.GetKeyDown(interactKey) && Player is CityPlayerController player)
+            player.Interact();
 
-        PlayerController.Move(GetHorizontalAxis(), GetVerticalAxis());
+        Player.Move(GetHorizontalAxis(), GetVerticalAxis());
     }
 }
