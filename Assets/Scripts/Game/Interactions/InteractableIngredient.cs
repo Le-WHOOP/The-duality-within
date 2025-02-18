@@ -2,10 +2,22 @@
 
 public class InteractableIngredient : InteractableController
 {
+    public enum IngredientType
+    {
+        Alcohol,
+        // Plants, salt
+        Other,
+    }
+
+    [SerializeField]
+    private IngredientType _type;
+
     [SerializeField]
     [Tooltip("Leave empty if this item is not inside a building. If not empty, this item will only be visible if the" +
     "player is currently inside the given building")]
     private InteractableBuilding _building;
+
+    public IngredientType Type => _type;
 
     public InteractableIngredient() : base(Personnality.Jekyll) { }
 
@@ -24,7 +36,6 @@ public class InteractableIngredient : InteractableController
 
     public override void Interact(CityPlayerController player)
     {
-        // TODO Pick up the ingredient
-        throw new System.NotImplementedException();
+        Checklist.Instance.Collect(this);
     }
 }
