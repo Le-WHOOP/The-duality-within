@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CityPlayerController : PlayerController
 {
-    private Personnality _personnality;
-
     public List<InteractableController> Interactions { get; } = new List<InteractableController>();
+
+    public CityPlayerController() : base(Personnality.Jekyll) { }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -22,6 +22,25 @@ public class CityPlayerController : PlayerController
             Interactions.Remove(interaction);
     }
 
+    public override void Move(float x, float y)
+    {
+        base.Move(x, y);
+
+        // The player is trying to walk do set their new direction
+        if (x != 0 || y != 0)
+        {
+            _activeAnimator.SetFloat("x", x);
+            _activeAnimator.SetFloat("y", y);
+            _activeAnimator.SetBool("isWalking", true);
+        }
+        // If x and y are 0: the player transitions to idle BUT still needs to face their original direction
+        // If we put x and y at 0 then the player is always idling facing down
+        else
+        {
+            _activeAnimator.SetBool("isWalking", false);
+        }
+    }
+
     /// <summary>
     /// Attempts to interact with a nearby interactable object, if one is within range.
     /// </summary>
@@ -33,9 +52,9 @@ public class CityPlayerController : PlayerController
             interaction.Interact(this);
     }
 
-    public void SwapPersonnality()
+    public override void SwapPersonnality()
     {
-        _personnality = _personnality == Personnality.Hyde ? Personnality.Jekyll : Personnality.Hyde;
+        base.SwapPersonnality();
 
         // Remove all interactions that are no longer accessible because of the personnality change
         // TODO If the player is already inside the trigger of an interaction that was for the other player when the

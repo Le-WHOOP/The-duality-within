@@ -205,13 +205,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hyde_0
+      name: CityHyde_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 201
-        width: 32
-        height: 49
+        x: 17
+        y: 202
+        width: 30
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,13 +227,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_1
+      name: CityHyde_1
       rect:
         serializedVersion: 2
-        x: 80
-        y: 201
-        width: 32
-        height: 49
+        x: 81
+        y: 202
+        width: 30
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,13 +249,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_2
+      name: CityHyde_2
       rect:
         serializedVersion: 2
-        x: 144
-        y: 200
-        width: 32
-        height: 50
+        x: 145
+        y: 201
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,13 +271,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_3
+      name: CityHyde_3
       rect:
         serializedVersion: 2
-        x: 208
-        y: 199
-        width: 31
-        height: 50
+        x: 209
+        y: 200
+        width: 29
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,13 +293,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_4
+      name: CityHyde_4
       rect:
         serializedVersion: 2
-        x: 272
-        y: 200
-        width: 32
-        height: 50
+        x: 273
+        y: 201
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,13 +315,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_5
+      name: CityHyde_5
       rect:
         serializedVersion: 2
-        x: 336
-        y: 201
-        width: 32
-        height: 49
+        x: 337
+        y: 202
+        width: 30
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,13 +337,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_6
+      name: CityHyde_6
       rect:
         serializedVersion: 2
-        x: 400
-        y: 200
-        width: 32
-        height: 50
+        x: 401
+        y: 201
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,13 +359,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_7
+      name: CityHyde_7
       rect:
         serializedVersion: 2
-        x: 465
-        y: 199
-        width: 31
-        height: 50
+        x: 466
+        y: 200
+        width: 29
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,13 +381,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_8
+      name: CityHyde_8
       rect:
         serializedVersion: 2
-        x: 528
-        y: 200
-        width: 32
-        height: 50
+        x: 529
+        y: 201
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,13 +403,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_9
+      name: CityHyde_9
       rect:
         serializedVersion: 2
-        x: 20
-        y: 136
-        width: 24
-        height: 50
+        x: 21
+        y: 137
+        width: 22
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,13 +425,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_10
+      name: CityHyde_10
       rect:
         serializedVersion: 2
-        x: 82
-        y: 136
-        width: 27
-        height: 49
+        x: 83
+        y: 137
+        width: 25
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,13 +447,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_11
+      name: CityHyde_11
       rect:
         serializedVersion: 2
-        x: 148
-        y: 137
-        width: 24
-        height: 49
+        x: 149
+        y: 138
+        width: 22
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -469,13 +469,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_12
+      name: CityHyde_12
       rect:
         serializedVersion: 2
-        x: 212
-        y: 137
-        width: 26
-        height: 49
+        x: 213
+        y: 138
+        width: 24
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,13 +491,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_13
+      name: CityHyde_13
       rect:
         serializedVersion: 2
-        x: 276
-        y: 136
-        width: 27
-        height: 50
+        x: 277
+        y: 137
+        width: 25
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -513,13 +513,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_14
+      name: CityHyde_14
       rect:
         serializedVersion: 2
-        x: 339
-        y: 136
-        width: 30
-        height: 49
+        x: 340
+        y: 137
+        width: 28
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -535,13 +535,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_15
+      name: CityHyde_15
       rect:
         serializedVersion: 2
-        x: 404
-        y: 136
-        width: 27
-        height: 50
+        x: 405
+        y: 137
+        width: 25
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,13 +557,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_16
+      name: CityHyde_16
       rect:
         serializedVersion: 2
-        x: 468
-        y: 136
-        width: 26
-        height: 50
+        x: 469
+        y: 137
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -579,13 +579,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_17
+      name: CityHyde_17
       rect:
         serializedVersion: 2
-        x: 532
-        y: 136
-        width: 25
-        height: 50
+        x: 533
+        y: 137
+        width: 23
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -601,319 +601,55 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_18
+      name: CityHyde_18
       rect:
         serializedVersion: 2
-        x: 16
+        x: 17
+        y: 73
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cb0a72b33e2fefc8b5bb178b6cdb6c
+      internalID: -1601033587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityHyde_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 73
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a37ed4e23fbc5d8ea2f0962248703e0
+      internalID: -1174551021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityHyde_20
+      rect:
+        serializedVersion: 2
+        x: 145
         y: 72
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d75b3e639a2cfe500800000000000000
-      internalID: 427774521649640829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hyde_19
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 72
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f16f872ee876b6d70800000000000000
-      internalID: 9037430940631627295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hyde_20
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 71
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: edcb5416ba726a0f0800000000000000
-      internalID: -1106153041448026914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hyde_21
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 71
-        width: 31
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9f78947e001cd370800000000000000
-      internalID: 8348565463509794718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hyde_22
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 71
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 411590e7940e3cc60800000000000000
-      internalID: 7837354382806569236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hyde_23
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 72
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 87038dc9475754750800000000000000
-      internalID: 6288561598400835704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hyde_24
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 71
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60c8e26b71649c660800000000000000
-      internalID: 7406528129842187270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hyde_25
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 71
-        width: 31
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d1ee7edc41e36c550800000000000000
-      internalID: 6180695797687381533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hyde_26
-      rect:
-        serializedVersion: 2
-        x: 528
-        y: 71
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac4d0ab6ddd5777b0800000000000000
-      internalID: -5226605636965313334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hyde_27
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 8
-        width: 24
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1540c96037afa1820800000000000000
-      internalID: 2889897482850665553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hyde_28
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 8
-        width: 27
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19b2b50f778c92070800000000000000
-      internalID: 8082211423752235921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hyde_29
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 9
-        width: 24
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86e8d8b9958d05d00800000000000000
-      internalID: 959504600003350120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hyde_30
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 9
-        width: 26
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e9315e1641e2a9d0800000000000000
-      internalID: -2764399529979463191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hyde_31
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 8
-        width: 27
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34d56715551aa6a20800000000000000
-      internalID: 3056432684935306563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hyde_32
-      rect:
-        serializedVersion: 2
-        x: 335
-        y: 8
         width: 30
         height: 49
       alignment: 0
@@ -922,76 +658,340 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cd3751e1c47ac2ad0800000000000000
-      internalID: -2725619729101917220
+      spriteID: 6110469172889a17eb50900d595867d5
+      internalID: 1642902538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_33
+      name: CityHyde_21
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 72
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9353246f8706f95abdda41cb62b9f82
+      internalID: -1562428942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityHyde_22
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 72
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bb8365c640b1fb8bbb9282cfe36adc
+      internalID: -1188060833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityHyde_23
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 73
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076a7de52a1f889309f7f1c513bf2b0a
+      internalID: -2080592893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityHyde_24
       rect:
         serializedVersion: 2
         x: 401
-        y: 8
-        width: 27
-        height: 50
+        y: 72
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2bbbf33942e597790800000000000000
-      internalID: -7531885390618182734
+      spriteID: 17d25b34441cecd329ada8a9181d6dda
+      internalID: -2035984694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_34
+      name: CityHyde_25
       rect:
         serializedVersion: 2
-        x: 466
-        y: 8
-        width: 26
-        height: 50
+        x: 465
+        y: 72
+        width: 29
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 682229ca98af6e3f0800000000000000
-      internalID: -871734008636890490
+      spriteID: fefb2e746b29d6c03a78ff0c4ac1ebbd
+      internalID: 1890342190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hyde_35
+      name: CityHyde_26
       rect:
         serializedVersion: 2
-        x: 531
-        y: 8
+        x: 529
+        y: 72
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdd1f981561969e0845595da2925eef
+      internalID: -1953302220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityHyde_27
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 9
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d2cf9f8f776885cbd1cc7261cc7b0f
+      internalID: 1153527274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityHyde_28
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 9
         width: 25
-        height: 50
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 89183d0148e5bbdc0800000000000000
-      internalID: -3622197553978441320
+      spriteID: 56b2b38ed28b96381847f04cae7c69a8
+      internalID: -1866653549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityHyde_29
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 10
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5b7cbbb5ad1a5729701bac9b02426f
+      internalID: 157915478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityHyde_30
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 10
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e21bc076ad63cb0b967c094ba6bafe9
+      internalID: -1926140036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityHyde_31
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 9
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbde86ba9e3036a9ae30ac88fe84a7c
+      internalID: 2141512503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityHyde_32
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 9
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee97370574b4d020b7980da72f183e4
+      internalID: 613857449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityHyde_33
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 9
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a07345f06501b0719da9e99c6856a71
+      internalID: -1880709516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityHyde_34
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 9
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144ee89f5146ce10c92cbb5dfb58bf0f
+      internalID: 1452127915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityHyde_35
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 9
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bd9de7f04d77c1fbc55d717c5ff2b3
+      internalID: 1834903386
       vertices: []
       indices: 
       edges: []
@@ -1000,7 +1000,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ddd18b52fba1e2eb5b7ab3b8a794e542
     internalID: 0
     vertices: []
     indices: 
@@ -1010,42 +1010,42 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Hyde_0: -3812045913694455442
-      Hyde_1: -4716646494786490013
-      Hyde_10: -2890707739133707010
-      Hyde_11: -6598967796843960050
-      Hyde_12: -8794907716921265545
-      Hyde_13: 4773393131526859977
-      Hyde_14: -8305752294653511600
-      Hyde_15: -5532583595411038601
-      Hyde_16: 4770897196073478238
-      Hyde_17: -407187794987071470
-      Hyde_18: 427774521649640829
-      Hyde_19: 9037430940631627295
-      Hyde_2: -1283312381243825459
-      Hyde_20: -1106153041448026914
-      Hyde_21: 8348565463509794718
-      Hyde_22: 7837354382806569236
-      Hyde_23: 6288561598400835704
-      Hyde_24: 7406528129842187270
-      Hyde_25: 6180695797687381533
-      Hyde_26: -5226605636965313334
-      Hyde_27: 2889897482850665553
-      Hyde_28: 8082211423752235921
-      Hyde_29: 959504600003350120
-      Hyde_3: -2676499034239209825
-      Hyde_30: -2764399529979463191
-      Hyde_31: 3056432684935306563
-      Hyde_32: -2725619729101917220
-      Hyde_33: -7531885390618182734
-      Hyde_34: -871734008636890490
-      Hyde_35: -3622197553978441320
-      Hyde_4: 6686630448950863997
-      Hyde_5: 3288817193530970429
-      Hyde_6: -1099073841543157705
-      Hyde_7: 5804748085211798759
-      Hyde_8: 441450369289867299
-      Hyde_9: 508785664366981100
+      CityHyde_0: -3812045913694455442
+      CityHyde_1: -4716646494786490013
+      CityHyde_10: -2890707739133707010
+      CityHyde_11: -6598967796843960050
+      CityHyde_12: -8794907716921265545
+      CityHyde_13: 4773393131526859977
+      CityHyde_14: -8305752294653511600
+      CityHyde_15: -5532583595411038601
+      CityHyde_16: 4770897196073478238
+      CityHyde_17: -407187794987071470
+      CityHyde_18: -1601033587
+      CityHyde_19: -1174551021
+      CityHyde_2: -1283312381243825459
+      CityHyde_20: 1642902538
+      CityHyde_21: -1562428942
+      CityHyde_22: -1188060833
+      CityHyde_23: -2080592893
+      CityHyde_24: -2035984694
+      CityHyde_25: 1890342190
+      CityHyde_26: -1953302220
+      CityHyde_27: 1153527274
+      CityHyde_28: -1866653549
+      CityHyde_29: 157915478
+      CityHyde_3: -2676499034239209825
+      CityHyde_30: -1926140036
+      CityHyde_31: 2141512503
+      CityHyde_32: 613857449
+      CityHyde_33: -1880709516
+      CityHyde_34: 1452127915
+      CityHyde_35: 1834903386
+      CityHyde_4: 6686630448950863997
+      CityHyde_5: 3288817193530970429
+      CityHyde_6: -1099073841543157705
+      CityHyde_7: 5804748085211798759
+      CityHyde_8: 441450369289867299
+      CityHyde_9: 508785664366981100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
