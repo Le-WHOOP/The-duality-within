@@ -30,13 +30,27 @@ public class GameController : MonoBehaviour
         player2InputHandler.Player = mazePlayerController;
 
         if (GameSettings.SwapRoles)
-            SwapRoles();
+            SwapPersonnalities();
+    }
+
+    /// <summary>
+    /// Come on, you really need a comment to understand this method ?
+    /// </summary>
+    private void SwapPersonnalities()
+    {
+        cityPlayerController.SwapPersonnality();
+        mazePlayerController.SwapPersonnality();
     }
 
     public void SwapRoles()
     {
+        // Invert the controls, so that each player now control the other character
         (player2InputHandler.Player, player1InputHandler.Player) = (player1InputHandler.Player, player2InputHandler.Player);
 
+        // Swap the personnality, to update the sprites and the available interactions
+        SwapPersonnalities();
+
+        // Invert the camera layout, to align each player with the charcater it controls
         cityCamera.rect = new Rect(cityCamera.rect)
         {
             x = maze_screen_ratio - cityCamera.rect.x,
