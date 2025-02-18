@@ -23,5 +23,5 @@ public abstract class InteractableController : MonoBehaviour
     /// <summary>
     /// Use the interaction
     /// </summary>
-    public abstract void Interact();
+    public abstract void Interact(CityPlayerController player);
 }

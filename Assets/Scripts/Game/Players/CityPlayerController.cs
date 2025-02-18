@@ -30,7 +30,7 @@ public class CityPlayerController : PlayerController
         // Since Unity overrides the null operator, we can't use the null propagation (? operator)
         InteractableController interaction = Interactions.FirstOrDefault();
         if (interaction != null)
-            interaction.Interact();
+            interaction.Interact(this);
     }
 
     public void SwapPersonnality()
