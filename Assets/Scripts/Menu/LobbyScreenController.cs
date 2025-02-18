@@ -26,6 +26,10 @@ public class LobbyScreenController : ScreenController
     [SerializeField]
     private Image p2Image;
 
+    [Header("Scene")]
+    [SerializeField]
+    private FadeScene fadeScene;
+
     private Difficulty BoundDifficulty(Difficulty difficulty, Difficulty min, Difficulty max)
     {
         return difficulty < min ? min : (difficulty > max ? max : difficulty);
@@ -88,6 +92,6 @@ public class LobbyScreenController : ScreenController
 
     public void StartGame()
     {
-        SceneManager.LoadScene("GameScene");
+        StartCoroutine(fadeScene.LoadScene("GameScene"));
     }
 }

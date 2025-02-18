@@ -12,6 +12,14 @@ public class SpriteImporter : AssetPostprocessor {
     /// <param name="texture">The imported sprite.</param>
     void OnPostprocessTexture(Texture2D texture)
     {
+        bool shouldBeSkipped = assetPath.Contains("UI/");
+
+        if (shouldBeSkipped)
+        {
+            return;
+        }
+
+
         TextureImporter textureImporter = (TextureImporter)assetImporter;
 
         textureImporter.textureType = TextureImporterType.Sprite;
