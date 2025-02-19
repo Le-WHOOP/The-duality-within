@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using JetBrains.Annotations;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Checklist : MonoBehaviour
@@ -13,6 +15,10 @@ public class Checklist : MonoBehaviour
     // Associates an ingredient with wether it was collected
     private readonly Dictionary<InteractableIngredient, bool> _checklist = new ();
 
+    private GameObject _inventory;
+    [SerializeField]
+    private GameObject _item;
+
     // Awake is called when the script instance is being loaded
     void Awake()
     {
@@ -21,9 +27,17 @@ public class Checklist : MonoBehaviour
         InitializeChecklist();
     }
 
-    void Update()
+    void Start()
     {
-        // TODO handle display
+        _inventory = GetComponent<GameObject>();
+
+        foreach (InteractableIngredient item in _checklist.Keys)
+        {
+            GameObject newitem = Instantiate(_item);
+            newitem.name = item.ingredientSprite.name;
+            newitem.transform.parent = _inventory.transform;
+            newitem.transform.Find("Ingredient").gameObject.GetComponent<SpriteRenderer>().sprite = item.ingredientSprite;
+        }
     }
 
     /// <summary>
@@ -66,7 +80,7 @@ public class Checklist : MonoBehaviour
             case Difficulty.Medium:
                 return 6;
             case Difficulty.Hard:
-                return 11;
+                return 9;
             default:
                 throw new Exception("wtf is this difficulty?");
         }
@@ -84,6 +98,7 @@ public class Checklist : MonoBehaviour
             throw new Exception("an invalid ingredient is being collected");
         }
         _checklist[ingredient] = true;
+        _inventory.transform.Find(ingredient.ingredientSprite.name).Find("Checkmark").gameObject.SetActive(true);
     }
 
     /// <summary>

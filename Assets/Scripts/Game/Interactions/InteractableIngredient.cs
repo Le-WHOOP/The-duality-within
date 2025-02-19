@@ -21,6 +21,9 @@ public class InteractableIngredient : InteractableController
 
     public InteractableIngredient() : base(Personnality.Jekyll) { }
 
+    [SerializeField]
+    public Sprite ingredientSprite;
+
     void Start()
     {
         // If this item is inside a specific building, it should only by visible and interactable if the player is
