@@ -4,6 +4,7 @@ using System.Linq;
 using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Checklist : MonoBehaviour
 {
@@ -29,14 +30,15 @@ public class Checklist : MonoBehaviour
 
     void Start()
     {
-        _inventory = GetComponent<GameObject>();
+        _inventory = gameObject;
 
         foreach (InteractableIngredient item in _checklist.Keys)
         {
             GameObject newitem = Instantiate(_item);
             newitem.name = item.ingredientSprite.name;
             newitem.transform.parent = _inventory.transform;
-            newitem.transform.Find("Ingredient").gameObject.GetComponent<SpriteRenderer>().sprite = item.ingredientSprite;
+            newitem.transform.localScale = new Vector3(1,1,1);
+            newitem.transform.Find("Ingredient").gameObject.GetComponent<Image>().sprite = item.ingredientSprite;
         }
     }
 
@@ -72,6 +74,7 @@ public class Checklist : MonoBehaviour
     /// <exception cref="Exception"></exception>
     private int GetTotalIngredients()
     {
+        return 1;
         Difficulty jekyllDifficulty = GameSettings.SwapRoles ? GameSettings.Player2Difficulty : GameSettings.Player1Difficulty;
         switch (jekyllDifficulty)
         {
