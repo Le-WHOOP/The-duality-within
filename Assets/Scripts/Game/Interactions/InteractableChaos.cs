@@ -2,13 +2,15 @@
 
 public class InteractableChaos : InteractableController
 {
-    [SerializeField]
-    private float _chaosValue;
+    public float ChaosValue;
 
     public InteractableChaos(Personnality availableTo) : base(Personnality.Hyde) { }
 
     public override void Interact(CityPlayerController player)
     {
-        ChaosSystem.Instance.RaiseChaos(_chaosValue);
+        if (player.GetCurrentPersonnality() == Personnality.Hyde)
+        {
+            ChaosSystem.Instance.RaiseChaos(this);
+        }
     }
 }

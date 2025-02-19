@@ -62,4 +62,13 @@ public class CityPlayerController : PlayerController
         foreach (InteractableController interaction in Interactions.Where(interaction => !interaction.IsAvailableTo(_personnality)))
             Interactions.Remove(interaction);
     }
+
+
+    /// <summary>
+    /// returns the current personnality of the playerController
+    /// </summary>
+    public Personnality GetCurrentPersonnality()
+    {
+        return _personnality;
+    }
 }

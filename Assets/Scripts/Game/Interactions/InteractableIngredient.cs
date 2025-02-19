@@ -36,6 +36,9 @@ public class InteractableIngredient : InteractableController
 
     public override void Interact(CityPlayerController player)
     {
-        Checklist.Instance.Collect(this);
+        if (player.GetCurrentPersonnality() == Personnality.Jekyll)
+        {
+            Checklist.Instance.Collect(this);
+        }
     }
 }

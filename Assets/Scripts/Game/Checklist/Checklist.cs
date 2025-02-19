@@ -17,6 +17,10 @@ public class Checklist : MonoBehaviour
     void Awake()
     {
         Instance = this;
+    }
+
+    void Start()
+    {
         // Initialize the inventory according to the difficulty
         InitializeChecklist();
     }
@@ -83,7 +87,12 @@ public class Checklist : MonoBehaviour
         {
             throw new Exception("an invalid ingredient is being collected");
         }
-        _checklist[ingredient] = true;
+        
+        if (!_checklist[ingredient])
+        {
+            _checklist[ingredient] = true;
+            // TODO collect animation/change in sprites
+        }
     }
 
     /// <summary>
