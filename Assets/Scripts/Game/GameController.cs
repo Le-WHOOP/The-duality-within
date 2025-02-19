@@ -1,7 +1,10 @@
+using System;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
+    public static GameController Instance { get; private set; }
+
     private const float city_screen_ratio = 0.6f;
     // TODO Find a better name
     private const float maze_screen_ratio = 1 - city_screen_ratio;
@@ -24,8 +27,21 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private Camera mazeCamera;
 
+    [Header("Transition")]
+    [SerializeField]
+    private FadeScene _fadeScene;
+
+    public GameController()
+    {
+        if (Instance != null)
+            throw new Exception("There is an impostor among us");
+        Instance = this;
+    }
+
     void Start()
     {
+        _fadeScene = GetComponent<FadeScene>();
+
         player1InputHandler.Player = cityPlayerController;
         player2InputHandler.Player = mazePlayerController;
 
@@ -61,5 +77,13 @@ public class GameController : MonoBehaviour
             x = city_screen_ratio - mazeCamera.rect.x,
             width = (1 + maze_screen_ratio) - mazeCamera.rect.width,
         };
+    }
+
+    public void EndGame()
+    {
+        // You can only win when you are the one in control
+        CityPlayerController winner = cityPlayerController;
+        GameResults.Winner = player1InputHandler.Player == winner ? 1 : 2;
+        StartCoroutine(_fadeScene.LoadScene("EndScene"));
     }
 }
