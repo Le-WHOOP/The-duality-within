@@ -15,12 +15,17 @@ using System;
 
 public class ChaosSystem : MonoBehaviour
 {
+	[SerializeField]
 	public static ChaosSystem Instance;
 
-	public Image currentChaosBar;
-	public float chaosPoint = 0f;
+	[SerializeField]
+	private SpriteRenderer currentChaosBar;
 
-	public float maxChaosPoint = 100f;
+	[SerializeField]
+	private float chaosPoint = 0f;
+
+	[SerializeField]
+	private float maxChaosPoint = 100f;
 
 	//==============================================================
 	// Awake
@@ -65,7 +70,7 @@ public class ChaosSystem : MonoBehaviour
     private void UpdateChaosBar()
 	{
 		float ratio = chaosPoint / maxChaosPoint;
-		currentChaosBar.rectTransform.localPosition = new Vector3(currentChaosBar.rectTransform.rect.width * ratio - currentChaosBar.rectTransform.rect.width, 0, 0);
+		currentChaosBar.transform.localScale = new Vector3(currentChaosBar.transform.localScale.x * ratio - currentChaosBar.transform.localScale.x, 0, 0);
 	}
 
 	public void RaiseChaos(float value)
