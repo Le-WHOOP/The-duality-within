@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: cab335d77b235f38284e5848a3a0923b
+guid: 2fb21d960939043e0beb75980b180d2f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6875174527409477160
-    second: BuildingF_Shop_0
+      213: 5187565832217461001
+    second: ShopKeeper_0
+  - first:
+      213: 1042364863738072032
+    second: ShopKeeper_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -56,7 +59,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -96,77 +99,59 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 1
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BuildingF_Shop_0
+      name: ShopKeeper_0
       rect:
         serializedVersion: 2
-        x: 63
-        y: 55
-        width: 418
-        height: 650
+        x: 16
+        y: 2
+        width: 30
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8265e037ec6896f50800000000000000
-      internalID: 6875174527409477160
+      spriteID: 8a8be8d9b912f7b67b432c2222452180
+      internalID: -215328798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopKeeper_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076e1b0e400705275b59401433a6d2bd
+      internalID: 177995246
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
     customData: 
-    physicsShape:
-    - - {x: -82, y: -265}
-      - {x: -64, y: -256}
-      - {x: -14, y: -256}
-      - {x: -14, y: -278}
-      - {x: 14, y: -278}
-      - {x: 14, y: -256}
-      - {x: 63, y: -256}
-      - {x: 81, y: -265}
-      - {x: 206, y: -265}
-      - {x: 204, y: 247}
-      - {x: 140, y: 268}
-      - {x: -140, y: 268}
-      - {x: -204, y: 245}
-      - {x: -204, y: -265}
+    physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 8a8a74ac3e0a25bc79a706f4aece1502
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -175,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BuildingF_Shop_0: 6875174527409477160
+      ShopKeeper_0: -215328798
+      ShopKeeper_1: 177995246
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

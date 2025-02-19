@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: 9ea6937e9574be16c9f91f17ee0c9a82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8165798451522244012
+    second: TavernInterior_0
+  - first:
+      213: -6623136519370754579
+    second: TavernInterior_1
+  - first:
+      213: -6865059736868787138
+    second: TavernInterior_2
+  - first:
+      213: 3423046259590915805
+    second: TavernInterior_3
+  - first:
+      213: -8480202517083738719
+    second: TavernInterior_4
+  - first:
+      213: -8036585283260739429
+    second: TavernInterior_5
+  - first:
+      213: -6292775310303613832
+    second: TavernInterior_6
+  - first:
+      213: 1596610425463594846
+    second: TavernInterior_7
+  - first:
+      213: 4583244260277009721
+    second: TavernInterior_8
+  - first:
+      213: -362067296143939773
+    second: TavernInterior_9
+  - first:
+      213: -6358215184997688866
+    second: TavernInterior_10
+  - first:
+      213: -8646367891768335774
+    second: TavernInterior_11
+  - first:
+      213: -3963426828960283551
+    second: TavernInterior_12
+  - first:
+      213: 667805997389227748
+    second: TavernInterior_13
+  - first:
+      213: 3228587047634798158
+    second: TavernInterior_14
+  - first:
+      213: -3446965387096124867
+    second: TavernInterior_15
+  - first:
+      213: 5946554527759711753
+    second: TavernInterior_16
+  - first:
+      213: -8238123856963256461
+    second: TavernInterior_17
+  - first:
+      213: 2605729352791667682
+    second: TavernInterior_18
+  - first:
+      213: -3358155885694678889
+    second: TavernInterior_19
+  - first:
+      213: -1506004105128276909
+    second: TavernInterior_20
+  - first:
+      213: 480454678567964414
+    second: TavernInterior_21
+  - first:
+      213: 7109151926054736407
+    second: TavernInterior_22
+  - first:
+      213: 520895279446880692
+    second: TavernInterior_23
+  - first:
+      213: -2996972699160318950
+    second: TavernInterior_24
+  - first:
+      213: 5211277888753460552
+    second: TavernInterior_25
+  - first:
+      213: -7284463824442992356
+    second: TavernInterior_26
+  - first:
+      213: -900902993641770149
+    second: TavernInterior_27
+  - first:
+      213: 427671636525509244
+    second: TavernInterior_28
+  - first:
+      213: 438121333084911343
+    second: TavernInterior_29
+  - first:
+      213: 8720662771440314362
+    second: TavernInterior_30
+  - first:
+      213: -2988620016491128709
+    second: TavernInterior_31
+  - first:
+      213: 3768339158917201719
+    second: TavernInterior_32
+  - first:
+      213: 9016789562799153511
+    second: TavernInterior_33
+  - first:
+      213: -4516228730987938433
+    second: TavernInterior_34
+  - first:
+      213: -8840224136206295073
+    second: TavernInterior_35
+  - first:
+      213: 8763269627449931906
+    second: TavernInterior_36
+  - first:
+      213: 90442821381221001
+    second: TavernInterior_37
+  - first:
+      213: -8571581813932028838
+    second: TavernInterior_38
+  - first:
+      213: 3502697536760773423
+    second: TavernInterior_39
+  - first:
+      213: -9212663659044286862
+    second: TavernInterior_40
+  - first:
+      213: -2399287245246253393
+    second: TavernInterior_41
+  - first:
+      213: 3506146701907349235
+    second: TavernInterior_42
+  - first:
+      213: 937622889390351444
+    second: TavernInterior_43
+  - first:
+      213: -2628969987153056648
+    second: TavernInterior_44
+  - first:
+      213: -7603631327185158269
+    second: TavernInterior_45
+  - first:
+      213: -6280341681471667404
+    second: TavernInterior_46
+  - first:
+      213: 2655818000831278220
+    second: TavernInterior_47
+  - first:
+      213: -8234613955415162632
+    second: TavernInterior_48
+  - first:
+      213: 2654231783668091472
+    second: TavernInterior_49
+  - first:
+      213: -2688347975711001927
+    second: TavernInterior_50
+  - first:
+      213: -4088193633944262528
+    second: TavernInterior_51
+  - first:
+      213: -8856391320443860829
+    second: TavernInterior_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TavernInterior_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 115
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54c0bd21288a3207a4b0f07bfe0f5f7
+      internalID: -589791721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77a664d7564bc205ad9967f5ad76c07
+      internalID: 902259857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 121
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b95a71963c4bd9cd9262e271721a813
+      internalID: 958490502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 151
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a7e727ca237d1618042400223ca316
+      internalID: -1262053450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 145
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e125410e2ee5e883ab558da20d0ac4d9
+      internalID: -1337313018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 149
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c59a8fd899b9b5909d522d748830958
+      internalID: -2142411947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_6
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 148
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41bf3e086cb21657a7a1b93d0ce1ed3
+      internalID: -407482720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 152
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f97aece7b859d04b99da9b84b8e1b8
+      internalID: 754854420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_8
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 145
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ba2b979411dd8df915a6d01bfd1527
+      internalID: 1076650001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_9
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 145
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3445e902e533ea0940a81f701eadd0
+      internalID: 1281293493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_10
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 147
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d83da13e92ab5501aa8654a5359e5e7
+      internalID: -2096701681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 52
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb16d662ab87afef680efeee35732946
+      internalID: 335343880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_12
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 101
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2efb926e07da405ab47d5936eda006
+      internalID: -350007829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_13
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 102
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b518576b33df039d39b0196f42a2e50c
+      internalID: -161326777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 101
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d241b3adc33bcb48babf90af401e73bc
+      internalID: 1497204886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e1fa9c9617be8acb51c8d18c8e7c96
+      internalID: -908426022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_16
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 96
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d3828d01f7bbb2eaea7e6529d80300
+      internalID: 1288932933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_17
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca5b699605f8d96d80b5220601fdf68
+      internalID: -370437475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_18
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 97
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7662385441b9d5beaadf1d4c7315dcda
+      internalID: -372009342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 48
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fae121fcfa43a6ffa3c2ddbb89715a7
+      internalID: 827719391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_20
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 85
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46259d489ac11c865a767234b23db42b
+      internalID: 662429607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_21
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 88
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dff4cf0029b0c9ba6db64e60395580
+      internalID: -657371723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_22
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 83
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b627b89d3792b499e2941f59e50255
+      internalID: -821081128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_23
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 83
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c331d479934ad4c9fe525fb13d6a2a
+      internalID: 2068550027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_24
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 51
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92b3867a55578a19920600c9cf2ca45
+      internalID: -2084019406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_25
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 56
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29060df37bfcddf1f961d3fe61ebadad
+      internalID: 187281912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_26
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 53
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2182b6693a53e794b92b60916f1e4f9
+      internalID: 1925485071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_27
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 52
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e470d6553e8b0efb6515923e1fb06c
+      internalID: -1258033845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_28
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 55
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2292199f9dca6bdb58be51a8ae6fc8
+      internalID: -532015816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_29
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 53
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6f1145e8e82a48a81392dcfd030b6f
+      internalID: 1178239527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_30
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 53
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e5dcd22f37b8db8a6aca93a4f5dee4
+      internalID: -1316330297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_31
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 48
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ce699090a146febae77a3ba5074979
+      internalID: -421454482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_32
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2425dace3343ec4949fe89859f748bf1
+      internalID: 22244916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_33
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 52
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09310991b9eb8c7bbf42f3e3bb58ae3
+      internalID: 130666835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_34
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 51
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cd1feaf2e641d81a76aecfc4ec3e08
+      internalID: 1605571251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_35
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 7
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa13d0a68d789e8b94d0e1254fefefb
+      internalID: 2127338469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_36
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 16
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cc1d78e15e8eac494bb8de7ebfedd2
+      internalID: -898051826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_37
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 24
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7caf764204b2a29a5a707b917b6cc63c
+      internalID: 662314565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_38
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 24
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdda6c8dcadee402fac45618acb79942
+      internalID: -935336346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_39
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 5
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d28cd9c9c538ae97861705364c7faad
+      internalID: 77056299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_40
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7b847f782d1982cbe4b25231b47c48
+      internalID: -1525535910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ac3863b8320209d91c10fedb090215
+      internalID: -1011009791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_42
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d23ad97e1a7778e4a34b99025f9b6c5
+      internalID: 112995369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_43
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0924f84f5917b77adb08e2475601fb47
+      internalID: -781290903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_44
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a74aaaf9b6712688a52a0684313aba0
+      internalID: 576696253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_45
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 4
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480e582a3dedc9f2da99c68f54424832
+      internalID: -1250822565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_46
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 4
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171688ea5385b276c86041bf7e3b0b9f
+      internalID: 1057397875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_47
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 9
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946ced4171ed9092c9f90727eb5332e0
+      internalID: -1083468464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_48
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 9
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db65d2ce944d3bb8c9639cd7e12705a6
+      internalID: -704642046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_49
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 9
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7595e4ceb09ca49f8af710dc41428242
+      internalID: -1712694212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_50
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 9
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725423abbf1cf951f9401a3dbb29cc6b
+      internalID: 1113349288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_51
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 17
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832effe9508748576990cdeac3f075c7
+      internalID: 295222495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TavernInterior_52
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacc8dd124bdacb449ff01505ee3af1c
+      internalID: 1577047855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 54fc2f7c3c4780d4b935e7c43136df65
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TavernInterior_0: -589791721
+      TavernInterior_1: 902259857
+      TavernInterior_10: -2096701681
+      TavernInterior_11: 335343880
+      TavernInterior_12: -350007829
+      TavernInterior_13: -161326777
+      TavernInterior_14: 1497204886
+      TavernInterior_15: -908426022
+      TavernInterior_16: 1288932933
+      TavernInterior_17: -370437475
+      TavernInterior_18: -372009342
+      TavernInterior_19: 827719391
+      TavernInterior_2: 958490502
+      TavernInterior_20: 662429607
+      TavernInterior_21: -657371723
+      TavernInterior_22: -821081128
+      TavernInterior_23: 2068550027
+      TavernInterior_24: -2084019406
+      TavernInterior_25: 187281912
+      TavernInterior_26: 1925485071
+      TavernInterior_27: -1258033845
+      TavernInterior_28: -532015816
+      TavernInterior_29: 1178239527
+      TavernInterior_3: -1262053450
+      TavernInterior_30: -1316330297
+      TavernInterior_31: -421454482
+      TavernInterior_32: 22244916
+      TavernInterior_33: 130666835
+      TavernInterior_34: 1605571251
+      TavernInterior_35: 2127338469
+      TavernInterior_36: -898051826
+      TavernInterior_37: 662314565
+      TavernInterior_38: -935336346
+      TavernInterior_39: 77056299
+      TavernInterior_4: -1337313018
+      TavernInterior_40: -1525535910
+      TavernInterior_41: -1011009791
+      TavernInterior_42: 112995369
+      TavernInterior_43: -781290903
+      TavernInterior_44: 576696253
+      TavernInterior_45: -1250822565
+      TavernInterior_46: 1057397875
+      TavernInterior_47: -1083468464
+      TavernInterior_48: -704642046
+      TavernInterior_49: -1712694212
+      TavernInterior_5: -2142411947
+      TavernInterior_50: 1113349288
+      TavernInterior_51: 295222495
+      TavernInterior_52: 1577047855
+      TavernInterior_6: -407482720
+      TavernInterior_7: 754854420
+      TavernInterior_8: 1076650001
+      TavernInterior_9: 1281293493
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

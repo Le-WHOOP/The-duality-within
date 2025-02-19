@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: d3057d30be24936bdaa7c9cdf24e81f4
+guid: dd94739b7aedb26db8e6839c17d91550
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7576874432042752839
-    second: Ingredients_0
+      213: -8377176514351306927
+    second: Carriages_0
   - first:
-      213: -2432301806248295829
-    second: Ingredients_1
+      213: -7574363283188772832
+    second: Carriages_1
   - first:
-      213: 7641124845627605941
-    second: Ingredients_2
+      213: -5816199250623960976
+    second: Carriages_2
   - first:
-      213: 7781682652552636025
-    second: Ingredients_3
+      213: -8058864796284716887
+    second: Carriages_3
   - first:
-      213: 7355374725913390886
-    second: Ingredients_4
+      213: -4836384672518144399
+    second: Carriages_4
   - first:
-      213: 8474640244576014681
-    second: Ingredients_5
+      213: -5235586071936835430
+    second: Carriages_5
   - first:
-      213: -4074711270985794095
-    second: Ingredients_6
+      213: 9094538658016637644
+    second: Carriages_6
   - first:
-      213: -4596230732992929682
-    second: Ingredients_7
+      213: -740457712216166731
+    second: Carriages_7
   - first:
-      213: 3043345516689560434
-    second: Ingredients_8
+      213: -7053411071601950990
+    second: Carriages_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,243 +124,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lavender
+      name: Carriages_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 112
-        width: 32
-        height: 32
+        y: 128
+        width: 160
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e415707d659f5587828f75d65839e2a
-      internalID: -453757179
+      spriteID: 4163588cbc869cb089fbbd219f9764ef
+      internalID: -1834278746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Loosestrife
+      name: Carriages_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 112
-        width: 32
-        height: 32
+        x: 160
+        y: 128
+        width: 160
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb2a3ea7274ae6302a57c2a29b3dce1c
-      internalID: 1935868055
+      spriteID: 3b5c29f1ab97d5f56be21b0986405fd5
+      internalID: 1847383707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LavenderPicked
+      name: Carriages_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 80
-        width: 32
-        height: 32
+        x: 320
+        y: 128
+        width: 160
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c92a1497a6d9ac200a9fa943ae4de928
-      internalID: 208525948
+      spriteID: 83de3c4d3bec7e0678c9e397c010d1c8
+      internalID: -1577146812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LoosestrifePicked
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 80
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 763dfb6f71128c0a79f987346da25373
-      internalID: 940928633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nettle
+      name: Carriages_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 32
-        height: 32
+        y: 64
+        width: 160
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e365a0a07e7259fc936149b0341a5fd
-      internalID: -1554889802
+      spriteID: a979c77409b50b9158223e494f44290f
+      internalID: -1265920217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Valerian
+      name: Carriages_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
-        width: 32
-        height: 32
+        x: 160
+        y: 64
+        width: 160
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a46cb64594390ae32884d4c8fe639b38
-      internalID: -1706863418
+      spriteID: b3dd1f35e006608c18088754eb9dfa72
+      internalID: 6505266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NettlePicked
+      name: Carriages_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 160
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570ca6af629c7910d993e6087026559d
+      internalID: 1192822777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carriages_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 122b7827465fceb8481197820d62488f
-      internalID: 1931730093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ValerianPicked
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b559dd7b111167b5a8ed36bb0ddd8026
-      internalID: 1930000092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MannaTree
-      rect:
-        serializedVersion: 2
-        x: 64
         y: 0
-        width: 96
-        height: 144
+        width: 160
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1b1cf3494de489c09df47460fa9e7a1
-      internalID: 1673991431
+      spriteID: 03870957d5151facf8b32ab366325994
+      internalID: 1581843688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MannaTreePicked
+      name: Carriages_7
       rect:
         serializedVersion: 2
         x: 160
         y: 0
-        width: 96
-        height: 144
+        width: 160
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4659f9b99a09f75b85e2a495f445ea7
-      internalID: 1292391281
+      spriteID: c93823fbe96590ff3b27b55dda5f5353
+      internalID: 306285064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Manna
+      name: Carriages_8
       rect:
         serializedVersion: 2
-        x: 8
-        y: 1
-        width: 16
-        height: 16
+        x: 320
+        y: 0
+        width: 160
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86f6d76a1e20640dea8fa899d318c5e3
-      internalID: 126917826
+      spriteID: 4feb03e1a06a83ba4b19ef5ab708cff3
+      internalID: -438105663
       vertices: []
       indices: 
       edges: []
@@ -369,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6a87ebc300238be40a7fe0050f0bac97
+    spriteID: 34605229c857d4dfabbd650169a15d09
     internalID: 0
     vertices: []
     indices: 
@@ -379,38 +335,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ingredients_10: 1084061470
-      Ingredients_11: 698966159
-      Ingredients_12: -773509002
-      Ingredients_13: -394418782
-      Ingredients_14: 1208706168
-      Ingredients_15: 2123182813
-      Ingredients_18: 1184132894
-      Ingredients_19: 159361840
-      Ingredients_20: 2103923242
-      Ingredients_21: 517418776
-      Ingredients_22: -599751061
-      Ingredients_23: 1362678760
-      Ingredients_26: -1768121471
-      Ingredients_27: -1433421124
-      Ingredients_3: 2073726645
-      Ingredients_30: 1496162425
-      Ingredients_31: 325169462
-      Ingredients_4: -66450303
-      Ingredients_5: -252937242
-      Ingredients_6: -94823861
-      Ingredients_7: 1321781447
-      Lavender: -453757179
-      LavenderPicked: 208525948
-      Loosestrife: 1935868055
-      LoosestrifePicked: 940928633
-      Manna: 126917826
-      MannaTree: 1673991431
-      MannaTreePicked: 1292391281
-      Nettle: -1554889802
-      NettlePicked: 1931730093
-      Valerian: -1706863418
-      ValerianPicked: 1930000092
+      Carriages_0: -1834278746
+      Carriages_1: 1847383707
+      Carriages_2: -1577146812
+      Carriages_3: -1265920217
+      Carriages_4: 6505266
+      Carriages_5: 1192822777
+      Carriages_6: 1581843688
+      Carriages_7: 306285064
+      Carriages_8: -438105663
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
