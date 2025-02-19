@@ -267,6 +267,7 @@ MonoBehaviour:
   mazePlayerController: {fileID: 1500099498}
   cityCamera: {fileID: 519420031}
   mazeCamera: {fileID: 966962430}
+  _fadeScene: {fileID: 860878363}
 --- !u!82 &75500023
 AudioSource:
   m_ObjectHideFlags: 0

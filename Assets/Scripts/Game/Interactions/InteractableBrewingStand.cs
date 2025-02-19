@@ -6,7 +6,7 @@
     {
         if (Checklist.Instance.IsChecklistComplete())
         {
-            // TODO Finish game
+            GameController.Instance.EndGame();
         }
     }
 }

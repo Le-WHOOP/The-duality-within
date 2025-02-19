@@ -101,11 +101,13 @@ public class ChaosSystem : MonoBehaviour
 		{
 			_chaosStatus[chaoticAction] = true;
 			chaosPoint += chaoticAction.ChaosValue;
-			chaosPoint = chaosPoint < 0 ? 0 : (chaosPoint > maxChaosPoint ? maxChaosPoint : chaosPoint);
+			chaosPoint = chaosPoint > maxChaosPoint ? maxChaosPoint : chaosPoint;
 
 			UpdateChaosBar();
 			// TODO animation
 		}
+		if (chaosPoint >= maxChaosPoint)
+			GameController.Instance.EndGame();
 	}
 
 	public void SetMaxChaos(float max)
