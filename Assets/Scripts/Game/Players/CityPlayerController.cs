@@ -8,13 +8,17 @@ public class CityPlayerController : PlayerController
 
     public CityPlayerController() : base(Personnality.Jekyll) { }
 
+    [Header("UI")]
     [SerializeField]
     private GameObject _chaosbar;
+    [SerializeField]
+    private GameObject _inventory;
 
     protected override void Start()
     {
         base.Start();
-        _chaosbar.SetActive(_personnality == Personnality.Hyde);   
+        _chaosbar.SetActive(_personnality == Personnality.Hyde);
+        _inventory.SetActive(_personnality == Personnality.Jekyll);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -65,6 +69,7 @@ public class CityPlayerController : PlayerController
     {
         base.SwapPersonnality();
         _chaosbar.SetActive(_personnality == Personnality.Hyde);
+        _inventory.SetActive(_personnality == Personnality.Jekyll);
 
         // Remove all interactions that are no longer accessible because of the personnality change
         // TODO If the player is already inside the trigger of an interaction that was for the other player when the
