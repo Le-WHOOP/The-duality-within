@@ -945,7 +945,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd2593ce096dd44e8f2e40a7e3bc288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeScene: {fileID: 2411682}
+  _winnerText: {fileID: 1620820813}
+  _descriptionText: {fileID: 2058584700}
+  _fadeScene: {fileID: 2411682}
 --- !u!1 &1458288134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1099,7 +1101,7 @@ GameObject:
   - component: {fileID: 1620820814}
   - component: {fileID: 1620820813}
   m_Layer: 5
-  m_Name: WonText
+  m_Name: WinnerText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1144,7 +1146,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Player ? won !
+  m_text: Player {winner} won !
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a2161d20cdbfb84bac5d5a2559a5ca5, type: 2}
   m_sharedMaterial: {fileID: -9921027517873371, guid: 9a2161d20cdbfb84bac5d5a2559a5ca5, type: 2}

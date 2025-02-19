@@ -1,18 +1,31 @@
+using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class EndMenuController : MonoBehaviour
 {
+    [Header("UI")]
     [SerializeField]
-    private FadeScene fadeScene;
+    private TextMeshProUGUI _winnerText;
+    [SerializeField]
+    private TextMeshProUGUI _descriptionText;
 
-    public void RestartButton() 
+    [Header("Transition")]
+    [SerializeField]
+    private FadeScene _fadeScene;
+
+    void Start()
     {
-        StartCoroutine(fadeScene.LoadScene("GameScene"));
+        _winnerText.text = _winnerText.text.Replace("{winner}", GameResults.Winner.ToString());
+        _descriptionText.text = _descriptionText.text.Split('/')[GameResults.Winner - 1];
+    }
+
+    public void RestartButton()
+    {
+        StartCoroutine(_fadeScene.LoadScene("GameScene"));
     }
 
     public void MenuButton()
     {
-        StartCoroutine(fadeScene.LoadScene("MenuScene"));
+        StartCoroutine(_fadeScene.LoadScene("MenuScene"));
     }
 }

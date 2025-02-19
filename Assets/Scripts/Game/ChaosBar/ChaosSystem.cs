@@ -74,6 +74,9 @@ public class ChaosSystem : MonoBehaviour
 		chaosPoint = chaosPoint < 0 ? 0 : (chaosPoint > maxChaosPoint ? maxChaosPoint : chaosPoint);
 
 		UpdateChaosBar();
+
+		if (chaosPoint >= maxChaosPoint)
+			GameController.Instance.EndGame();
 	}
 
 	public void SetMaxChaos(float max)
