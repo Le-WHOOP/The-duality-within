@@ -93,17 +93,13 @@ public class LobbyScreenController : ScreenController
 
         // Swap player names and images
         string tempName = _player1NameText.text;
-        Color tempColor = _player1Image.color;
-        // TODO: When sprites are available, swap sprites instead of just colors
-        // Sprite tempSprite = player1Image.sprite;
+        Sprite tempSprite = _player1Image.sprite;
 
         _player1NameText.text = _player2NameText.text;
         _player2NameText.text = tempName;
 
-        // player1Image.sprite = player2Image.sprite;
-        // player2Image.sprite = tempSprite;
-        _player1Image.color = _player2Image.color;
-        _player2Image.color = tempColor;
+        _player1Image.sprite = _player2Image.sprite;
+        _player2Image.sprite = tempSprite;
     }
 
     /// <summary>
