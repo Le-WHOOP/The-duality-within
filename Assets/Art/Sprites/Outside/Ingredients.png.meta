@@ -29,51 +29,6 @@ TextureImporter:
   - first:
       213: 3043345516689560434
     second: Ingredients_8
-  - first:
-      213: -3566493870488458173
-    second: Ingredients_9
-  - first:
-      213: -9028938477123893177
-    second: Ingredients_10
-  - first:
-      213: -3147275107796605358
-    second: Ingredients_11
-  - first:
-      213: -7238345598928273307
-    second: Ingredients_12
-  - first:
-      213: -1487846639901739016
-    second: Ingredients_13
-  - first:
-      213: -8329661860612166517
-    second: Ingredients_14
-  - first:
-      213: -1519781391214004731
-    second: Ingredients_15
-  - first:
-      213: -6690090318788270601
-    second: Ingredients_16
-  - first:
-      213: -7541670493543904985
-    second: Ingredients_17
-  - first:
-      213: 5148616327105364085
-    second: Ingredients_18
-  - first:
-      213: -2804774553036113763
-    second: Ingredients_19
-  - first:
-      213: 435446544171256481
-    second: Ingredients_20
-  - first:
-      213: 1717260352098108246
-    second: Ingredients_21
-  - first:
-      213: 7146553180955159659
-    second: Ingredients_22
-  - first:
-      213: 121948232160078227
-    second: Ingredients_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -166,19 +121,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 1
@@ -195,188 +137,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Menthol
+      name: Lavender
       rect:
         serializedVersion: 2
-        x: 24
-        y: 111
-        width: 17
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b42a5a19d889d690800000000000000
-      internalID: -7576874432042752839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Absinth
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 114
-        width: 11
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b628704e46abe3ed0800000000000000
-      internalID: -2432301806248295829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EauDeVie
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 115
-        width: 9
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b38b0c009aba0a60800000000000000
-      internalID: 7641124845627605941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Salt
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 115
-        width: 19
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9762834b4271efb60800000000000000
-      internalID: 7781682652552636025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MannaAs
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 22
-        width: 96
-        height: 139
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 62f24ffb75a831660800000000000000
-      internalID: 7355374725913390886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MannaAsh_Picked
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 22
-        width: 96
-        height: 139
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 951de21e668fb9570800000000000000
-      internalID: 8474640244576014681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blackcurrent
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 65
-        width: 23
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1dd7c9210b7b377c0800000000000000
-      internalID: -4074711270985794095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bearberry
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 63
-        width: 30
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e60293e0088e630c0800000000000000
-      internalID: -4596230732992929682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rhubarb
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 65
-        width: 28
+        x: 0
+        y: 112
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -384,98 +150,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2731f038f922c3a20800000000000000
-      internalID: 3043345516689560434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mint
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 64
-        width: 34
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34c6deb88b4418ec0800000000000000
-      internalID: -3566493870488458173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nettle
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 68
-        width: 29
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7488c2cda44c2b280800000000000000
-      internalID: -9028938477123893177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lavender
-      rect:
-        serializedVersion: 2
-        x: 186
-        y: 67
-        width: 15
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 256aa55e6f1a254d0800000000000000
-      internalID: -3147275107796605358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Licorice
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 63
-        width: 19
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5604e56370b3c8b90800000000000000
-      internalID: -7238345598928273307
+      spriteID: 9e415707d659f5587828f75d65839e2a
+      internalID: -453757179
       vertices: []
       indices: 
       edges: []
@@ -484,20 +162,86 @@ TextureImporter:
       name: Loosestrife
       rect:
         serializedVersion: 2
-        x: 250
-        y: 67
-        width: 15
-        height: 26
+        x: 32
+        y: 112
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8f7f56c2d5b1a5be0800000000000000
-      internalID: -1487846639901739016
+      spriteID: eb2a3ea7274ae6302a57c2a29b3dce1c
+      internalID: 1935868055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavenderPicked
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92a1497a6d9ac200a9fa943ae4de928
+      internalID: 208525948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoosestrifePicked
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763dfb6f71128c0a79f987346da25373
+      internalID: 940928633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nettle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e365a0a07e7259fc936149b0341a5fd
+      internalID: -1554889802
       vertices: []
       indices: 
       edges: []
@@ -506,186 +250,32 @@ TextureImporter:
       name: Valerian
       rect:
         serializedVersion: 2
-        x: 278
-        y: 69
-        width: 19
-        height: 24
+        x: 32
+        y: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b8ca7139ba8176c80800000000000000
-      internalID: -8329661860612166517
+      spriteID: a46cb64594390ae32884d4c8fe639b38
+      internalID: -1706863418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blackcurrent_Picked
+      name: NettlePicked
       rect:
         serializedVersion: 2
-        x: 21
-        y: 17
-        width: 23
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 506b07870e6a8eae0800000000000000
-      internalID: -1519781391214004731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bearberry_Picked
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 15
-        width: 30
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f56859fc460823a0800000000000000
-      internalID: -6690090318788270601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rhubarb_Picked
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 17
-        width: 28
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7294543c4aa965790800000000000000
-      internalID: -7541670493543904985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ingredients_18
-      rect:
-        serializedVersion: 2
-        x: 112
+        x: 0
         y: 16
-        width: 34
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 57044ed554f837740800000000000000
-      internalID: 5148616327105364085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nettle_Picked
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 19
-        width: 29
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6538ba9113fe4d710800000000000000
-      internalID: 1717260352098108246
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ingredients_22
-      rect:
-        serializedVersion: 2
-        x: 185
-        y: 24
-        width: 15
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b6c25470148ad2360800000000000000
-      internalID: 7146553180955159659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Valerian_Picked
-      rect:
-        serializedVersion: 2
-        x: 279
-        y: 26
-        width: 19
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39963e2654f31b100800000000000000
-      internalID: 121948232160078227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Licorice_Picked
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 15
-        width: 19
-        height: 34
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -694,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bef996817a7cacd6594b91ca3a668151
-      internalID: -1924337222
+      spriteID: 122b7827465fceb8481197820d62488f
+      internalID: 1931730093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Loosestrife_Picked
+      name: ValerianPicked
       rect:
         serializedVersion: 2
-        x: 249
-        y: 22
-        width: 15
-        height: 26
+        x: 32
+        y: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,8 +306,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c253ad14f45361a748d9ccb10edc73dc
-      internalID: 1605216215
+      spriteID: b559dd7b111167b5a8ed36bb0ddd8026
+      internalID: 1930000092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MannaTree
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 96
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b1cf3494de489c09df47460fa9e7a1
+      internalID: 1673991431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MannaTreePicked
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 96
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4659f9b99a09f75b85e2a495f445ea7
+      internalID: 1292391281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Manna
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f6d76a1e20640dea8fa899d318c5e3
+      internalID: 126917826
       vertices: []
       indices: 
       edges: []
@@ -726,7 +382,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f35b755e258572c99b8ac7aaf83c6a8f
+    spriteID: 6a87ebc300238be40a7fe0050f0bac97
     internalID: 0
     vertices: []
     indices: 
@@ -736,32 +392,38 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Absinth: -2432301806248295829
-      Bearberry: -4596230732992929682
-      Bearberry_Picked: -6690090318788270601
-      Blackcurrent: -4074711270985794095
-      Blackcurrent_Picked: -1519781391214004731
-      EauDeVie: 7641124845627605941
-      Ingredients_18: 5148616327105364085
-      Ingredients_19: -2804774553036113763
-      Ingredients_20: 435446544171256481
-      Ingredients_22: 7146553180955159659
-      Lavender: -3147275107796605358
-      Licorice: -7238345598928273307
-      Licorice_Picked: -1924337222
-      Loosestrife: -1487846639901739016
-      Loosestrife_Picked: 1605216215
-      MannaAs: 7355374725913390886
-      MannaAsh_Picked: 8474640244576014681
-      Menthol: -7576874432042752839
-      Mint: -3566493870488458173
-      Nettle: -9028938477123893177
-      Nettle_Picked: 1717260352098108246
-      Rhubarb: 3043345516689560434
-      Rhubarb_Picked: -7541670493543904985
-      Salt: 7781682652552636025
-      Valerian: -8329661860612166517
-      Valerian_Picked: 121948232160078227
+      Ingredients_10: 1084061470
+      Ingredients_11: 698966159
+      Ingredients_12: -773509002
+      Ingredients_13: -394418782
+      Ingredients_14: 1208706168
+      Ingredients_15: 2123182813
+      Ingredients_18: 1184132894
+      Ingredients_19: 159361840
+      Ingredients_20: 2103923242
+      Ingredients_21: 517418776
+      Ingredients_22: -599751061
+      Ingredients_23: 1362678760
+      Ingredients_26: -1768121471
+      Ingredients_27: -1433421124
+      Ingredients_3: 2073726645
+      Ingredients_30: 1496162425
+      Ingredients_31: 325169462
+      Ingredients_4: -66450303
+      Ingredients_5: -252937242
+      Ingredients_6: -94823861
+      Ingredients_7: 1321781447
+      Lavender: -453757179
+      LavenderPicked: 208525948
+      Loosestrife: 1935868055
+      LoosestrifePicked: 940928633
+      Manna: 126917826
+      MannaTree: 1673991431
+      MannaTreePicked: 1292391281
+      Nettle: -1554889802
+      NettlePicked: 1931730093
+      Valerian: -1706863418
+      ValerianPicked: 1930000092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

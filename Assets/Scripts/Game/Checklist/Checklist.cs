@@ -1,7 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using JetBrains.Annotations;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Checklist : MonoBehaviour
 {
@@ -12,6 +15,10 @@ public class Checklist : MonoBehaviour
 
     // Associates an ingredient with wether it was collected
     private readonly Dictionary<InteractableIngredient, bool> _checklist = new ();
+
+    private GameObject _inventory;
+    [SerializeField]
+    private GameObject _item;
 
     // Awake is called when the script instance is being loaded
     void Awake()
@@ -25,9 +32,18 @@ public class Checklist : MonoBehaviour
         InitializeChecklist();
     }
 
-    void Update()
+    void Start()
     {
-        // TODO handle display
+        _inventory = gameObject;
+
+        foreach (InteractableIngredient item in _checklist.Keys)
+        {
+            GameObject newitem = Instantiate(_item);
+            newitem.name = item.ingredientSprite.name;
+            newitem.transform.parent = _inventory.transform;
+            newitem.transform.localScale = new Vector3(1,1,1);
+            newitem.transform.Find("Ingredient").gameObject.GetComponent<Image>().sprite = item.ingredientSprite;
+        }
     }
 
     /// <summary>
@@ -37,11 +53,11 @@ public class Checklist : MonoBehaviour
     {
         // Get the total number of non-alcohol ingredients according to the difficulty
         int totalIngredients = GetTotalIngredients();
-        
+
         // Separate all ingredients into 2 lists: alcohol and the rest
         List<InteractableIngredient> alcohols = _allIngredients.Where((ingredient) => ingredient.Type == InteractableIngredient.IngredientType.Alcohol).ToList();
         List<InteractableIngredient> otherIngredients = _allIngredients.Where((ingredient) => ingredient.Type != InteractableIngredient.IngredientType.Alcohol).ToList();
-        
+
         // Choose 1 alcohol randomly
         System.Random random = new();
         InteractableIngredient alcohol = alcohols[random.Next(alcohols.Count)];
@@ -70,7 +86,7 @@ public class Checklist : MonoBehaviour
             case Difficulty.Medium:
                 return 6;
             case Difficulty.Hard:
-                return 11;
+                return 9;
             default:
                 throw new Exception("wtf is this difficulty?");
         }
@@ -87,11 +103,12 @@ public class Checklist : MonoBehaviour
         {
             throw new Exception("an invalid ingredient is being collected");
         }
-        
+
         if (!_checklist[ingredient])
         {
             _checklist[ingredient] = true;
             // TODO collect animation/change in sprites
+            _inventory.transform.Find(ingredient.ingredientSprite.name).Find("Checkmark").gameObject.SetActive(true);
         }
     }
 

@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
         _personnality = defaultPersonnality;
     }
 
-    void Start()
+    protected virtual void Start()
     {
         _body = GetComponent<Rigidbody2D>();
 

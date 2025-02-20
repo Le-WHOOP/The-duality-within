@@ -1,25 +1,13 @@
 fileFormatVersion: 2
-guid: 52bd5e285e1645610a1e0cd630a874fa
+guid: 2fb21d960939043e0beb75980b180d2f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7032554716221941038
-    second: Graves_0
+      213: 5187565832217461001
+    second: ShopKeeper_0
   - first:
-      213: -950371815448254290
-    second: Graves_1
-  - first:
-      213: -6367614522140921428
-    second: Graves_2
-  - first:
-      213: -1582098636282948072
-    second: Graves_3
-  - first:
-      213: 49981825027616467
-    second: Graves_4
-  - first:
-      213: -3592331345388220603
-    second: Graves_5
+      213: 1042364863738072032
+    second: ShopKeeper_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,19 +100,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 1
@@ -141,133 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Graves_0
+      name: ShopKeeper_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 223
-        width: 34
-        height: 34
+        x: 16
+        y: 2
+        width: 30
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e2528eb1147a89160800000000000000
-      internalID: 7032554716221941038
+      spriteID: 8a8be8d9b912f7b67b432c2222452180
+      internalID: -215328798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Graves_1
+      name: ShopKeeper_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 223
-        width: 34
-        height: 34
+        x: 82
+        y: 3
+        width: 25
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ea8e9af7ed99fc2f0800000000000000
-      internalID: -950371815448254290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Graves_2
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 191
-        width: 34
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca1fb254450b1a7a0800000000000000
-      internalID: -6367614522140921428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Graves_3
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 112
-        width: 63
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81699b03ca14b0ae0800000000000000
-      internalID: -1582098636282948072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Graves_4
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 119
-        width: 49
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3de2ffd743291b000800000000000000
-      internalID: 49981825027616467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Graves_5
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 16
-        width: 94
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54f42a2aca9752ec0800000000000000
-      internalID: -3592331345388220603
+      spriteID: 076e1b0e400705275b59401433a6d2bd
+      internalID: 177995246
       vertices: []
       indices: 
       edges: []
@@ -276,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8a8a74ac3e0a25bc79a706f4aece1502
     internalID: 0
     vertices: []
     indices: 
@@ -286,12 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Graves_0: 7032554716221941038
-      Graves_1: -950371815448254290
-      Graves_2: -6367614522140921428
-      Graves_3: -1582098636282948072
-      Graves_4: 49981825027616467
-      Graves_5: -3592331345388220603
+      ShopKeeper_0: -215328798
+      ShopKeeper_1: 177995246
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
