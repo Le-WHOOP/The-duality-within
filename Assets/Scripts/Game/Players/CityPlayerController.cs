@@ -25,8 +25,9 @@ public class CityPlayerController : PlayerController
     {
         if (collision.gameObject.TryGetComponent(out InteractableController interaction)
             // This interaction can only be used if available to the current personnality controlling the player
-            && interaction.IsAvailableTo(_personnality))
+            && interaction.IsAvailableTo(_personnality)) {
             Interactions.Add(interaction);
+            }
     }
 
     void OnTriggerExit2D(Collider2D collision)
@@ -61,8 +62,9 @@ public class CityPlayerController : PlayerController
     {
         // Since Unity overrides the null operator, we can't use the null propagation (? operator)
         InteractableController interaction = Interactions.FirstOrDefault();
-        if (interaction != null)
+        if (interaction != null) {
             interaction.Interact(this);
+        }
     }
 
     public override void SwapPersonnality()
@@ -76,5 +78,14 @@ public class CityPlayerController : PlayerController
         // personnality swaps, this interaction will not be added
         foreach (InteractableController interaction in Interactions.Where(interaction => !interaction.IsAvailableTo(_personnality)))
             Interactions.Remove(interaction);
+    }
+
+
+    /// <summary>
+    /// returns the current personnality of the playerController
+    /// </summary>
+    public Personnality GetCurrentPersonnality()
+    {
+        return _personnality;
     }
 }

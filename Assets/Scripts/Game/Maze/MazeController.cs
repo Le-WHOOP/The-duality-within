@@ -41,7 +41,6 @@ public class MazeController : MonoBehaviour
     {
         _exitTilemap.GetComponent<TriggerController>().OnTriggerEntered += (_, collider) =>
         {
-            // TODO Is it necessaery to check if the collision is with the player or not ?
             _gameController.SwapRoles();
             GenerateMaze();
         };

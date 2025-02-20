@@ -12,20 +12,28 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 public class ChaosSystem : MonoBehaviour
 {
 	[SerializeField]
 	public static ChaosSystem Instance;
 
-	[SerializeField]
-	private SpriteRenderer currentChaosBar;
+    [SerializeField]
+	private GameObject _NPCs;
+
+    private List<InteractableChaos> _allChaosActions;
+
+    // Associates a chaotic action with wether it was done
+    private readonly Dictionary<InteractableChaos, bool> _chaosStatus = new();
 
 	[SerializeField]
+	private Slider currentChaosBar;
+
 	private float chaosPoint = 0f;
 
-	[SerializeField]
-	private float maxChaosPoint = 100f;
+	private float maxChaosPoint = 0f;
 
 	//==============================================================
 	// Awake
@@ -33,7 +41,6 @@ public class ChaosSystem : MonoBehaviour
 	void Awake()
 	{
         Instance = this;
-        GetMaxChaos();
 	}
 	
 	//==============================================================
@@ -41,7 +48,16 @@ public class ChaosSystem : MonoBehaviour
 	//==============================================================
   	void Start()
 	{
+		GetAllChaosActions();
+        GetMaxChaos();
 		UpdateChaosBar();
+	}
+
+	private void GetAllChaosActions()
+	{
+		_allChaosActions = _NPCs.GetComponentsInChildren<InteractableChaos>().ToList();
+		// TODO: boxes 
+		// TODO: shops
 	}
 
 	/// <summary>
@@ -50,17 +66,29 @@ public class ChaosSystem : MonoBehaviour
     private void GetMaxChaos()
     {
 		Difficulty hydeDifficulty = GameSettings.SwapRoles ? GameSettings.Player1Difficulty : GameSettings.Player2Difficulty;
-		switch (hydeDifficulty)
+		int chaoticActionsNumber = 0;
+		switch (hydeDifficulty) // TODO update values
 		{
 			case Difficulty.Easy:
-				maxChaosPoint = 50f;
+				chaoticActionsNumber = 4;
 				break;
 			case Difficulty.Medium:
-				maxChaosPoint = 100f;
+				chaoticActionsNumber = 8;
 				break;
 			case Difficulty.Hard:
-				maxChaosPoint = 200f;
+				chaoticActionsNumber = 16;
 				break;
+		}
+
+        // select actions randomly
+        System.Random random = new();
+        List<InteractableChaos> selectedChaos = new(_allChaosActions);
+		selectedChaos.Sort((a, b) => random.Next(100) - random.Next(100)); // shuffle
+		for (int i = 0; i < chaoticActionsNumber; i++)
+		{
+			selectedChaos[i].transform.Find("Interactable").gameObject.SetActive(true);
+			_chaosStatus.Add(selectedChaos[i], false);
+			maxChaosPoint += selectedChaos[i].ChaosValue;
 		}
     }
 
@@ -70,16 +98,28 @@ public class ChaosSystem : MonoBehaviour
     private void UpdateChaosBar()
 	{
 		float ratio = chaosPoint / maxChaosPoint;
-		currentChaosBar.transform.localScale = new Vector3(currentChaosBar.transform.localScale.x * ratio - currentChaosBar.transform.localScale.x, 0, 0);
+		
+		currentChaosBar.value = ratio;
 	}
 
-	public void RaiseChaos(float value)
+	public void RaiseChaos(InteractableChaos chaoticAction)
 	{
-		chaosPoint += value;
-		chaosPoint = chaosPoint < 0 ? 0 : (chaosPoint > maxChaosPoint ? maxChaosPoint : chaosPoint);
+		if (_chaosStatus == null || !_chaosStatus.ContainsKey(chaoticAction))
+		{
+            throw new Exception("an invalid chaotic action is being executed");
+        }
 
-		UpdateChaosBar();
+		if (!_chaosStatus[chaoticAction])
+		{
+			_chaosStatus[chaoticAction] = true;
+			chaosPoint += chaoticAction.ChaosValue;
 
+			chaosPoint = chaosPoint > maxChaosPoint ? maxChaosPoint : chaosPoint;
+
+			UpdateChaosBar();
+
+			chaoticAction.transform.Find("Interactable").gameObject.SetActive(false);
+		}
 		if (chaosPoint >= maxChaosPoint)
 			GameController.Instance.EndGame();
 	}

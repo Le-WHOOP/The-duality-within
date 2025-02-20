@@ -2,8 +2,8 @@
 
 public class InteractableChaos : InteractableController
 {
-    [SerializeField]
-    private float _chaosValue;
+    
+    public float ChaosValue = 1f;
 
     [SerializeField]
     [Tooltip("Leave empty if this item doesn't have a flammable interaction")]
@@ -13,7 +13,7 @@ public class InteractableChaos : InteractableController
 
     public override void Interact(CityPlayerController player)
     {
-        ChaosSystem.Instance.RaiseChaos(_chaosValue);
+        ChaosSystem.Instance.RaiseChaos(this);
 
         // Show fire animation
         _flameObject.SetActive(true);

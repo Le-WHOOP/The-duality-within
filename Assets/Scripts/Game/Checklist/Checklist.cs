@@ -24,12 +24,13 @@ public class Checklist : MonoBehaviour
     void Awake()
     {
         Instance = this;
-        // Initialize the inventory according to the difficulty
-        InitializeChecklist();
     }
 
     void Start()
     {
+        // Initialize the inventory according to the difficulty
+        InitializeChecklist();
+
         _inventory = gameObject;
 
         foreach (InteractableIngredient item in _checklist.Keys)
@@ -49,11 +50,11 @@ public class Checklist : MonoBehaviour
     {
         // Get the total number of non-alcohol ingredients according to the difficulty
         int totalIngredients = GetTotalIngredients();
-        
+
         // Separate all ingredients into 2 lists: alcohol and the rest
         List<InteractableIngredient> alcohols = _allIngredients.Where((ingredient) => ingredient.Type == InteractableIngredient.IngredientType.Alcohol).ToList();
         List<InteractableIngredient> otherIngredients = _allIngredients.Where((ingredient) => ingredient.Type != InteractableIngredient.IngredientType.Alcohol).ToList();
-        
+
         // Choose 1 alcohol randomly
         System.Random random = new();
         InteractableIngredient alcohol = alcohols[random.Next(alcohols.Count)];
@@ -74,6 +75,7 @@ public class Checklist : MonoBehaviour
     /// <exception cref="Exception"></exception>
     private int GetTotalIngredients()
     {
+        return 2;
         Difficulty jekyllDifficulty = GameSettings.SwapRoles ? GameSettings.Player2Difficulty : GameSettings.Player1Difficulty;
         switch (jekyllDifficulty)
         {
@@ -99,8 +101,13 @@ public class Checklist : MonoBehaviour
         {
             throw new Exception("an invalid ingredient is being collected");
         }
-        _checklist[ingredient] = true;
-        _inventory.transform.Find(ingredient.ingredientSprite.name).Find("Checkmark").gameObject.SetActive(true);
+
+        if (!_checklist[ingredient])
+        {
+            _checklist[ingredient] = true;
+            // TODO collect animation/change in sprites
+            _inventory.transform.Find(ingredient.ingredientSprite.name).Find("Checkmark").gameObject.SetActive(true);
+        }
     }
 
     /// <summary>

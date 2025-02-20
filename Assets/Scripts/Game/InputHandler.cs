@@ -44,8 +44,9 @@ public class InputHandler : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(interactKey) && Player is CityPlayerController player)
+        if (Input.GetKeyDown(interactKey) && Player is CityPlayerController player) {
             player.Interact();
+        }
 
         Player.Move(GetHorizontalAxis(), GetVerticalAxis());
     }
