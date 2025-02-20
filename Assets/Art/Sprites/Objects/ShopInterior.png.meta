@@ -402,7 +402,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ShopInterior_13
+      name: BoxePicked
       rect:
         serializedVersion: 2
         x: 192
@@ -617,6 +617,7 @@ TextureImporter:
       BearberryBoxe: -1704409169
       Blackcurrent: 586451246
       BlackcurrentBoxe: 1298791066
+      BoxePicked: 1874002909
       Licorice: 1471283193
       LicoriceBoxe: -1208544613
       Mint: -1122610361
@@ -628,7 +629,6 @@ TextureImporter:
       ShopInterior_10: 1179786374
       ShopInterior_11: -1587275987
       ShopInterior_12: -1971297136
-      ShopInterior_13: 1874002909
       ShopInterior_14: 1570077241
       ShopInterior_15: -1478756304
       ShopInterior_6: -1516144788
