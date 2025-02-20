@@ -25,9 +25,8 @@ public class CityPlayerController : PlayerController
     {
         if (collision.gameObject.TryGetComponent(out InteractableController interaction)
             // This interaction can only be used if available to the current personnality controlling the player
-            && interaction.IsAvailableTo(_personnality)) {
+            && interaction.IsAvailableTo(_personnality))
             Interactions.Add(interaction);
-            }
     }
 
     void OnTriggerExit2D(Collider2D collision)
