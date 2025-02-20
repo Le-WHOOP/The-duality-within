@@ -7,6 +7,8 @@ public class MazeController : MonoBehaviour
 {
     private readonly IMazeGenerator _mazeGenerator = new MazeGenerator();
 
+    private int _round;
+
     [Header("Game Controller")]
     [SerializeField]
     private GameController _gameController;
@@ -143,13 +145,23 @@ public class MazeController : MonoBehaviour
     }
 
     /// <summary>
+    /// Generate the size of the new maze according to the game progress
+    /// </summary>
+    /// <returns></returns>
+    private (int Height, int Width) GetMazeSize()
+    {
+        // Minimum height is 11, so that the size never gets too small
+        int height = Math.Max(35 - _round++, 11);
+        return (MathUtils.OddFloor(height), MathUtils.OddFloor(height * 0.75));
+    }
+
+    /// <summary>
     /// Generate a new maze and move all related objects to their correct position
     /// </summary>
     public void GenerateMaze()
     {
-        // TODO Change hard coded size
-        var size = 33;
-        CellType[,] maze = _mazeGenerator.GenerateMaze(size, MathUtils.OddFloor(size * 0.75));
+        (int Height, int Width) size = GetMazeSize();
+        CellType[,] maze = _mazeGenerator.GenerateMaze(size.Height, size.Width);
         FillTilemaps(maze);
 
         // Move the player to the start
