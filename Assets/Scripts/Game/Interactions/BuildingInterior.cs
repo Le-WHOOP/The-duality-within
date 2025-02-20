@@ -3,6 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class BuildingInterior : InteractableController
 {
+    // Ask 22 if you don't know how this works
+    [SerializeField]
     private InteractableBuilding _entrance;
 
     public BuildingInterior() : base(Personnality.Both) { }
