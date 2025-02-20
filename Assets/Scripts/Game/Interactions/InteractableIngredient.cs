@@ -47,7 +47,7 @@ public class InteractableIngredient : InteractableController
 
     public override void Interact(CityPlayerController player)
     {
-        Checklist.Instance.Collect(this);
-        _spriteRenderer.sprite = _pickedIngredientSprite;
+        if (Checklist.Instance.Collect(this))
+            _spriteRenderer.sprite = _pickedIngredientSprite;
     }
 }
