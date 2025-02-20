@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using JetBrains.Annotations;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -59,12 +57,23 @@ public class Checklist : MonoBehaviour
         System.Random random = new();
         InteractableIngredient alcohol = alcohols[random.Next(alcohols.Count)];
         _checklist.Add(alcohol, false);
+        foreach (InteractableIngredient other in alcohols)
+        {
+            // Only active if it is the selected alcohol
+            other.gameObject.SetActive(other == alcohol);
+        }
 
         // choose the ingredients
         otherIngredients.Sort((a, b) => random.Next(100) - random.Next(100)); // shuffle
-        for (int i = 0; i < totalIngredients; i++)
+        int i;
+        for (i = 0; i < totalIngredients; i++)
         {
             _checklist.Add(otherIngredients[i], false);
+        }
+        for (; i < otherIngredients.Count; i++)
+        {
+            // Deactivate all unused ingredients
+            otherIngredients [i].gameObject.SetActive(false);
         }
     }
 
