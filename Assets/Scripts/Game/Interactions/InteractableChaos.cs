@@ -15,10 +15,13 @@ public class InteractableChaos : InteractableController
     {
         ChaosSystem.Instance.RaiseChaos(this);
 
-        // Show fire animation
-        _flameObject.SetActive(true);
-        // Wait a bit and deactivate the GameObject
-        Invoke("deactivateGameObject", 0.5f);
+        if (_flameObject != null)
+        {
+            // Show fire animation
+            _flameObject.SetActive(true);
+            // Wait a bit and deactivate the GameObject
+            Invoke("deactivateGameObject", 0.5f);
+        }
     }
 
     private void deactivateGameObject()
