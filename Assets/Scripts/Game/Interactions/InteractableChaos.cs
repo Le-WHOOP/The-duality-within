@@ -2,7 +2,8 @@
 
 public class InteractableChaos : InteractableController
 {
-    public float ChaosValue;
+    [HideInInspector]
+    public float ChaosValue = 1f;
 
     public InteractableChaos(Personnality availableTo) : base(Personnality.Hyde) { }
 

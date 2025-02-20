@@ -13,6 +13,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 public class ChaosSystem : MonoBehaviour
 {
@@ -20,6 +21,8 @@ public class ChaosSystem : MonoBehaviour
 	public static ChaosSystem Instance;
 
     [SerializeField]
+	private GameObject _NPCs;
+
     private List<InteractableChaos> _allChaosActions;
 
     // Associates a chaotic action with wether it was done
@@ -47,8 +50,17 @@ public class ChaosSystem : MonoBehaviour
 	//==============================================================
   	void Start()
 	{
+		GetAllChaosActions();
         GetMaxChaos();
 		UpdateChaosBar();
+	}
+
+	private void GetAllChaosActions()
+	{
+		_allChaosActions = _NPCs.GetComponentsInChildren<InteractableChaos>().ToList();
+		Debug.Log(_allChaosActions.Count);
+		// TODO: boxes 
+		// TODO: shops
 	}
 
 	/// <summary>

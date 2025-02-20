@@ -30,10 +30,7 @@ public class Checklist : MonoBehaviour
     {
         // Initialize the inventory according to the difficulty
         InitializeChecklist();
-    }
 
-    void Start()
-    {
         _inventory = gameObject;
 
         foreach (InteractableIngredient item in _checklist.Keys)
@@ -78,6 +75,7 @@ public class Checklist : MonoBehaviour
     /// <exception cref="Exception"></exception>
     private int GetTotalIngredients()
     {
+        return 2;
         Difficulty jekyllDifficulty = GameSettings.SwapRoles ? GameSettings.Player2Difficulty : GameSettings.Player1Difficulty;
         switch (jekyllDifficulty)
         {
