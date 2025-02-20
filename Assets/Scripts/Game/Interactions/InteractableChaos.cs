@@ -12,6 +12,7 @@ public class InteractableChaos : InteractableController
 
     public override void Interact(CityPlayerController player)
     {
+        base.Interact(player);
         ChaosSystem.Instance.RaiseChaos(this);
 
         if (_flameObject != null)

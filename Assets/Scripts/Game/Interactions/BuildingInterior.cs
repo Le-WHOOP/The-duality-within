@@ -11,6 +11,7 @@ public class BuildingInterior : InteractableController
 
     public override void Interact(CityPlayerController player)
     {
+        base.Interact(player);
         _entrance.Exit(player);
     }
 

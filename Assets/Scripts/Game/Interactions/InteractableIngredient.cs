@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(AudioSource))]
 public class InteractableIngredient : InteractableController
 {
     public enum IngredientType
@@ -9,8 +8,6 @@ public class InteractableIngredient : InteractableController
         // Plants, salt
         Other,
     }
-
-    private AudioSource _audioSource;
 
     [SerializeField]
     private IngredientType _type;
@@ -33,9 +30,9 @@ public class InteractableIngredient : InteractableController
 
     private SpriteRenderer _spriteRenderer;
 
-    void Start()
+    protected override void Start()
     {
-        _audioSource = GetComponent<AudioSource>();
+        base.Start();
         _spriteRenderer = GetComponent<SpriteRenderer>();
 
         // If this item is inside a specific building, it should only by visible and interactable if the player is
@@ -51,9 +48,9 @@ public class InteractableIngredient : InteractableController
 
     public override void Interact(CityPlayerController player)
     {
+        base.Interact(player);
+
         if (Checklist.Instance.Collect(this))
             _spriteRenderer.sprite = _pickedIngredientSprite;
-
-        _audioSource.Play();
     }
 }

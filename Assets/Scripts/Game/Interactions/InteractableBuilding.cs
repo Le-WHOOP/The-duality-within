@@ -14,6 +14,7 @@ public class InteractableBuilding : InteractableController
 
     public override void Interact(CityPlayerController player)
     {
+        base.Interact(player);
         _interior.Enter(this, player);
         OnEntered?.Invoke(this, player);
     }

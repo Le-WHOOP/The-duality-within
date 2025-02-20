@@ -1,13 +1,22 @@
 using UnityEngine;
 
+
+[RequireComponent(typeof(AudioSource))]
 public abstract class InteractableController : MonoBehaviour
 {
     // Who can use this interaction ?
     private readonly Personnality availableTo;
 
+    private AudioSource _audioSource;
+
     protected InteractableController(Personnality availableTo)
     {
         this.availableTo = availableTo;
+    }
+
+    protected virtual void Start()
+    {
+        _audioSource = GetComponent<AudioSource>();
     }
 
     /// <summary>
@@ -23,5 +32,8 @@ public abstract class InteractableController : MonoBehaviour
     /// <summary>
     /// Use the interaction
     /// </summary>
-    public abstract void Interact(CityPlayerController player);
+    public virtual void Interact(CityPlayerController player)
+    {
+        _audioSource.Play();
+    }
 }

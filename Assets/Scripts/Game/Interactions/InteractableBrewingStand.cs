@@ -1,11 +1,12 @@
-﻿public class InteractableBrewingStant : InteractableController
+﻿public class InteractableBrewingStand : InteractableController
 {
-    public InteractableBrewingStant() : base(Personnality.Jekyll) { }
+    public InteractableBrewingStand() : base(Personnality.Jekyll) { }
 
     public override void Interact(CityPlayerController player)
     {
         if (Checklist.Instance.IsChecklistComplete())
         {
+            base.Interact(player);
             GameController.Instance.EndGame();
         }
     }
