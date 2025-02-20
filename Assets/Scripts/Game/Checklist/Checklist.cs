@@ -73,7 +73,7 @@ public class Checklist : MonoBehaviour
         for (; i < otherIngredients.Count; i++)
         {
             // Deactivate all unused ingredients
-            otherIngredients [i].gameObject.SetActive(false);
+            otherIngredients[i].gameObject.SetActive(false);
         }
     }
 
