@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BlackCurrentBoxe
+      name: BlackcurrentBoxe
       rect:
         serializedVersion: 2
         x: 0
@@ -578,7 +578,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlackCurrent
+      name: Blackcurrent
       rect:
         serializedVersion: 2
         x: 0
@@ -615,8 +615,8 @@ TextureImporter:
     nameFileIdTable:
       Bearberry: 386540675
       BearberryBoxe: -1704409169
-      BlackCurrent: 586451246
-      BlackCurrentBoxe: 1298791066
+      Blackcurrent: 586451246
+      BlackcurrentBoxe: 1298791066
       Licorice: 1471283193
       LicoriceBoxe: -1208544613
       Mint: -1122610361
