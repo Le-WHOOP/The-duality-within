@@ -75,12 +75,18 @@ public class MazeController : MonoBehaviour
         _wallsTilemap.ClearAllTiles();
         _exitTilemap.ClearAllTiles();
 
-        for (int y = 0; y < rowCount; y++)
+        // One more on each side to add walls all around the maze
+        for (int y = -1; y < rowCount + 1; y++)
         {
-            for (int x = 0; x < columnCount; x++)
+            for (int x = -1; x < columnCount + 1; x++)
             {
-                Vector3Int position = ToTilemapPosition(maze, x, y);
+                if (x == -1 || y == -1 || x == columnCount || y == rowCount)
+                {
+                    _wallsTilemap.SetTile(new Vector3Int(x, y), _wallsTile);
+                    continue;
+                }
 
+                Vector3Int position = ToTilemapPosition(maze, x, y);
                 // I hate 2d arrays
                 switch (maze[y, x])
                 {
