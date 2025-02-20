@@ -40,8 +40,6 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        _fadeScene = GetComponent<FadeScene>();
-
         player1InputHandler.Player = cityPlayerController;
         player2InputHandler.Player = mazePlayerController;
 
