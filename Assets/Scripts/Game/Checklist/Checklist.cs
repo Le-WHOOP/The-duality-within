@@ -69,6 +69,7 @@ public class Checklist : MonoBehaviour
         for (i = 0; i < totalIngredients; i++)
         {
             _checklist.Add(otherIngredients[i], false);
+            otherIngredients[i].gameObject.SetActive(true);
         }
         for (; i < otherIngredients.Count; i++)
         {
