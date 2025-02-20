@@ -74,7 +74,6 @@ public class Checklist : MonoBehaviour
     /// <exception cref="Exception"></exception>
     private int GetTotalIngredients()
     {
-        return 1;
         Difficulty jekyllDifficulty = GameSettings.SwapRoles ? GameSettings.Player2Difficulty : GameSettings.Player1Difficulty;
         switch (jekyllDifficulty)
         {

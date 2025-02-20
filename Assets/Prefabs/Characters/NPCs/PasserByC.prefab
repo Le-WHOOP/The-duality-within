@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4144971876193313344}
   - component: {fileID: 6344861342546358955}
+  - component: {fileID: -2798684312704189310}
   - component: {fileID: 3901103314672445239}
   m_Layer: 0
-  m_Name: ShopKeeper
+  m_Name: PasserByC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,20 +75,33 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1070105643
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -215328798, guid: 2fb21d960939043e0beb75980b180d2f, type: 3}
+  m_Sprite: {fileID: -1182531351, guid: ae8d2cfbeca3f8ce39883b16b8acbd71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1.5625}
+  m_Size: {x: 0.9375, y: 1.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-2798684312704189310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6676826138485326862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e1e40b8582396106b8e04416d94d8f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _direction: 0
 --- !u!95 &3901103314672445239
 Animator:
   serializedVersion: 7
@@ -98,7 +112,7 @@ Animator:
   m_GameObject: {fileID: 6676826138485326862}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bba69a05c55cc81e79568e1c1e37c63f, type: 2}
+  m_Controller: {fileID: 9100000, guid: fea9f70200e3d9b898f27c808f3f4388, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
