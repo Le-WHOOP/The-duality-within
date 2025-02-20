@@ -1,19 +1,8 @@
-﻿//==============================================================
-// HealthSystem
-// HealthSystem.Instance.TakeDamage (float Damage);
-// HealthSystem.Instance.HealDamage (float Heal);
-// HealthSystem.Instance.UseMana (float Mana);
-// HealthSystem.Instance.RestoreMana (float Mana);
-// Attach to the Hero.
-//==============================================================
-
-using UnityEngine.SceneManagement;
-using System.Collections;
-using UnityEngine;
-using UnityEngine.UI;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class ChaosSystem : MonoBehaviour
 {

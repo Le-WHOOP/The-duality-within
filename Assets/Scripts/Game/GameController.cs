@@ -45,7 +45,7 @@ public class GameController : MonoBehaviour
         player1InputHandler.Player = cityPlayerController;
         player2InputHandler.Player = mazePlayerController;
 
-        if (GameSettings.SwapRoles || true)
+        if (GameSettings.SwapRoles)
             SwapPersonnalities();
     }
 
