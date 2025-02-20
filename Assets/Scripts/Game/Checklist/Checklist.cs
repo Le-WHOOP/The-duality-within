@@ -73,7 +73,7 @@ public class Checklist : MonoBehaviour
         for (; i < otherIngredients.Count; i++)
         {
             // Deactivate all unused ingredients
-            otherIngredients [i].gameObject.SetActive(false);
+            otherIngredients[i].gameObject.SetActive(false);
         }
     }
 
@@ -84,7 +84,6 @@ public class Checklist : MonoBehaviour
     /// <exception cref="Exception"></exception>
     private int GetTotalIngredients()
     {
-        return 2;
         Difficulty jekyllDifficulty = GameSettings.SwapRoles ? GameSettings.Player2Difficulty : GameSettings.Player1Difficulty;
         switch (jekyllDifficulty)
         {
