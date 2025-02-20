@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6354811239374188914}
   - component: {fileID: 7125518808208894791}
+  - component: {fileID: 7190082665170741825}
+  - component: {fileID: 578407037941906005}
   m_Layer: 0
   m_Name: Menthol
   m_TagString: Untagged
@@ -76,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: -1070105643
   m_SortingLayer: 3
   m_SortingOrder: 1
-  m_Sprite: {fileID: -1875897837, guid: cf862b0524302de8ab0b5b0e14dd576a, type: 3}
+  m_Sprite: {fileID: 1466010520, guid: cf862b0524302de8ab0b5b0e14dd576a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -87,3 +89,55 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7190082665170741825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7421801130397627360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab3a266cefaedd1449afb27474dfea52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _type: 0
+  _building: {fileID: 0}
+  ingredientSprite: {fileID: 1466010520, guid: cf862b0524302de8ab0b5b0e14dd576a, type: 3}
+  _pickedIngredientSprite: {fileID: 0}
+--- !u!58 &578407037941906005
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7421801130397627360}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 1.5

@@ -24,8 +24,16 @@ public class InteractableIngredient : InteractableController
     [SerializeField]
     public Sprite ingredientSprite;
 
+    [SerializeField]
+    [Tooltip("Leave empty if this item doesn't have a picked sprite")]
+    private Sprite _pickedIngredientSprite;
+
+    private SpriteRenderer _spriteRenderer;
+
     void Start()
     {
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+
         // If this item is inside a specific building, it should only by visible and interactable if the player is
         // inside the same building as the item. This is necessary since multiple buildings share the same interior,
         // but items should only be in one of them.
@@ -40,5 +48,6 @@ public class InteractableIngredient : InteractableController
     public override void Interact(CityPlayerController player)
     {
         Checklist.Instance.Collect(this);
+        _spriteRenderer.sprite = _pickedIngredientSprite;
     }
 }
