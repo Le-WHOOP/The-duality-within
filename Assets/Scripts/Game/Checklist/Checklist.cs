@@ -95,7 +95,7 @@ public class Checklist : MonoBehaviour
     /// </summary>
     /// <param name="ingredient"></param>
     /// <exception cref="Exception"></exception>
-    public void Collect(InteractableIngredient ingredient)
+    public bool Collect(InteractableIngredient ingredient)
     {
         if (ingredient == null || !_checklist.ContainsKey(ingredient))
         {
@@ -105,9 +105,12 @@ public class Checklist : MonoBehaviour
         if (!_checklist[ingredient])
         {
             _checklist[ingredient] = true;
-            // TODO collect animation/change in sprites
             _inventory.transform.Find(ingredient.ingredientSprite.name).Find("Checkmark").gameObject.SetActive(true);
+
+            return true;
         }
+
+        return false;
     }
 
     /// <summary>

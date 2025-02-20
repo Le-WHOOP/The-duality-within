@@ -84,12 +84,21 @@ public class ChaosSystem : MonoBehaviour
         System.Random random = new();
         List<InteractableChaos> selectedChaos = new(_allChaosActions);
 		selectedChaos.Sort((a, b) => random.Next(100) - random.Next(100)); // shuffle
-		for (int i = 0; i < chaoticActionsNumber; i++)
+
+		int i = 0;
+		for (; i < chaoticActionsNumber; i++)
 		{
 			selectedChaos[i].transform.Find("Interactable").gameObject.SetActive(true);
 			_chaosStatus.Add(selectedChaos[i], false);
 			maxChaosPoint += selectedChaos[i].ChaosValue;
 		}
+
+		// deactivate the triggers of inactive chaotic actions
+		for (; i < selectedChaos.Count; i++)
+		{
+			selectedChaos[i].GetComponents<Collider2D>().First(collider => collider.isTrigger).enabled = false;
+		}
+
     }
 
     //==============================================================
