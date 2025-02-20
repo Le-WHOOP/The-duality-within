@@ -17,7 +17,7 @@ public abstract class InteractableController : MonoBehaviour
     /// <returns><see langword="true"/> if this personnality can use this interaction. <see langword="false"/> otherwise</returns>
     public bool IsAvailableTo(Personnality personnality)
     {
-        return availableTo.HasFlag(personnality);
+        return personnality.HasFlag(availableTo);
     }
 
     /// <summary>

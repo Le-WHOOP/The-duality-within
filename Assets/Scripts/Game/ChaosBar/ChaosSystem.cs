@@ -29,13 +29,11 @@ public class ChaosSystem : MonoBehaviour
     private readonly Dictionary<InteractableChaos, bool> _chaosStatus = new();
 
 	[SerializeField]
-	private SpriteRenderer currentChaosBar;
+	private Slider currentChaosBar;
 
-	[SerializeField]
 	private float chaosPoint = 0f;
 
-	[SerializeField]
-	private float maxChaosPoint = 100f;
+	private float maxChaosPoint = 0f;
 
 	//==============================================================
 	// Awake
@@ -58,7 +56,6 @@ public class ChaosSystem : MonoBehaviour
 	private void GetAllChaosActions()
 	{
 		_allChaosActions = _NPCs.GetComponentsInChildren<InteractableChaos>().ToList();
-		Debug.Log(_allChaosActions.Count);
 		// TODO: boxes 
 		// TODO: shops
 	}
@@ -89,7 +86,9 @@ public class ChaosSystem : MonoBehaviour
 		selectedChaos.Sort((a, b) => random.Next(100) - random.Next(100)); // shuffle
 		for (int i = 0; i < chaoticActionsNumber; i++)
 		{
+			selectedChaos[i].transform.Find("Interactable").gameObject.SetActive(true);
 			_chaosStatus.Add(selectedChaos[i], false);
+			maxChaosPoint += selectedChaos[i].ChaosValue;
 		}
     }
 
@@ -99,7 +98,8 @@ public class ChaosSystem : MonoBehaviour
     private void UpdateChaosBar()
 	{
 		float ratio = chaosPoint / maxChaosPoint;
-		currentChaosBar.transform.localScale = new Vector3(currentChaosBar.transform.localScale.x * ratio - currentChaosBar.transform.localScale.x, 0, 0);
+		
+		currentChaosBar.value = ratio;
 	}
 
 	public void RaiseChaos(InteractableChaos chaoticAction)
@@ -113,10 +113,12 @@ public class ChaosSystem : MonoBehaviour
 		{
 			_chaosStatus[chaoticAction] = true;
 			chaosPoint += chaoticAction.ChaosValue;
+
 			chaosPoint = chaosPoint > maxChaosPoint ? maxChaosPoint : chaosPoint;
 
 			UpdateChaosBar();
-			// TODO animation
+
+			chaoticAction.transform.Find("Interactable").gameObject.SetActive(false);
 		}
 		if (chaosPoint >= maxChaosPoint)
 			GameController.Instance.EndGame();
