@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BlackcurrentBoxe
+      name: BlackcurrentBox
       rect:
         serializedVersion: 2
         x: 0
@@ -138,7 +138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BearberryBoxe
+      name: BearberryBox
       rect:
         serializedVersion: 2
         x: 32
@@ -160,7 +160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RhubarbBoxe
+      name: RhubarbBox
       rect:
         serializedVersion: 2
         x: 64
@@ -182,7 +182,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MintBoxe
+      name: MintBox
       rect:
         serializedVersion: 2
         x: 96
@@ -204,7 +204,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LicoriceBoxe
+      name: LicoriceBox
       rect:
         serializedVersion: 2
         x: 128
@@ -226,7 +226,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaltBoxe
+      name: SaltBox
       rect:
         serializedVersion: 2
         x: 160
@@ -402,7 +402,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BoxePicked
+      name: BoxPicked
       rect:
         serializedVersion: 2
         x: 192
@@ -614,18 +614,18 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Bearberry: 386540675
-      BearberryBoxe: -1704409169
+      BearberryBox: -1704409169
       Blackcurrent: 586451246
-      BlackcurrentBoxe: 1298791066
-      BoxePicked: 1874002909
+      BlackcurrentBox: 1298791066
+      BoxPicked: 1874002909
       Licorice: 1471283193
-      LicoriceBoxe: -1208544613
+      LicoriceBox: -1208544613
       Mint: -1122610361
-      MintBoxe: 160758444
+      MintBox: 160758444
       Rhubarb: 756817625
-      RhubarbBoxe: 698262665
+      RhubarbBox: 698262665
       Salt: -396061032
-      SaltBoxe: -1649680653
+      SaltBox: -1649680653
       ShopInterior_10: 1179786374
       ShopInterior_11: -1587275987
       ShopInterior_12: -1971297136
