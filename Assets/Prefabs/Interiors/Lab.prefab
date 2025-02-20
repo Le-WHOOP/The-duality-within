@@ -2509,6 +2509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441485dee0d4f94459c1d4ed07ced853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _entrance: {fileID: 0}
 --- !u!1 &4262733307987455595
 GameObject:
   m_ObjectHideFlags: 0
@@ -3899,6 +3900,10 @@ PrefabInstance:
     - target: {fileID: 7421801130397627360, guid: d919a33a94c141de5a2698421b57e516, type: 3}
       propertyPath: m_Name
       value: AlchemyTable
+      objectReference: {fileID: 0}
+    - target: {fileID: 7691924088148231595, guid: d919a33a94c141de5a2698421b57e516, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
