@@ -9,6 +9,10 @@ public class InteractableIngredient : InteractableController
         Other,
     }
 
+    private Collider2D _interactionTrigger;
+
+    private SpriteRenderer _spriteRenderer;
+
     [SerializeField]
     private IngredientType _type;
 
@@ -17,23 +21,27 @@ public class InteractableIngredient : InteractableController
     "player is currently inside the given building")]
     private InteractableBuilding _building;
 
-    public IngredientType Type => _type;
-
-    public InteractableIngredient() : base(Personnality.Jekyll) { }
-
     [SerializeField]
-    public Sprite ingredientSprite;
+    public Sprite IngredientSprite;
 
     [SerializeField]
     [Tooltip("Leave empty if this item doesn't have a picked sprite")]
     private Sprite _pickedIngredientSprite;
 
-    private SpriteRenderer _spriteRenderer;
+    public IngredientType Type => _type;
+
+    public InteractableIngredient() : base(Personnality.Jekyll) { }
+
+    void Awake()
+    {
+        // Both of those are used in the Start of checklist. They need to be set before that
+        _interactionTrigger = GetComponent<Collider2D>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
     protected override void Start()
     {
         base.Start();
-        _spriteRenderer = GetComponent<SpriteRenderer>();
 
         // If this item is inside a specific building, it should only by visible and interactable if the player is
         // inside the same building as the item. This is necessary since multiple buildings share the same interior,
@@ -51,6 +59,12 @@ public class InteractableIngredient : InteractableController
         base.Interact(player);
 
         if (Checklist.Instance.Collect(this))
-            _spriteRenderer.sprite = _pickedIngredientSprite;
+            SetEmpty();
+    }
+
+    public void SetEmpty()
+    {
+        _interactionTrigger.enabled = false;
+        _spriteRenderer.sprite = _pickedIngredientSprite;
     }
 }

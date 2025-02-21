@@ -105,7 +105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _type: 0
   _building: {fileID: 0}
-  ingredientSprite: {fileID: -1875897837, guid: cf862b0524302de8ab0b5b0e14dd576a, type: 3}
+  IngredientSprite: {fileID: -1875897837, guid: cf862b0524302de8ab0b5b0e14dd576a, type: 3}
   _pickedIngredientSprite: {fileID: -6769847198734939430, guid: bbff3e646190eb6978a74c1e4b6f9f42, type: 3}
 --- !u!58 &-2425282073764090679
 CircleCollider2D:
