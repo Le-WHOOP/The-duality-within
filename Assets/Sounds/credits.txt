@@ -1,0 +1,39 @@
+Copyright/Attribution notice:
+
+---
+
+- click: https://freesound.org/people/javieralejp2/sounds/658594/
+"Clic Alerta" by by javieralejp2.
+License: Creative Commons 0.
+
+- door: https://freesound.org/people/kaszapatrik/sounds/361476/
+"Old door close" by kaszapatrik.
+License: Creative Commons 0.
+
+- gameMusic: https://freesound.org/people/Victor_Natas/sounds/766921/
+"The Adventure" by Victor_Natas.
+License: Attribution 4.0.
+
+- gather-glass: https://freesound.org/people/FOSSarts/sounds/762368/
+"tipped over empty glass bottle -" by FOSSarts.
+License: Creative Commons 0.
+
+- gather-ingredient: https://freesound.org/people/InspectorJ/sounds/420875/
+"Gathering, Ice, A" by InspectorJ.
+License: Attribution 4.0.
+
+- Main-menu-music: https://youtu.be/Bsk0bR5dYhU?si=mKidTuo8v327twQT
+"Styx" by Galshi Revolution.
+Licence: Creative Commons.
+
+- man-hmm: https://freesound.org/people/esperar/sounds/170779/
+"OneHmm-question" by esperar.
+License: Creative Commons 0.
+
+- start-fire: https://freesound.org/people/magnuswaker/sounds/592572/
+"Flame Burst" by magnuswaker.
+License: Creative Commons 0.
+
+- woman-hmm: https://freesound.org/people/esperar/sounds/170768/
+"Hmm question" by esperar.
+License: Creative Commons 0.
