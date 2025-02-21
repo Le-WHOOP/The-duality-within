@@ -34,10 +34,10 @@ public class Checklist : MonoBehaviour
         foreach (InteractableIngredient item in _checklist.Keys)
         {
             GameObject newitem = Instantiate(_item);
-            newitem.name = item.ingredientSprite.name;
+            newitem.name = item.IngredientSprite.name;
             newitem.transform.parent = _inventory.transform;
             newitem.transform.localScale = new Vector3(1,1,1);
-            newitem.transform.Find("Ingredient").gameObject.GetComponent<Image>().sprite = item.ingredientSprite;
+            newitem.transform.Find("Ingredient").gameObject.GetComponent<Image>().sprite = item.IngredientSprite;
         }
     }
 
@@ -57,24 +57,19 @@ public class Checklist : MonoBehaviour
         System.Random random = new();
         InteractableIngredient alcohol = alcohols[random.Next(alcohols.Count)];
         _checklist.Add(alcohol, false);
-        foreach (InteractableIngredient other in alcohols)
-        {
-            // Only active if it is the selected alcohol
-            other.gameObject.SetActive(other == alcohol);
-        }
 
         // choose the ingredients
         otherIngredients.Sort((a, b) => random.Next(100) - random.Next(100)); // shuffle
-        int i;
-        for (i = 0; i < totalIngredients; i++)
+        for (int i = 0; i < totalIngredients; i++)
         {
             _checklist.Add(otherIngredients[i], false);
-            otherIngredients[i].gameObject.SetActive(true);
         }
-        for (; i < otherIngredients.Count; i++)
+
+        foreach (InteractableIngredient ingredient in _allIngredients)
         {
-            // Deactivate all unused ingredients
-            otherIngredients[i].gameObject.SetActive(false);
+            ingredient.gameObject.SetActive(true);
+            if (!_checklist.ContainsKey(ingredient))
+                ingredient.SetEmpty();
         }
     }
 
@@ -114,7 +109,7 @@ public class Checklist : MonoBehaviour
         if (!_checklist[ingredient])
         {
             _checklist[ingredient] = true;
-            _inventory.transform.Find(ingredient.ingredientSprite.name).Find("Checkmark").gameObject.SetActive(true);
+            _inventory.transform.Find(ingredient.IngredientSprite.name).Find("Checkmark").gameObject.SetActive(true);
 
             return true;
         }

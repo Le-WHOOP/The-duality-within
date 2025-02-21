@@ -173,7 +173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _type: 1
   _building: {fileID: 0}
-  ingredientSprite: {fileID: 126917826, guid: d3057d30be24936bdaa7c9cdf24e81f4, type: 3}
+  IngredientSprite: {fileID: 126917826, guid: d3057d30be24936bdaa7c9cdf24e81f4, type: 3}
   _pickedIngredientSprite: {fileID: 1292391281, guid: d3057d30be24936bdaa7c9cdf24e81f4, type: 3}
 --- !u!70 &1189072971967599000
 CapsuleCollider2D:

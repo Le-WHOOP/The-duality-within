@@ -229,7 +229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _type: 1
   _building: {fileID: 0}
-  ingredientSprite: {fileID: -1122610361, guid: 7bbcebd7fab8e2b1f8ed8f9d25fdf523, type: 3}
+  IngredientSprite: {fileID: -1122610361, guid: 7bbcebd7fab8e2b1f8ed8f9d25fdf523, type: 3}
   _pickedIngredientSprite: {fileID: 1874002909, guid: 7bbcebd7fab8e2b1f8ed8f9d25fdf523, type: 3}
 --- !u!82 &8502620739663065363
 AudioSource:
