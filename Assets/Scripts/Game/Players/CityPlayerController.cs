@@ -13,6 +13,8 @@ public class CityPlayerController : PlayerController
     private GameObject _chaosbar;
     [SerializeField]
     private GameObject _inventory;
+    [SerializeField]
+    private GameObject _textJekyll;
 
     protected override void Start()
     {
@@ -71,6 +73,10 @@ public class CityPlayerController : PlayerController
         base.SwapPersonnality();
         _chaosbar.SetActive(_personnality == Personnality.Hyde);
         _inventory.SetActive(_personnality == Personnality.Jekyll);
+        if (_textJekyll.activeSelf)
+        {
+            _textJekyll.SetActive(_personnality == Personnality.Jekyll);
+        }
 
         // Remove all interactions that are no longer accessible because of the personnality change
         // TODO If the player is already inside the trigger of an interaction that was for the other player when the
