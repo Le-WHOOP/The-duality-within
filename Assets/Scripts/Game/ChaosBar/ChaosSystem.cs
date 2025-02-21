@@ -55,19 +55,7 @@ public class ChaosSystem : MonoBehaviour
     private void GetMaxChaos()
     {
 		Difficulty hydeDifficulty = GameSettings.SwapRoles ? GameSettings.Player1Difficulty : GameSettings.Player2Difficulty;
-		int chaoticActionsNumber = 0;
-		switch (hydeDifficulty) // TODO update values
-		{
-			case Difficulty.Easy:
-				chaoticActionsNumber = 5;
-				break;
-			case Difficulty.Medium:
-				chaoticActionsNumber = 10;
-				break;
-			case Difficulty.Hard:
-				chaoticActionsNumber = 20;
-				break;
-		}
+		int chaoticActionsNumber = 20;
 
         // select actions randomly
         System.Random random = new();
@@ -82,7 +70,13 @@ public class ChaosSystem : MonoBehaviour
 			maxChaosPoint += selectedChaos[i].ChaosValue;
 		}
 
-		maxChaosPoint = (int)Math.Floor(maxChaosPoint * 0.8f);
+		maxChaosPoint = (int)Math.Floor(maxChaosPoint * hydeDifficulty switch
+		{
+			Difficulty.Easy => 0.4,
+            Difficulty.Medium => 0.6,
+            Difficulty.Hard => 0.95,
+			_ => throw new Exception("???"),
+        });
 
 		// deactivate the triggers of inactive chaotic actions
 		for (; i < selectedChaos.Count; i++)
