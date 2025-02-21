@@ -59,13 +59,13 @@ public class ChaosSystem : MonoBehaviour
 		switch (hydeDifficulty) // TODO update values
 		{
 			case Difficulty.Easy:
-				chaoticActionsNumber = 4;
+				chaoticActionsNumber = 5;
 				break;
 			case Difficulty.Medium:
-				chaoticActionsNumber = 8;
+				chaoticActionsNumber = 10;
 				break;
 			case Difficulty.Hard:
-				chaoticActionsNumber = 16;
+				chaoticActionsNumber = 15;
 				break;
 		}
 
@@ -79,7 +79,7 @@ public class ChaosSystem : MonoBehaviour
 		{
 			selectedChaos[i].transform.Find("Interactable").gameObject.SetActive(true);
 			_chaosStatus.Add(selectedChaos[i], false);
-			maxChaosPoint += selectedChaos[i].ChaosValue;
+			maxChaosPoint += selectedChaos[i].ChaosValue * 0.8f;
 		}
 
 		// deactivate the triggers of inactive chaotic actions
@@ -87,7 +87,6 @@ public class ChaosSystem : MonoBehaviour
 		{
 			selectedChaos[i].GetComponents<Collider2D>().First(collider => collider.isTrigger).enabled = false;
 		}
-
     }
 
     //==============================================================

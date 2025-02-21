@@ -63,6 +63,7 @@ public class GameController : MonoBehaviour
 
         // Swap the personnality, to update the sprites and the available interactions
         SwapPersonnalities();
+        cityPlayerController.Speed = Math.Min(cityPlayerController.Speed + 0.25f, 10);
 
         // Invert the camera layout, to align each player with the charcater it controls
         cityCamera.rect = new Rect(cityCamera.rect)

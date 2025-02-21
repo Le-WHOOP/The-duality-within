@@ -6,8 +6,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D _body;
     protected Animator _activeAnimator;
 
-    [SerializeField]
-    private float _speed = 1;
+    public float Speed = 1;
 
     [Header("Animators")]
     [SerializeField]
@@ -53,7 +52,7 @@ public class PlayerController : MonoBehaviour
     /// <param name="y">The vertical movement input.</param>
     public virtual void Move(float x, float y)
     {
-        _body.linearVelocity = new Vector2(x, y).normalized * _speed;
+        _body.linearVelocity = new Vector2(x, y).normalized * Speed;
     }
 
     public virtual void SwapPersonnality()
