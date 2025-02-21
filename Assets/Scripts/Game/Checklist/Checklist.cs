@@ -17,6 +17,8 @@ public class Checklist : MonoBehaviour
     private GameObject _inventory;
     [SerializeField]
     private GameObject _item;
+    [SerializeField]
+    private GameObject _textJekyll;
 
     // Awake is called when the script instance is being loaded
     void Awake()
@@ -110,6 +112,11 @@ public class Checklist : MonoBehaviour
         {
             _checklist[ingredient] = true;
             _inventory.transform.Find(ingredient.IngredientSprite.name).Find("Checkmark").gameObject.SetActive(true);
+
+            if (IsChecklistComplete())
+            {
+                _textJekyll.SetActive(true);
+            }
 
             return true;
         }
