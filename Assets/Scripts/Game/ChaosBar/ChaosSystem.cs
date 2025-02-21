@@ -65,7 +65,7 @@ public class ChaosSystem : MonoBehaviour
 				chaoticActionsNumber = 10;
 				break;
 			case Difficulty.Hard:
-				chaoticActionsNumber = 15;
+				chaoticActionsNumber = 20;
 				break;
 		}
 
