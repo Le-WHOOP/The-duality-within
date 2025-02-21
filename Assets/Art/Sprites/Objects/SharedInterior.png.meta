@@ -224,13 +224,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SharedInterior_0
+      name: CounterEmpty
       rect:
         serializedVersion: 2
-        x: 4
-        y: 191
-        width: 91
-        height: 60
+        x: 5
+        y: 192
+        width: 89
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1161,6 +1161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      CounterEmpty: -6769847198734939430
       SharedInterior_38: 469494722
       SharedInterior_39: 1644007165
       SharedInterior_40: 546351329
