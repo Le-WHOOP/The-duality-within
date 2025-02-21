@@ -29,6 +29,15 @@ public class LobbyScreenController : ScreenController
     [SerializeField]
     private FadeScene _fadeScene;
 
+    void Start()
+    {
+        _player1DifficultyText.text = GameSettings.Player1Difficulty.ToString();
+        _player2DifficultyText.text = GameSettings.Player2Difficulty.ToString();
+
+        if (GameSettings.SwapRoles)
+            SwapSprites();
+    }
+
     /// <summary>
     /// Clamps the difficulty within the specified bounds.
     /// </summary>
@@ -90,7 +99,11 @@ public class LobbyScreenController : ScreenController
     public void SwapRoles()
     {
         GameSettings.SwapRoles = !GameSettings.SwapRoles;
+        SwapSprites();   
+    }
 
+    public void SwapSprites()
+    {
         // Swap player names and images
         string tempName = _player1NameText.text;
         Sprite tempSprite = _player1Image.sprite;
