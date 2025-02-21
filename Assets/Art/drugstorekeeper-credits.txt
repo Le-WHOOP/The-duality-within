@@ -1,4 +1,4 @@
-body/bodies/male/light.png
+body/bodies/male/olive.png
 	- Note: see details at https://opengameart.org/content/lpc-character-bases; 'Thick' Male Revised Run/Climb by JaidynReiman (based on ElizaWy's LPC Revised)
 	- Licenses:
 		- OGA-BY 3.0
@@ -26,7 +26,7 @@ body/bodies/male/light.png
 		- https://opengameart.org/content/lpc-jump-expanded
 		- https://opengameart.org/content/lpc-character-bases
 
-head/heads/human/male/light.png
+head/heads/human/male/olive.png
 	- Note: original head by Redshrike, tweaks by BenCreating, modular version by bluecarrot16
 	- Licenses:
 		- OGA-BY 3.0
@@ -40,43 +40,39 @@ head/heads/human/male/light.png
 		- https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
 		- https://opengameart.org/content/lpc-character-bases
 
-head/faces/${head}/anger/light.png
-	- Note: Original by Redshrike, Expressions by ElizaWy, mapped to all frames by JaidynReiman
+head/wrinkles/olive.png
+	- Note: 
 	- Licenses:
-		- OGA-BY 3.0
+		- CC0
 	- Authors:
-		- JaidynReiman
-		- ElizaWy
-		- Stephen Challener (Redshrike)
+		- bluecarrot16
 	- Links:
-		- https://github.com/ElizaWy/LPC/tree/main/Characters/Head
-		- https://opengameart.org/content/ulpc-expanded-expressions
+		- 
 
-eyes/human/adult/${expression}/purple.png
-	- Note: original by Redshrike, Expressions by ElizaWy, eyes split from expressions and mapped to all frames by JaidynReiman
+beards/mustache/basic/white.png
+	- Note: Original by Nemisys, repositioning by JaidynReiman.
 	- Licenses:
-		- OGA-BY 3.0
 		- CC-BY-SA 3.0
 		- GPL 3.0
 	- Authors:
 		- JaidynReiman
-		- ElizaWy
-		- Stephen Challener (Redshrike)
+		- Carlo Enrico Victoria (Nemisys)
 	- Links:
-		- https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
-		- https://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+		- https://opengameart.org/content/lpc-brunet-mustache
 
-hair/parted3/adult/black.png
-	- Note: 
+hair/bob/adult/white.png
+	- Note: Original by bluecarrot16. Edited and animated by ElizaWy.
 	- Licenses:
-		- OGA-BY 3.0
+		- CC0
 	- Authors:
 		- ElizaWy
+		- bluecarrot16
 	- Links:
-		- https://github.com/ElizaWy/LPC/tree/main/Characters/Hair
+		- https://opengameart.org/content/lpc-hair
+		- https://github.com/ElizaWy/LPC/blob/main/Characters/Hair
 		- https://opengameart.org/content/expanded-universal-lpc-spritesheet-idle-run-jump-lpc-revised-combat-and-assets
 
-torso/clothes/longsleeve/formal/male/white.png
+torso/clothes/longsleeve/formal_striped/male/white.png
 	- Note: 
 	- Licenses:
 		- CC-BY-SA 3.0
@@ -90,23 +86,20 @@ torso/clothes/longsleeve/formal/male/white.png
 	- Links:
 		- https://opengameart.org/content/lpc-medieval-fantasy-character-sprites
 		- https://opengameart.org/content/lpc-2-characters
-		- https://opengameart.org/content/lpc-gentleman
 
-torso/clothes/vest_open/male/charcoal.png
+torso/aprons/apron/male/charcoal.png
 	- Note: 
 	- Licenses:
+		- OGA-BY 3.0
 		- CC-BY-SA 3.0
+		- GPL 2.0
 		- GPL 3.0
 	- Authors:
-		- bluecarrot16
-		- Thane Brimhall (pennomi)
-		- laetissima
+		- Nila122
 	- Links:
-		- https://opengameart.org/content/lpc-2-characters
-		- https://opengameart.org/content/lpc-gentleman
-		- https://opengameart.org/content/lpc-pirates
+		- https://opengameart.org/content/lpc-aprons
 
-legs/formal_striped/male/brown.png
+legs/formal_striped/male/charcoal.png
 	- Note: Original pants by Stephen Challener (Redshrike), thrust/shoot bases by Wulax, Striped Formal Pants by Bluecarrot16, climb/jump/run/sit/emotes/revised combat by JaidynReiman
 	- Licenses:
 		- OGA-BY 3.0
@@ -125,7 +118,7 @@ legs/formal_striped/male/brown.png
 		- https://opengameart.org/content/lpc-gentleman
 		- https://opengameart.org/content/lpc-expanded-pants
 
-feet/shoes/male/charcoal.png
+feet/shoes/male/leather.png
 	- Note: original by wulax, edited for v3 base by bluecarrot16
 	- Licenses:
 		- OGA-BY 3.0
