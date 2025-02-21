@@ -75,7 +75,7 @@ public class CityPlayerController : PlayerController
         // Remove all interactions that are no longer accessible because of the personnality change
         // TODO If the player is already inside the trigger of an interaction that was for the other player when the
         // personnality swaps, this interaction will not be added
-        foreach (InteractableController interaction in Interactions.Where(interaction => !interaction.IsAvailableTo(_personnality)))
+        foreach (InteractableController interaction in Interactions.Where(interaction => !interaction.IsAvailableTo(_personnality)).ToArray())
             Interactions.Remove(interaction);
     }
 

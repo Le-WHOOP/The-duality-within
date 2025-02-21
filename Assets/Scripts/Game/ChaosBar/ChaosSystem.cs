@@ -79,8 +79,10 @@ public class ChaosSystem : MonoBehaviour
 		{
 			selectedChaos[i].transform.Find("Interactable").gameObject.SetActive(true);
 			_chaosStatus.Add(selectedChaos[i], false);
-			maxChaosPoint += selectedChaos[i].ChaosValue * 0.8f;
+			maxChaosPoint += selectedChaos[i].ChaosValue;
 		}
+
+		maxChaosPoint = (int)Math.Floor(maxChaosPoint * 0.8f);
 
 		// deactivate the triggers of inactive chaotic actions
 		for (; i < selectedChaos.Count; i++)
