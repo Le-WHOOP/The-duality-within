@@ -20,7 +20,7 @@ public class InteractableChaos : InteractableController
             // Show fire animation
             _flameObject.SetActive(true);
             // Wait a bit and deactivate the GameObject
-            Invoke(nameof(DeactivateGameObject), 0.5f);
+            Invoke(nameof(DeactivateGameObject), 1f);
         }
     }
 
