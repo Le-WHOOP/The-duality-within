@@ -26,4 +26,4 @@ Do you have what it takes to outsmart your opponent and control *The Duality Wit
 
 ## How to download ?
 
-You can find the latest version here: http://vingtdeux.hd.free.fr:10110/the-duality-within/windows/the-duality-within-1.1.1.zip
+You can download the latest version here: https://vingtdeux.hd.free.fr/files/the-duality-within/windows/the-duality-within-1.1.1.zip
